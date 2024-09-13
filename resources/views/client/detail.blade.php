@@ -211,65 +211,29 @@
             },
         };
     </script>
-</head>
 
-<body class="text-black ">
-    <!-- Start Navbar -->
-    <nav class="bg-white  fixed w-full z-40 top-0 start-0">
-        <div
-            class="max-w-screen-xl flex flex-wrap justify-center items-center md:justify-between mx-auto p-7 border-b border-gray-400">
-            <!-- Left Side - Contact Info -->
-            <div class="flex flex-col-reverse gap-5 items-center space-x-3 md:flex-row rtl:space-x-reverse">
-                <div class="flex gap-8">
-                    <div class="flex items-center mx-auto justify-center space-x-2">
-                        <img src="{{ asset('assets/images/logo-solit-dark.png') }}" class="w-20">
-                    </div>
-                </div>
-            </div>
-            <!-- Right Side - Social Media and Menu Button -->
-            <div class="flex items-center lg:order-2 gap-10">
-                <div>
-                    <ul class="flex flex-wrap justify-center space-x-4 gap-y-3 text-sm font-Poppins">
-                        <li>
-                            <a href="{{ url('/') }}" class="text-blue-500 px-2">Home
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="{{ url('/about_us') }}" class=" hover:text-blue-500 border-l pl-2">About Us</a>
-                        </li>
-                        <li>
-                            <a href="{{ url('/service') }}" class=" hover:text-blue-500 border-l pl-2">
-                                Services</a>
-                        </li>
-                        <li>
-                            <a href="testimonials.html" class=" hover:text-blue-500 border-l pl-2">Pages
-                            </a>
-                        </li>
-                        <li>
-                            <a href="contactUs.html" class=" hover:text-blue-500 border-l pl-2">Blog
-                            </a>
-                        </li>
-                        <li>
-                            <a href="contactUs.html" class=" hover:text-blue-500 border-l pl-2">Products
-                            </a>
-                        </li>
-                        <li>
-                            <a href="{{ url('/contact') }}" class=" hover:text-blue-500 border-l pl-2">
-                                Contact
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+<body>
+    <section class="mt-20 dark:bg-gray-900">
+        <div class="gap-8  py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+            <img class="w-full dark:hidden"
+                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg"
+                alt="dashboard image">
+            <img class="w-full hidden dark:block"
+                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg"
+                alt="dashboard image">
+            <div class="mt-4 md:mt-0">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-primary1 dark:text-white">Let's create more
+                    tools
+                    and ideas that brings us together.</h2>
+                <p class="mb-6 font-light  md:text-lg dark:text-gray-400">Flowbite helps you connect with
+                    friends and communities of people who share your interests. Connecting with your friends and family
+                    as
+                    well as discovering new ones is easy with features like Groups.</p>
 
-                <div class="text-white">
-                    <a href="#" class="p-4 bg-[#43428d] hover:bg-[#3a3e67] rounded-md">Chat with Us</a>
-                </div>
             </div>
         </div>
-    </nav>
 
-    @yield('content')
-    {{-- Footer --}}
+    </section>
     <footer class="bg-[#2b334a] text-gray-400 py-12 mt-20 ">
         <div class="container max-w-screen-xl mx-auto grid grid-cols-1  md:grid-cols-3 gap-10 px-4">
             <!-- Information Section -->
@@ -383,82 +347,6 @@
             </div>
         </div>
     </footer>
-
-    {{-- End Footer --}}
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.0/js/glightbox.min.js"></script>
-    <script>
-        var lightbox = GLightbox();
-        lightbox.on("open", (target) => {
-            console.log("lightbox opened");
-        });
-        var lightboxDescription = GLightbox({
-            selector: ".glightbox2",
-        });
-        var lightboxVideo = GLightbox({
-            selector: ".glightbox3",
-        });
-        lightboxVideo.on("slide_changed", ({
-            prev,
-            current
-        }) => {
-            console.log("Prev slide", prev);
-            console.log("Current slide", current);
-
-            const {
-                slideIndex,
-                slideNode,
-                slideConfig,
-                player
-            } = current;
-
-            if (player) {
-                if (!player.ready) {
-                    // If player is not ready
-                    player.on("ready", (event) => {
-                        // Do something when video is ready
-                    });
-                }
-
-                player.on("play", (event) => {
-                    console.log("Started play");
-                });
-
-                player.on("volumechange", (event) => {
-                    console.log("Volume change");
-                });
-
-                player.on("ended", (event) => {
-                    console.log("Video ended");
-                });
-            }
-        });
-
-        var lightboxInlineIframe = GLightbox({
-            selector: ".glightbox4",
-        });
-
-        /* var exampleApi = GLightbox({ selector: null });
-         exampleApi.insertSlide({
-             href: 'https://picsum.photos/1200/800',
-         });
-         exampleApi.insertSlide({
-             width: '500px',
-             content: '<p>Example</p>'
-         });
-         exampleApi.insertSlide({
-             href: 'https://www.youtube.com/watch?v=WzqrwPhXmew',
-         });
-         exampleApi.insertSlide({
-             width: '200vw',
-             content: document.getElementById('inline-example')
-         });
-         exampleApi.open(); */
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 </body>
 
 </html>

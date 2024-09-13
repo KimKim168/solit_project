@@ -1,38 +1,41 @@
 @extends('layout.client')
 @section('content')
-    <section class="mt-20">
+    <section class="mt-28">
         <div class="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center justify-between p-8 ">
             <!-- Text Section -->
             <div class="md:w-1/2">
-                <button class="bg-blue-100 text-blue-600 px-4 py-2 rounded-full uppercase text-xs font-semibold mb-4">Get to
+                <button class="bg-blue-100 text-blue-600 px-4 py-2 rounded-full uppercase text-xs font-semibold mb-4"
+                    data-aos="fade-up" data-aos-duration="1000">Get to
                     Know
                     Us</button>
-                <h2 class="text-3xl font-bold mb-4">We deliver Results-driven IT Solutions</h2>
-                <p class="text-gray-500 mb-6">Semper risus in hendrerit gravida rutrum quisque non tellus orci ac auctor
+                <h2 class="text-3xl font-bold mb-4" data-aos="fade-up" data-aos-duration="1000">We deliver Results-driven IT
+                    Solutions</h2>
+                <p class="text-gray-500 mb-6" data-aos="fade-up" data-aos-duration="1000">Semper risus in hendrerit gravida
+                    rutrum quisque non tellus orci ac auctor
                     augue
                     mauris augue neque gravida in fermentum et sollicitudin ac orci phasellus egestas tellus rutrum tellus.
                 </p>
                 <div class="space-y-6">
                     <!-- Feature 1 -->
                     <div class="flex items-center">
-                        <div class="bg-blue-100 p-4 rounded-full">
+                        <div class="bg-blue-100 p-4 rounded-full" data-aos="fade-up" data-aos-duration="1000">
                             <img src="https://demo.ajufbox.com/solit/assets/images/icons/best-practice.png"
                                 class="w-6 h-6 text-blue-600" fill="currentColor"
                                 viewBox="0 0 20 20"><!-- Icon SVG --></img>
                         </div>
-                        <div class="ml-4">
+                        <div class="ml-4" data-aos="fade-up" data-aos-duration="1000">
                             <h3 class="text-lg font-semibold">Implement Best Practices</h3>
                             <p class="text-gray-500">Eiusmod tempor incididunt ut labore magna aliqua Quisery.</p>
                         </div>
                     </div>
                     <!-- Feature 2 -->
-                    <div class="flex items-center">
+                    <div class="flex items-center" data-aos="fade-up" data-aos-duration="1000">
                         <div class="bg-blue-100 p-4 rounded-full">
                             <img src="https://demo.ajufbox.com/solit/assets/images/icons/expertise.png"
                                 class="w-6 h-6 text-blue-600" fill="currentColor"
                                 viewBox="0 0 20 20"><!-- Icon SVG --></img>
                         </div>
-                        <div class="ml-4">
+                        <div class="ml-4" data-aos="fade-up" data-aos-duration="1000">
                             <h3 class="text-lg font-semibold">Expertise and Specialization</h3>
                             <p class="text-gray-500">Eiusmod tempor incididunt ut labore magna aliqua Quisery.</p>
                         </div>
