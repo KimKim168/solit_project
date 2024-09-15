@@ -8,7 +8,7 @@
                 {{-- <button class="py-2 px-6 bg-primary1 text-white rounded-full text-xl font-costum4 tracking-normal">
                     What We Do For You
                 </button> --}}
-                <h1 class="font-costum5 text-primary1 text-3xl mx-auto text-center max-w-96 leading-loose ">
+                <h1 class="font-costum5 text-primary1 text-3xl mx-auto text-center max-w-96 leading-normal ">
                     We Deal With The Aspects
                     Of Professional IT Services
 
@@ -18,7 +18,7 @@
                     consectetur adipiscing elita florai psum dolor ectetuolor sit amet, consectetur adipiscine.
                 </p>
             </div>
-            <div class="grid grid-cols-4 font-costum3 gap-6 mt-6 ">
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 font-costum3 gap-6 mt-6 ">
                 <div data-aos="fade-right" data-aos-offset="300" data-aos-duration="2000"
                     class="max-w-sm bg-white border text-center p-3
                     border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">

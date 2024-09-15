@@ -1,10 +1,10 @@
 @extends('layout.client')
 @section('content')
     <section class="mt-28">
-        <div class="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center justify-between p-8 ">
+        <div class="max-w-screen-xl mx-auto flex flex-col lg:flex-row items-center justify-between  p-8 ">
             <!-- Text Section -->
-            <div class="md:w-1/2">
-                <button class="bg-blue-100 text-blue-600 px-4 py-2 rounded-full uppercase text-xs font-semibold mb-4"
+            <div class="lg:w-1/2 mb-10 lg:mb-0">
+                <button class="bg-gray-100  text-blue-600 px-5 py-2 rounded-full uppercase text-xs font-semibold mb-4"
                     data-aos="fade-up" data-aos-duration="1000">Get to
                     Know
                     Us</button>
@@ -43,14 +43,14 @@
                 </div>
             </div>
             <!-- Image Section -->
-            <div class="md:w-1/2 mt-8 md:mt-0 relative">
+            <div class="lg:w-1/2  relative ">
                 <img src="https://demo.ajufbox.com/solit/assets/images/about-us/about-us-1.jpg" alt="Team Working"
                     class="rounded-tl-[200px] rounded-br-[200px] rounded-bl-[100px] rounded-tr-[100px] shadow-lg ">
-                <div class="absolute -top-2 -right-7 bg-zinc-50/70  rounded-lg shadow p-4">
+                <div class="absolute md:-top-2 md:-right-7 -top-2 -right-5 bg-zinc-50/70  rounded-lg shadow p-4">
                     <span class="text-xl font-bold text-blue-600">100+</span>
                     <p class="text-gray-500">Satisfied Clients</p>
                 </div>
-                <div class="absolute bottom-4 -left-20  bg-zinc-50/70 rounded-lg shadow p-4">
+                <div class="absolute md:bottom-4 lg:-left-20  -left-2 bottom-4 bg-zinc-50/70 rounded-lg shadow p-4">
                     <span class="text-xl font-bold text-blue-600">10+</span>
                     <p class="text-gray-500">Years of Experience</p>
                 </div>
@@ -59,7 +59,7 @@
     </section>
 
     {{-- completed project --}}
-    <section class="mt-20">
+    <section class="mt-20 p-5">
         <div class="max-w-screen-xl mx-auto">
 
             <div class="">
@@ -71,7 +71,7 @@
                     lectus sit amet
                 </p>
             </div>
-            <div class="mt-10 grid grid-cols-4 gap-8">
+            <div class="mt-10 grid grid-cols-2 lg:grid-cols-4 gap-8">
                 {{-- item 1 --}}
                 <div
                     class="max-w-sm border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500">
@@ -118,35 +118,37 @@
     {{-- End completed project --}}
 
     <section class="mt-20 py-16 px-4">
-        <div class="max-w-7xl mx-auto grid grid-cols-12">
-            <div class="mb-8 col-span-4">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8">
+            <div class="mb-8 md:col-span-4">
                 <span
                     class="inline-block text-sm text-blue-500 font-semibold mb-2 bg-blue-100 px-3 py-1 rounded-full">Benefits</span>
-                <h2 class="text-3xl font-bold text-gray-900 mb-4">Why choose Solit?</h2>
-                <p class="text-gray-600">Lorem ipsum dolor sit amet elit adipisicing consectetur</p>
+                <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Why choose Solit?</h2>
+                <p class="text-gray-600 text-base md:text-lg">Lorem ipsum dolor sit amet elit adipisicing consectetur</p>
             </div>
 
-            <div class="grid md:grid-cols-3 gap-8 col-span-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:col-span-8">
                 <!-- Benefit 1 -->
                 <div class="bg-gray-50 p-6 rounded-lg shadow-md text-center">
                     <div class="text-blue-500 mb-4">
                         <!-- Icon -->
-                        <img src="https://demo.ajufbox.com/solit/assets/images/icons/design.png" class="w-14 mx-auto"></img>
+                        <img src="https://demo.ajufbox.com/solit/assets/images/icons/design.png" class="w-14 mx-auto"
+                            alt="Unique Design Icon">
                     </div>
-                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Unique Design</h3>
-                    <p class="text-gray-600">Fusce aliquet quam eget neque ultrices elementum felis id arcu blandit
-                        sagittis.</p>
+                    <h3 class="text-lg md:text-xl font-semibold text-gray-900 mb-2">Unique Design</h3>
+                    <p class="text-gray-600 text-sm md:text-base">Fusce aliquet quam eget neque ultrices elementum felis id
+                        arcu blandit sagittis.</p>
                 </div>
 
                 <!-- Benefit 2 -->
                 <div class="bg-gray-50 p-6 rounded-lg shadow-md text-center">
                     <div class="text-blue-500 mb-4">
                         <!-- Icon -->
-                        <img src="https://demo.ajufbox.com/solit/assets/images/icons/code.png" class="w-14 mx-auto"></img>
+                        <img src="https://demo.ajufbox.com/solit/assets/images/icons/code.png" class="w-14 mx-auto"
+                            alt="Quality Code Icon">
                     </div>
-                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Quality Code</h3>
-                    <p class="text-gray-600">Fusce aliquet quam eget neque ultrices elementum felis id arcu blandit
-                        sagittis.</p>
+                    <h3 class="text-lg md:text-xl font-semibold text-gray-900 mb-2">Quality Code</h3>
+                    <p class="text-gray-600 text-sm md:text-base">Fusce aliquet quam eget neque ultrices elementum felis id
+                        arcu blandit sagittis.</p>
                 </div>
 
                 <!-- Benefit 3 -->
@@ -154,15 +156,13 @@
                     <div class="text-blue-500 mb-4">
                         <!-- Icon -->
                         <img src="https://demo.ajufbox.com/solit/assets/images/icons/clean-design.png"
-                            class="w-14 mx-auto"></img>
+                            class="w-14 mx-auto" alt="Clean and Minimal Icon">
                     </div>
-                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Clean and Minimal</h3>
-                    <p class="text-gray-600">Fusce aliquet quam eget neque ultrices elementum felis id arcu blandit
-                        sagittis.</p>
+                    <h3 class="text-lg md:text-xl font-semibold text-gray-900 mb-2">Clean and Minimal</h3>
+                    <p class="text-gray-600 text-sm md:text-base">Fusce aliquet quam eget neque ultrices elementum felis id
+                        arcu blandit sagittis.</p>
                 </div>
             </div>
-
-
         </div>
     </section>
 @endsection

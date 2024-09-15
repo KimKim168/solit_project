@@ -6,6 +6,10 @@ Route::get('/', function () {
     return view('client.index');
 });
 
+Route::get('/welcome', function () {
+    return view('welcome');
+});
+
 Route::get('/index', function () {
     return view('client.index');
 });

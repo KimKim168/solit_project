@@ -11,7 +11,7 @@
                 </p>
             </div>
 
-            <div class="grid md:grid-cols-2 gap-8">
+            <div class="grid md:grid-cols-2 gap-8 overflow-hidden ">
                 <!-- Contact Info -->
                 <div>
                     <h3 class="text-2xl font-semibold text-gray-800 mb-4">Contact Info :</h3>
@@ -42,11 +42,11 @@
 
                 <!-- Contact Form -->
                 <div>
-                    <div class="mt-4 w-full border border-gray-200 rounded-lg shadow-lg overflow-hidden">
+                    <div class="mt-4  border border-gray-200 rounded-lg shadow-lg overflow-hidden">
                         <!-- Embed Google Map -->
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1683.1583140169473!2d104.9233199662918!3d11.535005383653287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310950da5cfa9463%3A0x3755d57e39ef4861!2sRULE%20Library!5e1!3m2!1sen!2skh!4v1726216894557!5m2!1sen!2skh"
-                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            width="700" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>

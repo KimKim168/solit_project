@@ -213,73 +213,89 @@
     </script>
 </head>
 
-<body class="text-black ">
+<body class="text-black">
     <!-- Start Navbar -->
-    <nav class="bg-white  fixed w-full z-40 top-0 start-0">
-        <div
-            class="max-w-screen-xl flex flex-wrap justify-center items-center md:justify-between mx-auto p-7 border-b border-gray-400">
-            <!-- Left Side - Contact Info -->
-            <div class="flex flex-col-reverse gap-5 items-center space-x-3 md:flex-row rtl:space-x-reverse">
-                <div class="flex gap-8">
-                    <div class="flex items-center mx-auto justify-center space-x-2">
-                        <img src="{{ asset('assets/images/logo-solit-dark.png') }}" class="w-20">
+    <section>
+        <nav class="bg-white fixed w-full z-40 top-0 start-0 shadow">
+            <div class="max-w-screen-xl mx-auto flex items-center justify-between p-5">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <img src="{{ asset('assets/images/logo-solit-dark.png') }}" class="w-16 md:w-20" alt="Logo">
+                </div>
+                <div class="flex items-center space-x-5 md:space-x-10">
+                    <!-- Menu for larger screens -->
+                    <ul class="hidden md:flex gap-8 text-sm font-Poppins items-center">
+                        <li><a href="{{ url('/') }}" class="text-blue-500">Home</a></li>
+                        <li><a href="{{ url('/about_us') }}" class="hover:text-blue-500">About Us</a></li>
+                        <li><a href="{{ url('/service') }}" class="hover:text-blue-500">Services</a></li>
+                        <li><a href="#" class="hover:text-blue-500">Pages</a></li>
+                        <li><a href="#" class="hover:text-blue-500">Blog</a></li>
+                        <li><a href="#" class="hover:text-blue-500">Products</a></li>
+                        <li><a href="{{ url('/contact') }}" class="hover:text-blue-500">Contact</a></li>
+                    </ul>
+                    <!-- Chat Button - visible on all screen sizes -->
+                    <div>
+                        <a href="#" class="p-2 md:p-4 bg-[#43428d] text-white hover:bg-[#3a3e67] rounded-md">
+                            Chat with Us
+                        </a>
+                    </div>
+                    <!-- Mobile Menu Toggle -->
+                    <div class="md:hidden">
+                        <button id="mobile-menu-button" aria-controls="mobile-menu" aria-expanded="false"
+                            class="focus:outline-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h16m-7 6h7" />
+                            </svg>
+                        </button>
                     </div>
                 </div>
-            </div>
-            <!-- Right Side - Social Media and Menu Button -->
-            <div class="flex items-center lg:order-2 gap-10">
-                <div>
-                    <ul class="flex flex-wrap justify-center space-x-4 gap-y-3 text-sm font-Poppins">
-                        <li>
-                            <a href="{{ url('/') }}" class="text-blue-500 px-2">Home
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="{{ url('/about_us') }}" class=" hover:text-blue-500 border-l pl-2">About Us</a>
-                        </li>
-                        <li>
-                            <a href="{{ url('/service') }}" class=" hover:text-blue-500 border-l pl-2">
-                                Services</a>
-                        </li>
-                        <li>
-                            <a href="testimonials.html" class=" hover:text-blue-500 border-l pl-2">Pages
-                            </a>
-                        </li>
-                        <li>
-                            <a href="contactUs.html" class=" hover:text-blue-500 border-l pl-2">Blog
-                            </a>
-                        </li>
-                        <li>
-                            <a href="contactUs.html" class=" hover:text-blue-500 border-l pl-2">Products
-                            </a>
-                        </li>
-                        <li>
-                            <a href="{{ url('/contact') }}" class=" hover:text-blue-500 border-l pl-2">
-                                Contact
-                            </a>
-                        </li>
+                <!-- Mobile Menu -->
+                <div id="mobile-menu"
+                    class="hidden md:hidden absolute top-full left-0 w-full bg-white shadow-lg z-30 transition-transform transform">
+
+                    <ul class="flex flex-col items-center bg-white text-sm font-Poppins">
+                        <li class="py-2 hover:bg-slate-200 w-full text-center border-b"><a href="{{ url('/') }}"
+                                class="text-blue-500">Home</a></li>
+                        <li class="py-2 hover:bg-slate-200 w-full text-center border-b"><a href="{{ url('/about_us') }}"
+                                class="hover:text-blue-500">About Us</a></li>
+                        <li class="py-2 hover:bg-slate-200 w-full text-center border-b"><a href="{{ url('/service') }}"
+                                class="hover:text-blue-500">Services</a></li>
+                        <li class="py-2 hover:bg-slate-200 w-full text-center border-b"><a href="#"
+                                class="hover:text-blue-500">Pages</a></li>
+                        <li class="py-2 hover:bg-slate-200 w-full text-center border-b"><a href="#"
+                                class="hover:text-blue-500">Blog</a></li>
+                        <li class="py-2 hover:bg-slate-200 w-full text-center border-b"><a href="#"
+                                class="hover:text-blue-500">Products</a></li>
+                        <li class="py-2 hover:bg-slate-200 w-full text-center border-b"><a href="{{ url('/contact') }}"
+                                class="hover:text-blue-500">Contact</a></li>
                     </ul>
                 </div>
-
-                <div class="text-white">
-                    <a href="#" class="p-4 bg-[#43428d] hover:bg-[#3a3e67] rounded-md">Chat with Us</a>
-                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+        <script>
+            mobileMenuButton.addEventListener('click', () => {
+                const isExpanded = mobileMenuButton.getAttribute('aria-expanded') === 'true';
+                mobileMenu.classList.toggle('hidden');
+                mobileMenu.classList.toggle('block');
+                mobileMenuButton.setAttribute('aria-expanded', !isExpanded);
+            });
+        </script>
+    </section>
 
     @yield('content')
-    {{-- Footer --}}
-    <footer class="bg-[#2b334a] text-gray-400 py-12 mt-20 ">
-        <div class="container max-w-screen-xl mx-auto grid grid-cols-1  md:grid-cols-3 gap-10 px-4">
+
+    <!-- Footer -->
+    <footer class="bg-[#2b334a] text-gray-400 py-12">
+        <div class="container max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-4">
             <!-- Information Section -->
-            <div class="mx-auto">
+            <div>
                 <h2 class="text-white font-bold mb-4">Information</h2>
-                <ul>
-                    <li class="flex items-center gap-5 mb-2 ">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                            fill="none" stroke="#9ca3af" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" class="lucide lucide-map-pin">
+                <ul class="space-y-2">
+                    <li class="flex items-center gap-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none"
+                            stroke="#9ca3af" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path
                                 d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
                             <circle cx="12" cy="10" r="3" />
@@ -306,157 +322,88 @@
                         </svg>
                         Mon – Sat: 8 am – 5 pm, Sunday: CLOSED
                     </li>
+                    <!-- Add other contact items similarly -->
                 </ul>
             </div>
 
             <!-- Menu Section -->
-            <div class="mx-auto">
+            <div>
                 <h2 class="text-white font-bold mb-4">Menu</h2>
-                <ul>
-                    <li class="mb-2 hover:text-white"><a href="#">Company</a></li>
-                    <li class="mb-2 hover:text-white"><a href="#">Careers</a></li>
-                    <li class="mb-2 hover:text-white"><a href="#">Press Media</a></li>
-                    <li class="mb-2 hover:text-white"><a href="#">Our Blog</a></li>
-                    <li class="mb-2 hover:text-white"><a href="#">Privacy Policy</a></li>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:text-white">Company</a></li>
+                    <li><a href="#" class="hover:text-white">Careers</a></li>
+                    <li><a href="#" class="hover:text-white">Press Media</a></li>
+                    <li><a href="#" class="hover:text-white">Our Blog</a></li>
+                    <li><a href="#" class="hover:text-white">Privacy Policy</a></li>
                 </ul>
             </div>
 
             <!-- Quick Links Section -->
-            <div class="mx-auto">
+            <div>
                 <h2 class="text-white font-bold mb-4">Quick Links</h2>
-                <ul>
-                    <li class="mb-2 hover:text-white"><a href="#">How it’s Work</a></li>
-                    <li class="mb-2 hover:text-white"><a href="#">Partners</a></li>
-                    <li class="mb-2 hover:text-white"><a href="#">Testimonials</a></li>
-                    <li class="mb-2 hover:text-white"><a href="#">Case Studies</a></li>
-                    <li class="mb-2 hover:text-white"><a href="#">Pricing</a></li>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:text-white">How it Works</a></li>
+                    <li><a href="#" class="hover:text-white">Partners</a></li>
+                    <li><a href="#" class="hover:text-white">Testimonials</a></li>
+                    <li><a href="#" class="hover:text-white">Case Studies</a></li>
+                    <li><a href="#" class="hover:text-white">Pricing</a></li>
                 </ul>
             </div>
-
-
         </div>
 
         <!-- Footer Bottom -->
-        <div class="max-w-screen-xl mx-auto flex items-center justify-between p-4">
-            <div class="container max-w-screen-xl mx-auto px-4 mt-12   text-gray-500">
-                <div>
-                    <img src="https://demo.ajufbox.com/solit/assets/images/logo-solit-light.png" class="w-20 mb-2">
-                    <p class="text-xs">&copy; Solit | All Rights Reserved</p>
-                </div>
+        <div class="max-w-screen-xl mx-auto flex flex-col md:flex-row justify-between p-4 text-gray-500">
+            <div class="flex  items-center gap-2 ">
+                <img src="https://demo.ajufbox.com/solit/assets/images/logo-solit-light.png" class="w-20 mb-2"
+                    alt="Footer Logo">
+            </div>
+            <div class="flex  gap-4 mt-6 md:mt-0">
+                <!-- Facebook icons -->
+                <a href="#" class="bg-[#252443] p-2 rounded-md hover:bg-blue-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                    </svg>
+                </a>
+                <!-- Email icons -->
+                <a href="#" class="bg-[#252443] p-2 rounded-md hover:bg-blue-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" class="lucide lucide-youtube">
+                        <path
+                            d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17" />
+                        <path d="m10 15 5-3-5-3z" />
+                    </svg>
+                </a>
+                <!-- Telegram icons -->
+                <a href="#" class="bg-[#252443] p-2 rounded-md hover:bg-blue-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" class="lucide lucide-send">
+                        <path
+                            d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z" />
+                        <path d="m21.854 2.147-10.94 10.939" />
+                    </svg>
+                </a>
+                <!-- Add other social media icons similarly -->
             </div>
 
-            <div class="flex gap-4 mt-12">
-                {{-- Facebook --}}
-                <div class="bg-[#252443] p-2 rounded-md hover:bg-blue-600 hover:cursor-pointer">
-                    <a href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" class="lucide lucide-facebook text-white">
-                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
-                        </svg>
-                    </a>
-                </div>
-                {{-- YouTube --}}
-                <div class="bg-[#252443] p-2 rounded-md hover:bg-blue-600 hover:cursor-pointer">
-                    <a href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                            fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" class="lucide lucide-youtube">
-                            <path
-                                d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17" />
-                            <path d="m10 15 5-3-5-3z" />
-                        </svg>
-                    </a>
-                </div>
-                {{-- Telegram --}}
-                <div class="bg-[#252443] p-2 rounded-md hover:bg-blue-600 hover:cursor-pointer">
-                    <a href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                            fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" class="lucide lucide-send">
-                            <path
-                                d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z" />
-                            <path d="m21.854 2.147-10.94 10.939" />
-                        </svg>
-                    </a>
-                </div>
-            </div>
+        </div>
+        <div class="max-w-screen-xl mx-auto px-4">
+            <p class="text-xs ">&copy; Solit | All Rights Reserved</p>
         </div>
     </footer>
 
-    {{-- End Footer --}}
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.0/js/glightbox.min.js"></script>
-    <script>
-        var lightbox = GLightbox();
-        lightbox.on("open", (target) => {
-            console.log("lightbox opened");
+
+        // Mobile Menu Toggle Script
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
         });
-        var lightboxDescription = GLightbox({
-            selector: ".glightbox2",
-        });
-        var lightboxVideo = GLightbox({
-            selector: ".glightbox3",
-        });
-        lightboxVideo.on("slide_changed", ({
-            prev,
-            current
-        }) => {
-            console.log("Prev slide", prev);
-            console.log("Current slide", current);
-
-            const {
-                slideIndex,
-                slideNode,
-                slideConfig,
-                player
-            } = current;
-
-            if (player) {
-                if (!player.ready) {
-                    // If player is not ready
-                    player.on("ready", (event) => {
-                        // Do something when video is ready
-                    });
-                }
-
-                player.on("play", (event) => {
-                    console.log("Started play");
-                });
-
-                player.on("volumechange", (event) => {
-                    console.log("Volume change");
-                });
-
-                player.on("ended", (event) => {
-                    console.log("Video ended");
-                });
-            }
-        });
-
-        var lightboxInlineIframe = GLightbox({
-            selector: ".glightbox4",
-        });
-
-        /* var exampleApi = GLightbox({ selector: null });
-         exampleApi.insertSlide({
-             href: 'https://picsum.photos/1200/800',
-         });
-         exampleApi.insertSlide({
-             width: '500px',
-             content: '<p>Example</p>'
-         });
-         exampleApi.insertSlide({
-             href: 'https://www.youtube.com/watch?v=WzqrwPhXmew',
-         });
-         exampleApi.insertSlide({
-             width: '200vw',
-             content: document.getElementById('inline-example')
-         });
-         exampleApi.open(); */
     </script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 </body>
