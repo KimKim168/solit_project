@@ -90,7 +90,6 @@
                                 Pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim
                                 facilisis gravida neque convallis a cras semper auctor neque vitae tempus
                             </p>
-
                             <div class="md:my-7 flex mt-2 md:gap-8">
                                 <a href="{{ url('/service') }}"
                                     class="text-sm mr-5 md:text-lg p-2 p-x-3 md:px-5  md:py-3 border-2 rounded-md border-white text-white transition duration-300">
