@@ -172,7 +172,7 @@
                 <button class="py-2 px-6 bg-primary1 text-white rounded-full text-xl font-costum4 tracking-normal">
                     What We Do For You
                 </button>
-                <h1 class="font-costum5 text-white text-3xl mx-auto text-center max-w-96 leading-loose ">
+                <h1 class="font-costum9 text-white text-xl mx-auto text-center max-w-[600px] leading-normal line-clamp-3">
                     We Deal With The Aspects
                     Of Professional IT Services
 
@@ -330,8 +330,9 @@
                     <img src="https://demo.ajufbox.com/solit/assets/images/team/team-1.jpg"
                         class="rounded-t-md rounded-br-[200px]">
                     <div class="p-8">
-                        <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-2xl ">John Smith</h1>
-                        <p class="font-medium text-text_color1 text-xl mt-2">Data Analyst</p>
+                        <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-[16px] md:text-xl">John Smith
+                        </h1>
+                        <p class="font-medium text-text_color1 text-sm md:text-[16px] mt-2">Data Analyst</p>
                     </div>
                 </div>
                 {{-- item 2 --}}
@@ -340,8 +341,9 @@
                     <img src="https://demo.ajufbox.com/solit/assets/images/team/team-2.jpg"
                         class="rounded-t-md rounded-br-[200px]">
                     <div class="p-8">
-                        <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-2xl ">John Smith</h1>
-                        <p class="font-medium text-text_color1 text-xl mt-2">Data Analyst</p>
+                        <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-[16px] md:text-xl">John Smith
+                        </h1>
+                        <p class="font-medium text-text_color1 text-sm md:text-[16px] mt-2">Data Analyst</p>
                     </div>
                 </div>
                 {{-- item 3 --}}
@@ -350,8 +352,9 @@
                     <img src="https://demo.ajufbox.com/solit/assets/images/team/team-3.jpg"
                         class="rounded-t-md rounded-br-[200px]">
                     <div class="p-8">
-                        <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-2xl ">John Smith</h1>
-                        <p class="font-medium text-text_color1 text-xl mt-2">Data Analyst</p>
+                        <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-[16px] md:text-xl">John Smith
+                        </h1>
+                        <p class="font-medium text-text_color1 text-sm md:text-[16px] mt-2">Data Analyst</p>
                     </div>
                 </div>
                 {{-- item 4 --}}
@@ -360,8 +363,9 @@
                     <img src="https://demo.ajufbox.com/solit/assets/images/team/team-4.jpg"
                         class="rounded-t-md rounded-br-[200px]">
                     <div class="p-8">
-                        <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-2xl ">John Smith</h1>
-                        <p class="font-medium text-text_color1 text-xl mt-2">Data Analyst</p>
+                        <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-[16px] md:text-xl">John Smith
+                        </h1>
+                        <p class="font-medium text-text_color1 text-sm md:text-[16px] mt-2">Data Analyst</p>
                     </div>
                 </div>
             </div>
