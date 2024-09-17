@@ -224,7 +224,7 @@
                 </div>
                 <div class="flex items-center space-x-5 md:space-x-10">
                     <!-- Menu for larger screens -->
-                    <ul class="hidden md:flex gap-8 text-sm font-Poppins items-center">
+                    <ul class="hidden lg:flex gap-8 text-sm font-Poppins items-center">
                         <li><a href="{{ url('/') }}" class="text-blue-500">Home</a></li>
                         <li><a href="{{ url('/about_us') }}" class="hover:text-blue-500">About Us</a></li>
                         <li><a href="{{ url('/service') }}" class="hover:text-blue-500">Services</a></li>
@@ -240,7 +240,7 @@
                         </a>
                     </div>
                     <!-- Mobile Menu Toggle -->
-                    <div class="md:hidden">
+                    <div class="lg:hidden">
                         <button id="mobile-menu-button" aria-controls="mobile-menu" aria-expanded="false"
                             class="focus:outline-none">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
@@ -253,15 +253,22 @@
                 </div>
                 <!-- Mobile Menu -->
                 <div id="mobile-menu"
-                    class="hidden md:hidden absolute top-full left-0 w-full bg-white shadow-lg z-30 transition-transform transform">
+                    class="hidden lg:hidden  absolute top-full left-0 w-full bg-white shadow-lg z-30 transition-transform transform">
 
                     <ul class="flex flex-col items-center bg-white text-sm font-Poppins">
-                        <li class="py-2 hover:bg-slate-200 w-full text-center border-b"><a href="{{ url('/') }}"
-                                class="text-blue-500">Home</a></li>
-                        <li class="py-2 hover:bg-slate-200 w-full text-center border-b"><a href="{{ url('/about_us') }}"
-                                class="hover:text-blue-500">About Us</a></li>
-                        <li class="py-2 hover:bg-slate-200 w-full text-center border-b"><a href="{{ url('/service') }}"
-                                class="hover:text-blue-500">Services</a></li>
+                        <li class="py-2 hover:bg-slate-200 w-full text-center border-b">
+                            <a href="{{ url('/') }}"class="text-blue-500">Home</a>
+                        </li>
+                        <li class="py-2 hover:bg-slate-200 w-full text-center border-b">
+                            <a href="{{ url('/about_us') }}" class="hover:text-blue-500">
+                                About Us
+                            </a>
+                        </li>
+                        <li class="py-2 hover:bg-slate-200 w-full text-center border-b">
+                            <a href="{{ url('/service') }}" class="hover:text-blue-500">
+                                Services
+                            </a>
+                        </li>
                         <li class="py-2 hover:bg-slate-200 w-full text-center border-b"><a href="#"
                                 class="hover:text-blue-500">Pages</a></li>
                         <li class="py-2 hover:bg-slate-200 w-full text-center border-b"><a href="#"
