@@ -323,7 +323,7 @@
                     tailored to meet specific needs.
                 </p>
             </div>
-            <div class="mt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <div class="mt-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {{-- item 1 --}}
                 <div
                     class="max-w-sm border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
