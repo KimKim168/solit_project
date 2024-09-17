@@ -72,45 +72,49 @@
                     technical expertise, and a customer-centric approach.
                 </p>
             </div>
-            <div class="mt-10 grid grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="mt-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {{-- item 1 --}}
                 <div
-                    class="max-w-sm border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500">
+                    class="max-w-sm border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
                     <img src="https://demo.ajufbox.com/solit/assets/images/team/team-1.jpg"
                         class="rounded-t-md rounded-br-[200px]">
                     <div class="p-8">
-                        <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-2xl ">John Smith</h1>
-                        <p class="font-medium text-text_color1 text-xl mt-2">Data Analyst</p>
+                        <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-[16px] md:text-xl">John Smith
+                        </h1>
+                        <p class="font-medium text-text_color1 text-sm md:text-[16px] mt-2">Data Analyst</p>
                     </div>
                 </div>
                 {{-- item 2 --}}
                 <div
-                    class="max-w-sm border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500">
+                    class="max-w-sm border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
                     <img src="https://demo.ajufbox.com/solit/assets/images/team/team-2.jpg"
                         class="rounded-t-md rounded-br-[200px]">
                     <div class="p-8">
-                        <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-2xl ">John Smith</h1>
-                        <p class="font-medium text-text_color1 text-xl mt-2">Data Analyst</p>
+                        <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-[16px] md:text-xl">John Smith
+                        </h1>
+                        <p class="font-medium text-text_color1 text-sm md:text-[16px] mt-2">Data Analyst</p>
                     </div>
                 </div>
                 {{-- item 3 --}}
                 <div
-                    class="max-w-sm border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500">
+                    class="max-w-sm border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
                     <img src="https://demo.ajufbox.com/solit/assets/images/team/team-3.jpg"
                         class="rounded-t-md rounded-br-[200px]">
                     <div class="p-8">
-                        <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-2xl ">John Smith</h1>
-                        <p class="font-medium text-text_color1 text-xl mt-2">Data Analyst</p>
+                        <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-[16px] md:text-xl">John Smith
+                        </h1>
+                        <p class="font-medium text-text_color1 text-sm md:text-[16px] mt-2">Data Analyst</p>
                     </div>
                 </div>
                 {{-- item 4 --}}
                 <div
-                    class="max-w-sm border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500">
+                    class="max-w-sm border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
                     <img src="https://demo.ajufbox.com/solit/assets/images/team/team-4.jpg"
                         class="rounded-t-md rounded-br-[200px]">
                     <div class="p-8">
-                        <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-2xl ">John Smith</h1>
-                        <p class="font-medium text-text_color1 text-xl mt-2">Data Analyst</p>
+                        <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-[16px] md:text-xl">John Smith
+                        </h1>
+                        <p class="font-medium text-text_color1 text-sm md:text-[16px] mt-2">Data Analyst</p>
                     </div>
                 </div>
             </div>

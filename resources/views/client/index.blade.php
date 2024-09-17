@@ -172,7 +172,7 @@
                 <button class="py-2 px-6 bg-primary1 text-white rounded-full text-xl font-costum4 tracking-normal">
                     What We Do For You
                 </button>
-                <h1 class="font-costum9 text-white text-xl mx-auto text-center max-w-[600px] leading-normal line-clamp-3">
+                <h1 class="font-costum8 text-white text-xl mx-auto text-center max-w-[600px] leading-normal line-clamp-3">
                     We Deal With The Aspects
                     Of Professional IT Services
 
@@ -310,9 +310,8 @@
     <!--End Section  -->
 
     {{-- completed project --}}
-    <section class="mt-20 overflow-hidden  p-5">
+    <section class="mt-20 overflow-hidden p-5">
         <div class="max-w-screen-xl mx-auto">
-
             <div class="" data-aos="flip-down" data-aos-duration="1000">
                 <h1 class="font-costum5 text-5xl">
                     Completed Project
@@ -326,9 +325,9 @@
             <div class="mt-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {{-- item 1 --}}
                 <div
-                    class="max-w-sm border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
+                    class="md:max-w-sm max-w-full border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
                     <img src="https://demo.ajufbox.com/solit/assets/images/team/team-1.jpg"
-                        class="rounded-t-md rounded-br-[200px]">
+                        class="w-full h-auto object-cover rounded-t-md rounded-br-[200px]">
                     <div class="p-8">
                         <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-[16px] md:text-xl">John Smith
                         </h1>
@@ -337,9 +336,9 @@
                 </div>
                 {{-- item 2 --}}
                 <div
-                    class="max-w-sm border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
+                    class="md:max-w-sm max-w-full border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
                     <img src="https://demo.ajufbox.com/solit/assets/images/team/team-2.jpg"
-                        class="rounded-t-md rounded-br-[200px]">
+                        class="w-full h-auto object-cover rounded-t-md rounded-br-[200px]">
                     <div class="p-8">
                         <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-[16px] md:text-xl">John Smith
                         </h1>
@@ -348,9 +347,9 @@
                 </div>
                 {{-- item 3 --}}
                 <div
-                    class="max-w-sm border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
+                    class="md:max-w-sm max-w-full border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
                     <img src="https://demo.ajufbox.com/solit/assets/images/team/team-3.jpg"
-                        class="rounded-t-md rounded-br-[200px]">
+                        class="w-full h-auto object-cover rounded-t-md rounded-br-[200px]">
                     <div class="p-8">
                         <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-[16px] md:text-xl">John Smith
                         </h1>
@@ -359,9 +358,9 @@
                 </div>
                 {{-- item 4 --}}
                 <div
-                    class="max-w-sm border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
+                    class="md:max-w-sm max-w-full border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
                     <img src="https://demo.ajufbox.com/solit/assets/images/team/team-4.jpg"
-                        class="rounded-t-md rounded-br-[200px]">
+                        class="w-full h-auto object-cover rounded-t-md rounded-br-[200px]">
                     <div class="p-8">
                         <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-[16px] md:text-xl">John Smith
                         </h1>
@@ -371,6 +370,7 @@
             </div>
         </div>
     </section>
+
     {{-- End completed project --}}
 
     {{-- Blog --}}
