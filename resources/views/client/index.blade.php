@@ -3,103 +3,90 @@
     <!-- Strat transform -->
     <div id="controls-carousel" class="relative w-full mt-20">
         <!-- Carousel wrapper -->
-        <div class="relative aspect-[16/6] overflow-hidden rounded-lg">
+        <div class="relative aspect-[16/6] w-full overflow-hidden rounded-lg">
             <!-- Swiper -->
-            <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
+            <swiper-container class="mySwiper w-full h-full" pagination="true" navigation="true" space-between="30"
                 centered-slides="true" autoplay-delay="3000" autoplay-disable-on-interaction="false">
                 <!-- slide 1 -->
-                <swiper-slide>
-                    <div class="flex h-full w-full bg-cover bg-center bg-blend-multiply" data-carousel-item
+                <swiper-slide class="w-full h-full">
+                    <div class="flex h-full w-full relative bg-cover bg-center bg-blend-multiply" data-carousel-item
                         style="background-image: url('assets/images/slide1.jpg');">
                         <!-- Dark Overlay -->
                         <div class="absolute inset-0 bg-[#151516a6] bg-opacity-80"></div>
 
                         <!-- Content -->
                         <div
-                            class="relative top-[9%] md:top-[10%] lg:top-1/4 left-8 lg:left-44 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
+                            class="absolute top-1/2 left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
                             <h1 class="text-2xl lg:text-5xl font-costum1 text-[#11ace3]">
-                                Smart IT Solution for Your Company
+                                Innovative Mobile App Solutions
                             </h1>
                             <p class="text-xs mt-2 md:text-lg md:mt-5">
-                                Pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim
-                                facilisis gravida neque convallis a cras semper auctor neque vitae tempus
+                                Transform your ideas into engaging and high-performance mobile applications. Our team
+                                delivers custom-built apps with intuitive design and seamless functionality across
+                                platforms.
                             </p>
-
                             <div class="md:my-7 flex mt-2 md:gap-8">
-                                <a href="{{ url('/service') }}"
+                                <a href="{{ url('/mobile_app_development') }}"
                                     class="text-sm mr-5 md:text-lg p-2 p-x-3 md:px-5  md:py-3  border-2 rounded-md border-white text-white transition duration-300">
-                                    Our Service
-                                </a>
-
-                                <a href="https://www.youtube.com/watch?v=Ctld3Ad6xtU"
-                                    class=" md:mt-4 lg:mt-0 hover:underline flex justify-center items-center gap-3 glightbox3">
-                                    <img src="{{ asset('assets/images/play.png') }}" class="w-7 h-7 md:w-10 md:h-10">
-                                    <p class="">Watch The Video</p>
+                                    Learn More
                                 </a>
                             </div>
                         </div>
                     </div>
                 </swiper-slide>
                 <!-- slide 2 -->
-                <swiper-slide>
-                    <div class="flex h-full w-full bg-cover bg-center bg-blend-multiply" data-carousel-item
+                <swiper-slide class="w-full h-full">
+                    <div class="flex h-full w-full relative bg-cover bg-center bg-blend-multiply" data-carousel-item
                         style="background-image: url('assets/images/slide2.jpg');">
                         <!-- Dark Overlay -->
                         <div class="absolute inset-0 bg-[#151516a6] bg-opacity-80"></div>
 
                         <!-- Content -->
                         <div
-                            class="relative top-[9%] md:top-[10%] lg:top-1/4 left-8 lg:left-44 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
+                            class="absolute top-1/2 left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
                             <h1 class="text-2xl lg:text-5xl font-costum1 text-[#11ace3]">
-                                Smart IT Solution for Your Company
+                                Custom Web Solutions
                             </h1>
                             <p class="text-xs mt-2 md:text-lg md:mt-5">
-                                Pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim
-                                facilisis gravida neque convallis a cras semper auctor neque vitae tempus
+                                Build a unique online presence with our custom web development services. We design and
+                                develop responsive, fast, and secure websites that elevate your brand and engage your
+                                audience.
                             </p>
 
                             <div class="md:my-7 flex mt-2 md:gap-8">
-                                <a href="{{ url('/service') }}"
-                                    class="text-sm mr-5 md:text-lg p-2 p-x-3 md:px-5 md:py-3  border-2 rounded-md border-white text-white transition duration-300">
-                                    Our Service
-                                </a>
-
-                                <a href="https://www.youtube.com/watch?v=Ctld3Ad6xtU"
-                                    class=" md:mt-4 lg:mt-0 hover:underline flex justify-center items-center gap-3 glightbox3">
-                                    <img src="{{ asset('assets/images/play.png') }}" class="w-7 h-7 md:w-10 md:h-10">
-                                    <p class="">Watch The Video</p>
+                                <a href="{{ url('/custom_software_development') }}"
+                                    class="text-sm mr-5 md:text-lg p-2 p-x-3 md:px-5  md:py-3  border-2 rounded-md border-white text-white transition duration-300">
+                                    Learn More
                                 </a>
                             </div>
                         </div>
                     </div>
                 </swiper-slide>
+
                 <!-- slide 3 -->
-                <swiper-slide>
-                    <div class="flex h-full w-full bg-cover bg-center bg-blend-multiply" data-carousel-item
+                <swiper-slide class="w-full h-full">
+                    <div class="flex h-full w-full relative bg-cover bg-center bg-blend-multiply" data-carousel-item
                         style="background-image: url('assets/images/slide3.jpg');">
                         <!-- Dark Overlay -->
                         <div class="absolute inset-0 bg-[#151516a6] bg-opacity-80"></div>
 
                         <!-- Content -->
                         <div
-                            class="relative top-[9%] md:top-[10%] lg:top-1/4 left-8 lg:left-44 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
+                            class="absolute top-1/2 left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
                             <h1 class="text-2xl lg:text-5xl font-costum1 text-[#11ace3]">
-                                Smart IT Solution for Your Company
+                                Cloud Hosting Solutions
                             </h1>
                             <p class="text-xs mt-2 md:text-lg md:mt-5">
-                                Pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim
-                                facilisis gravida neque convallis a cras semper auctor neque vitae tempus
+                                Scale your business with ease using our cloud hosting solutions. Our services provide
+                                flexibility, speed, and security, making sure your website can handle growing traffic and
+                                data demands.
                             </p>
-                            <div class="md:my-7 flex mt-2 md:gap-8">
-                                <a href="{{ url('/service') }}"
-                                    class="text-sm mr-5 md:text-lg p-2 p-x-3 md:px-5  md:py-3 border-2 rounded-md border-white text-white transition duration-300">
-                                    Our Service
-                                </a>
 
-                                <a href="https://www.youtube.com/watch?v=Ctld3Ad6xtU"
-                                    class=" md:mt-4 lg:mt-0 hover:underline flex justify-center items-center gap-3 glightbox3">
-                                    <img src="{{ asset('assets/images/play.png') }}" class="w-7 h-7 md:w-10 md:h-10">
-                                    <p class="">Watch The Video</p>
+
+                            <div class="md:my-7 flex mt-2 md:gap-8">
+                                <a href="{{ url('/cloud_hosting') }}"
+                                    class="text-sm mr-5 md:text-lg p-2 p-x-3 md:px-5  md:py-3  border-2 rounded-md border-white text-white transition duration-300">
+                                    Learn More
                                 </a>
                             </div>
                         </div>
@@ -166,7 +153,7 @@
                     </li>
                 </ul>
                 <!-- Button -->
-                <a href="#"
+                <a href="{{ url('/about_us') }}"
                     class="inline-block px-8 py-3 font-costum8 text-white bg-primary1 rounded-md hover:bg-primary2 transition-colors"
                     data-aos="fade-up" data-aos-duration="2000">
                     Learn More
@@ -190,10 +177,10 @@
                     Of Professional IT Services
 
                 </h1>
-                <p class="font-costum8 text-white text-sm leading-loose  mx-auto text-center max-w-[500px]">
+                {{-- <p class="font-costum8 text-white text-sm leading-loose  mx-auto text-center max-w-[500px]">
                     Morem ipsum dolor sit amet,
                     consectetur adipiscing elita florai psum dolor ectetuolor sit amet, consectetur adipiscine.
-                </p>
+                </p> --}}
             </div>
 
 
@@ -210,11 +197,12 @@
                                 Web Development and Design
                             </h5>
                         </a>
-                        <p class="mb-3 text-sm md:text-base font-normal text-gray-700 dark:text-gray-400">
+                        <p class="mb-3 text-sm md:text-base font-normal text-gray-700 dark:text-gray-400 line-clamp-2">
                             We craft dynamic, user-friendly, and visually appealing websites that provide seamless user
-                            experiences across all devices.
+                            experiences across all devices. From design to development, we bring your vision to life,
+                            ensuring your online presence stands out.
                         </p>
-                        <a href="#"
+                        <a href="{{ url('development_and_design_detail') }}"
                             class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-primary1 border-2 border-transparent hover:bg-transparent hover:border-primary2 hover:text-primary1 rounded-lg">
                             See Details
                         </a>
@@ -233,11 +221,12 @@
                                 SEO and Digital Marketing
                             </h5>
                         </a>
-                        <p class="mb-3 text-sm md:text-base font-normal text-gray-700 dark:text-gray-400">
+                        <p class="mb-3 text-sm md:text-base font-normal text-gray-700 dark:text-gray-400 line-clamp-2">
                             Our team of digital marketing experts helps you enhance your online visibility, drive targeted
-                            traffic, and increase conversions.
+                            traffic, and increase conversions through strategic SEO practices and comprehensive digital
+                            marketing campaigns.
                         </p>
-                        <a href="#"
+                        <a href="{{ url('seo_and_digital_marketing') }}"
                             class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-primary1 border-2 border-transparent hover:bg-transparent hover:border-primary2 hover:text-primary1 rounded-lg">
                             See Details
                         </a>
@@ -256,10 +245,57 @@
                                 Mobile App Development
                             </h5>
                         </a>
-                        <p class="mb-3 text-sm md:text-base font-normal text-gray-700 dark:text-gray-400">
-                            We develop intuitive and functional mobile applications tailored to your business needs.
+                        <p class="mb-3 text-sm md:text-base font-normal text-gray-700 dark:text-gray-400 line-clamp-2">
+                            We develop intuitive and functional mobile applications tailored to your business needs,
+                            ensuring compatibility across both iOS and Android platforms for a wider reach and improved
+                            customer engagement.
                         </p>
-                        <a href="#"
+                        <a href="{{ url('mobile_app_development') }}"
+                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-primary1 border-2 border-transparent hover:bg-transparent hover:border-primary2 hover:text-primary1 rounded-lg">
+                            See Details
+                        </a>
+                    </div>
+                </div>
+                <div
+                    class="w-full bg-white border text-center p-3 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <img class="rounded-t-lg w-[40%] mx-auto mt-4"
+                            src="{{ asset('assets/images/digital-services.png') }}" alt="" />
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-xl md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                Custom Software Development
+                            </h5>
+                        </a>
+                        <p class="mb-3 text-sm md:text-base font-normal text-gray-700 dark:text-gray-400 line-clamp-2">
+                            We build robust, scalable, and secure custom software solutions to address your specific
+                            business challenges, helping you streamline operations, improve efficiency, and achieve your
+                            goals.
+                        </p>
+                        <a href="{{ url('custom_software_development') }}"
+                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-primary1 border-2 border-transparent hover:bg-transparent hover:border-primary2 hover:text-primary1 rounded-lg">
+                            See Details
+                        </a>
+                    </div>
+                </div>
+                <div
+                    class="w-full bg-white border text-center p-3 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <img class="rounded-t-lg w-[40%] mx-auto mt-4"
+                            src="{{ asset('assets/images/digital-services.png') }}" alt="" />
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-xl md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                Cloud Hosting
+                            </h5>
+                        </a>
+                        <p class="mb-3 text-sm md:text-base font-normal text-gray-700 dark:text-gray-400 line-clamp-2">
+                            Our reliable cloud hosting services provide secure, scalable, and cost-effective solutions for
+                            your data and applications, ensuring optimal performance and accessibility for your business.
+                        </p>
+                        <a href="{{ url('cloud_hosting') }}"
                             class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-primary1 border-2 border-transparent hover:bg-transparent hover:border-primary2 hover:text-primary1 rounded-lg">
                             See Details
                         </a>
@@ -282,8 +318,9 @@
                     Completed Project
                 </h1>
                 <p class="text-base max-w-[500px] text-justify mt-5">
-                    Placerat vestibulum lectus mauris ultrices eros in cursus turpis massa tincidunt dui ut ornare
-                    lectus sit amet
+                    Explore our range of completed projects, showcasing innovative solutions and expert craftsmanship. Each
+                    project reflects our commitment to quality, precision, and client satisfaction, delivered on time and
+                    tailored to meet specific needs.
                 </p>
             </div>
             <div class="mt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">

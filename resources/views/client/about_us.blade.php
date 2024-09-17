@@ -64,11 +64,12 @@
 
             <div class="">
                 <h1 class="font-costum5 text-5xl">
-                    Completed Project
+                    Our Mission
                 </h1>
                 <p class="text-base max-w-[500px] text-justify mt-5">
-                    Placerat vestibulum lectus mauris ultrices eros in cursus turpis massa tincidunt dui ut ornare
-                    lectus sit amet
+                    Our mission is to empower businesses with innovative and high-quality technology solutions that fuel
+                    growth and improve efficiency. We are committed to delivering excellence through collaboration,
+                    technical expertise, and a customer-centric approach.
                 </p>
             </div>
             <div class="mt-10 grid grid-cols-2 lg:grid-cols-4 gap-8">
@@ -122,7 +123,7 @@
             <div class="mb-8 md:col-span-4">
                 <span
                     class="inline-block text-sm text-blue-500 font-semibold mb-2 bg-blue-100 px-3 py-1 rounded-full">Benefits</span>
-                <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Why choose Solit?</h2>
+                <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Why Choose Us?</h2>
                 <p class="text-gray-600 text-base md:text-lg">Lorem ipsum dolor sit amet elit adipisicing consectetur</p>
             </div>
 
@@ -134,9 +135,10 @@
                         <img src="https://demo.ajufbox.com/solit/assets/images/icons/design.png" class="w-14 mx-auto"
                             alt="Unique Design Icon">
                     </div>
-                    <h3 class="text-lg md:text-xl font-semibold text-gray-900 mb-2">Unique Design</h3>
-                    <p class="text-gray-600 text-sm md:text-base">Fusce aliquet quam eget neque ultrices elementum felis id
-                        arcu blandit sagittis.</p>
+                    <h3 class="text-lg md:text-xl font-semibold text-gray-900 mb-2">15+ Years of Experience</h3>
+                    <p class="text-gray-600 text-sm md:text-base">
+                        A proven track record of delivering successful projects across diverse industries.
+                    </p>
                 </div>
 
                 <!-- Benefit 2 -->
@@ -146,9 +148,10 @@
                         <img src="https://demo.ajufbox.com/solit/assets/images/icons/code.png" class="w-14 mx-auto"
                             alt="Quality Code Icon">
                     </div>
-                    <h3 class="text-lg md:text-xl font-semibold text-gray-900 mb-2">Quality Code</h3>
-                    <p class="text-gray-600 text-sm md:text-base">Fusce aliquet quam eget neque ultrices elementum felis id
-                        arcu blandit sagittis.</p>
+                    <h3 class="text-lg md:text-xl font-semibold text-gray-900 mb-2">Customer-Centric Approach</h3>
+                    <p class="text-gray-600 text-sm md:text-base">
+                        We prioritize understanding your needs and goals to offer solutions that best fit your business.
+                    </p>
                 </div>
 
                 <!-- Benefit 3 -->
@@ -158,9 +161,24 @@
                         <img src="https://demo.ajufbox.com/solit/assets/images/icons/clean-design.png"
                             class="w-14 mx-auto" alt="Clean and Minimal Icon">
                     </div>
-                    <h3 class="text-lg md:text-xl font-semibold text-gray-900 mb-2">Clean and Minimal</h3>
-                    <p class="text-gray-600 text-sm md:text-base">Fusce aliquet quam eget neque ultrices elementum felis id
-                        arcu blandit sagittis.</p>
+                    <h3 class="text-lg md:text-xl font-semibold text-gray-900 mb-2">Expert Team</h3>
+                    <p class="text-gray-600 text-sm md:text-base">
+                        Our team of skilled professionals is dedicated to staying ahead of industry trends to provide
+                        top-notch solutions.
+                    </p>
+                </div>
+                <!-- Benefit 4 -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md text-center">
+                    <div class="text-blue-500 mb-4">
+                        <!-- Icon -->
+                        <img src="https://demo.ajufbox.com/solit/assets/images/icons/clean-design.png"
+                            class="w-14 mx-auto" alt="Clean and Minimal Icon">
+                    </div>
+                    <h3 class="text-lg md:text-xl font-semibold text-gray-900 mb-2">End-to-End Solutions</h3>
+                    <p class="text-gray-600 text-sm md:text-base">
+                        From web development to cloud hosting, we offer comprehensive services to support your digital
+                        journey.
+                    </p>
                 </div>
             </div>
         </div>

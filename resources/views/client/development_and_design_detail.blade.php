@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -213,82 +216,171 @@
     </script>
 </head>
 
-<body class="text-black">
-    <!-- Start Navbar -->
-    <section>
-        <nav class="bg-white fixed w-full z-40 top-0 start-0 shadow">
-            <div class="max-w-screen-xl mx-auto flex items-center justify-between p-5">
-                <!-- Logo -->
-                <div class="flex items-center">
-                    <img src="{{ asset('assets/images/logo-solit-dark.png') }}" class="w-16 md:w-20" alt="Logo">
-                </div>
-                <div class="flex items-center space-x-5 md:space-x-10">
-                    <!-- Menu for larger screens -->
-                    <ul class="hidden lg:flex gap-8 text-sm font-Poppins items-center">
-                        <li><a href="{{ url('/') }}" class="text-blue-500">Home</a></li>
-                        <li><a href="{{ url('/about_us') }}" class="hover:text-blue-500">About Us</a></li>
-                        <li><a href="{{ url('/service') }}" class="hover:text-blue-500">Services</a></li>
-                        <li><a href="#" class="hover:text-blue-500">Products</a></li>
-                        <li><a href="{{ url('/contact') }}" class="hover:text-blue-500">Contact</a></li>
-                    </ul>
-                    <!-- Chat Button - visible on all screen sizes -->
-                    <div>
-                        <a href="#" class="p-2 md:p-4 bg-[#43428d] text-white hover:bg-[#3a3e67] rounded-md">
-                            Chat with Us
-                        </a>
-                    </div>
-                    <!-- Mobile Menu Toggle -->
-                    <div class="lg:hidden">
-                        <button id="mobile-menu-button" aria-controls="mobile-menu" aria-expanded="false"
-                            class="focus:outline-none">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M4 6h16M4 12h16m-7 6h7" />
-                            </svg>
-                        </button>
-                    </div>
-                </div>
-                <!-- Mobile Menu -->
-                <div id="mobile-menu"
-                    class="hidden lg:hidden  absolute top-full left-0 w-full bg-white shadow-lg z-30 transition-transform transform">
+<body class="font-costum4">
+    <main class="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white dark:bg-gray-900 antialiased">
+        <div class="flex justify-between px-4 mx-auto max-w-screen-xl ">
+            <article
+                class="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
+                <header class="mb-4 lg:mb-6 not-format">
 
-                    <ul class="flex flex-col items-center bg-white text-sm font-Poppins">
-                        <li class="py-2 hover:bg-slate-200 w-full text-center border-b">
-                            <a href="{{ url('/') }}"class="text-blue-500">Home</a>
+                    <h1
+                        class="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white">
+                        web design and development
+                    </h1>
+                </header>
+                <p class="lead">At [Your Company Name], we provide comprehensive Web Development and Design services
+                    that cater to businesses and individuals looking to establish a strong online presence. With over 15
+                    years of experience, our team is dedicated to delivering innovative and user-friendly websites that
+                    are visually appealing and highly functional. Our services are designed to help you reach your goals
+                    by creating a unique digital experience for your audience.</p>
+                <figure class="my-4">
+                    <img src="https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fkljy9vr3utnb3d3bafbc.jpg"
+                        alt="">
+                </figure>
+                <div>
+                    <h2 class="mb-3 text-xl  leading-tight text-gray-900 lg:mb-4 lg:text-2xl dark:text-white">
+                        Our Key Offerings:</h2>
+                    <ol class="list-decimal p-4 space-y-4">
+                        <li class="space-y-2">
+                            <strong class="text-blue-600 text-xl ">Custom Web Design</strong>
+                            <p> We specialize in creating unique, tailor-made websites that reflect your brand's
+                                identity.
+                                Our design process begins with understanding your vision and objectives, ensuring
+                                that
+                                the
+                                final product is both aesthetically pleasing and aligned with your business goals.
+                                We
+                                focus
+                                on:final product is both aesthetically pleasing and aligned with your business
+                                goals. We
+                                focus
+                                on:
+                            </p>
+                            <ul class="list-disc p-4">
+                                <li>Clean, modern, and responsive designs</li>
+                                <li>User experience (UX) optimization for seamless navigation</li>
+                                <li>Brand-centric designs that enhance visual appeal</li>
+                            </ul>
                         </li>
-                        <li class="py-2 hover:bg-slate-200 w-full text-center border-b">
-                            <a href="{{ url('/about_us') }}" class="hover:text-blue-500">
-                                About Us
-                            </a>
-                        </li>
-                        <li class="py-2 hover:bg-slate-200 w-full text-center border-b">
-                            <a href="{{ url('/service') }}" class="hover:text-blue-500">
-                                Services
-                            </a>
-                        </li>
+                        <li class="space-y-2">
+                            <strong class="text-blue-600 text-xl ">Responsive Web Development</strong>
+                            <p> We ensure that your website is accessible and user-friendly on all devices—desktops,
+                                tablets, and smartphones. Our responsive design approach guarantees that your website
+                                will function flawlessly across all screen sizes, enhancing the overall user experience.
+                            </p>
 
-                        <li class="py-2 hover:bg-slate-200 w-full text-center border-b"><a href="#"
-                                class="hover:text-blue-500">Products</a></li>
-                        <li class="py-2 hover:bg-slate-200 w-full text-center border-b"><a href="{{ url('/contact') }}"
-                                class="hover:text-blue-500">Contact</a></li>
-                    </ul>
+                        </li>
+                        <li class="space-y-2">
+                            <strong class="text-blue-600 text-xl ">E-Commerce Development</strong>
+                            <p> We help you build powerful, secure, and scalable eCommerce websites that drive online
+                                sales. Our eCommerce solutions include:
+                            </p>
+                            <ul class="list-disc p-4">
+                                <li>Custom shopping carts and product catalogs</li>
+                                <li>Integration with payment gateways</li>
+                                <li>Inventory management and order tracking systems</li>
+                                <li>Mobile-friendly eCommerce interfaces</li>
+                            </ul>
+                        </li>
+                        <li class="space-y-2">
+                            <strong class="text-blue-600 text-xl ">Content Management Systems (CMS)</strong>
+                            <p> Our CMS solutions empower you to manage your website content easily without needing any
+                                technical expertise. We offer solutions built on platforms like WordPress, Joomla, and
+                                Drupal, ensuring that you have complete control over your content.
+                            </p>
+
+                        </li>
+                        <li class="space-y-2">
+                            <strong class="text-blue-600 text-xl ">Search Engine Optimization (SEO) Integration</strong>
+                            <p> Every website we build is SEO-ready. We implement the best practices in on-page
+                                optimization, metadata structuring, and website performance, ensuring that your website
+                                ranks well in search engine results and attracts organic traffic.
+                            </p>
+
+                        </li>
+                        <li class="space-y-2">
+                            <strong class="text-blue-600 text-xl ">Custom Web Applications</strong>
+                            <p>Our team is proficient in developing custom web applications that are scalable, secure,
+                                and tailored to meet your specific business needs. Whether it's a customer portal,
+                                booking system, or a CRM, we can design and develop a solution that fits your
+                                requirements.
+                            </p>
+
+                        </li>
+                        <li class="space-y-2">
+                            <strong class="text-blue-600 text-xl ">Website Maintenance and Support</strong>
+                            <p>After launching your website, we provide ongoing maintenance and support to ensure its
+                                optimal performance. Our services include regular updates, security patches, performance
+                                optimization, and troubleshooting to keep your website running smoothly.
+                            </p>
+
+                        </li>
+                        <li class="space-y-2">
+                            <strong class="text-blue-600 text-xl ">UX/UI Design and Prototyping</strong>
+                            <p>We focus on creating intuitive user experiences with attention to detail in user
+                                interface design. Our team utilizes the latest design trends and technologies to ensure
+                                that your website not only looks great but also provides a smooth and engaging user
+                                journey.
+                            </p>
+
+                        </li>
+                        <li class="space-y-2">
+                            <strong class="text-blue-600 text-xl ">Third-Party API Integration</strong>
+                            <p>We seamlessly integrate third-party tools and APIs into your website to enhance
+                                functionality. Whether it's integrating payment gateways, social media, or marketing
+                                tools, we ensure smooth and secure API integration.
+                            </p>
+
+                        </li>
+                        <li class="space-y-2">
+                            <strong class="text-blue-600 text-xl ">Cloud Hosting Solutions</strong>
+                            <p>We offer reliable and scalable cloud hosting solutions to ensure your website is always
+                                online, secure, and fast. Our hosting services include regular backups, SSL
+                                certification, and advanced security features to protect your site from threats.
+                            </p>
+
+                        </li>
+                    </ol>
                 </div>
-            </div>
-        </nav>
-        <script>
-            mobileMenuButton.addEventListener('click', () => {
-                const isExpanded = mobileMenuButton.getAttribute('aria-expanded') === 'true';
-                mobileMenu.classList.toggle('hidden');
-                mobileMenu.classList.toggle('block');
-                mobileMenuButton.setAttribute('aria-expanded', !isExpanded);
-            });
-        </script>
-    </section>
+                <div class="border-t">
+                    <h2 class="mb-3 text-xl  leading-tight text-gray-900 lg:my-4  lg:text-2xl dark:text-white">
+                        Our Process:</h2>
+                    <ol class="list-decimal p-4 space-y-4">
+                        <li class="space-y-2">
+                            <strong class="text-blue-600 text-xl ">Discovery & Planning:</strong>
+                            <p> We begin by understanding your business, audience, and goals. We then create a detailed
+                                project plan that includes timelines, design prototypes, and functionality requirements.
+                            </p>
+                        </li>
+                        <li class="space-y-2">
+                            <strong class="text-blue-600 text-xl ">Design & Development:</strong>
+                            <p> Once the plan is finalized, we move into the design and development phase, where our
+                                designers create visually stunning interfaces, and our developers bring those designs to
+                                life with clean, efficient code.
+                            </p>
 
-    @yield('content')
+                        </li>
+                        <li class="space-y-2">
+                            <strong class="text-blue-600 text-xl ">Testing & Quality Assurance:</strong>
+                            <p> We rigorously test every aspect of your website to ensure it is free of bugs and
+                                performs well across all devices and browsers.
+                            </p>
+                        </li>
+                        <li class="space-y-2">
+                            <strong class="text-blue-600 text-xl ">Launch & Post-Launch Support:</strong>
+                            <p>After the website is tested and approved, we launch it and provide ongoing support to
+                                ensure everything continues to run smoothly.
+                            </p>
 
-    <!-- Footer -->
+                        </li>
+
+                    </ol>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    {{-- Footer --}}
     <footer class="bg-[#2b334a] text-gray-400 py-12">
         <div class="container max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-4">
             <!-- Information Section -->

@@ -6,8 +6,8 @@
             <div class="mb-8">
                 <h2 class="text-4xl font-bold text-primary1 mb-2">Contact Us For Any Questions</h2>
                 <p class="text-gray-600 font-costum8">
-                    As A Matter Of Fact The Unification Of The Coherent Software Provides A Strict Control Over The
-                    Accomplishment Of Intended Estimation
+                    Let’s collaborate and take your business to the next level. Contact us today to discuss how we can help
+                    you achieve your digital transformation goals.
                 </p>
             </div>
 
