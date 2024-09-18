@@ -20,14 +20,14 @@
                             <h1 class="text-sm sm:text-xl lg:text-5xl font-costum1 text-[#11ace3]">
                                 Innovative Mobile App Solutions
                             </h1>
-                            <p class="text-xs sm:text-sm md:text-base lg:text-lg mt-2 md:mt-5">
+                            <p class="text-[10px] sm:text-sm md:text-base lg:text-lg mt-2 md:mt-5">
                                 Transform your ideas into engaging and high-performance mobile applications. Our team
                                 delivers custom-built apps with intuitive design and seamless functionality across
                                 platforms.
                             </p>
                             <div class=" md:my-7 flex mt-2 gap-4 md:gap-8">
                                 <a href="{{ url('/mobile_app_development') }}"
-                                    class="text-sm sm:text-base md:text-lg p-2 sm:px-2 md:px-5 md:py-3 border-2 rounded-md border-white text-white transition duration-300">
+                                    class="text-[10px] border sm:text-sm ext-base md:text-lg p-2 sm:px-2 md:px-5 md:md:py-3 border-2 rounded-md border-white text-white transition duration-300">
                                     Learn More
                                 </a>
                             </div>
@@ -44,11 +44,11 @@
 
                         <!-- Content -->
                         <div
-                            class="absolute top-1/2 left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
-                            <h1 class="text-2xl sm:text-3xl lg:text-5xl font-costum1 text-[#11ace3]">
+                            class="absolute top-1/2 left-5 md:left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
+                            <h1 class="text-sm sm:text-xl lg:text-5xl font-costum1 text-[#11ace3]">
                                 Custom Web Solutions
                             </h1>
-                            <p class="text-xs sm:text-sm md:text-base lg:text-lg mt-2 md:mt-5">
+                            <p class="text-[10px] sm:text-sm md:text-base lg:text-lg mt-2 md:mt-5">
                                 Build a unique online presence with our custom web development services. We design and
                                 develop responsive, fast, and secure websites that elevate your brand and engage your
                                 audience.
@@ -56,7 +56,7 @@
 
                             <div class="md:my-7 flex mt-2 md:gap-8">
                                 <a href="{{ url('/custom_software_development') }}"
-                                    class="text-sm mr-5 md:text-lg p-2 p-x-3 md:px-5  md:py-3  border-2 rounded-md border-white text-white transition duration-300">
+                                    class="text-[10px] border sm:text-sm  md:text-lg p-2 p-x-3 md:px-5  md:py-3  md:border-2 rounded-md border-white text-white transition duration-300">
                                     Learn More
                                 </a>
                             </div>
@@ -72,11 +72,11 @@
 
                         <!-- Content -->
                         <div
-                            class="absolute top-1/2 left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
-                            <h1 class="text-2xl sm:text-3xl lg:text-5xl font-costum1 text-[#11ace3]">
+                            class="absolute top-1/2 left-5 md:left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
+                            <h1 class="text-sm sm:text-xl lg:text-5xl font-costum1 text-[#11ace3]">
                                 Cloud Hosting Solutions
                             </h1>
-                            <p class="text-xs mt-2 md:text-lg md:mt-5">
+                            <p class="text-[10px] sm:text-sm md:text-base lg:text-lg mt-2 md:mt-5">
                                 Scale your business with ease using our cloud hosting solutions. Our services provide
                                 flexibility, speed, and security, making sure your website can handle growing traffic and
                                 data demands.
@@ -85,7 +85,7 @@
 
                             <div class="md:my-7 flex mt-2 md:gap-8">
                                 <a href="{{ url('/cloud_hosting') }}"
-                                    class="text-sm mr-5 md:text-lg p-2 p-x-3 md:px-5  md:py-3  border-2 rounded-md border-white text-white transition duration-300">
+                                    class="text-[10px] border sm:text-sm  md:text-lg p-2 p-x-3 md:px-5  md:py-3  md:border-2 rounded-md border-white text-white transition duration-300">
                                     Learn More
                                 </a>
                             </div>
@@ -161,8 +161,8 @@
                 <!-- Button -->
                 <a href="{{ url('/about_us') }}"
                     class="inline-block px-8 py-3 font-costum8 text-white bg-primary1 rounded-md hover:bg-primary2 transition-colors"
-                    data-aos="fade-up" data-aos-duration="2000">
-                    Learn More
+                    data-aos="fa[10px] border sm:text-sm data-aos-duration="2000">
+                    md: Learn More
                 </a>
             </div>
         </div>
