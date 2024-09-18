@@ -17,7 +17,7 @@
                         <!-- Content -->
                         <div
                             class="absolute top-1/2 left-5 md:left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
-                            <h1 class="text-xl sm:text-2xl lg:text-5xl font-costum1 text-[#11ace3]">
+                            <h1 class="text-sm sm:text-xl lg:text-5xl font-costum1 text-[#11ace3]">
                                 Innovative Mobile App Solutions
                             </h1>
                             <p class="text-xs sm:text-sm md:text-base lg:text-lg mt-2 md:mt-5">
@@ -25,7 +25,7 @@
                                 delivers custom-built apps with intuitive design and seamless functionality across
                                 platforms.
                             </p>
-                            <div class="md:my-7 flex mt-2 gap-4 md:gap-8">
+                            <div class="my-4 md:my-7 flex mt-2 gap-4 md:gap-8">
                                 <a href="{{ url('/mobile_app_development') }}"
                                     class="text-sm sm:text-base md:text-lg p-2 sm:px-4 md:px-5 md:py-3 border-2 rounded-md border-white text-white transition duration-300">
                                     Learn More
