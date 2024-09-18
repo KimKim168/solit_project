@@ -266,23 +266,28 @@
 
                     <ul class="flex flex-col items-center bg-white text-sm font-Poppins">
                         <li class="py-2 hover:bg-slate-200 w-full text-center border-b">
-                            <a href="{{ url('/') }}"class="text-blue-500">Home</a>
+                            <a
+                                href="{{ url('/') }}"class="{{ request()->is('/') ? 'text-blue-600' : 'text-black' }}">Home</a>
                         </li>
                         <li class="py-2 hover:bg-slate-200 w-full text-center border-b">
-                            <a href="{{ url('/about_us') }}" class="hover:text-blue-500">
+                            <a href="{{ url('/about_us') }}"
+                                class="{{ request()->is('about_us') ? 'text-blue-600' : 'text-black' }}">
                                 About Us
                             </a>
                         </li>
                         <li class="py-2 hover:bg-slate-200 w-full text-center border-b">
-                            <a href="{{ url('/service') }}" class="hover:text-blue-500">
+                            <a href="{{ url('/service') }}"
+                                class="{{ request()->is('service') ? 'text-blue-600' : 'text-black' }}">
                                 Services
                             </a>
                         </li>
 
                         <li class="py-2 hover:bg-slate-200 w-full text-center border-b"><a href="{{ url('/product') }}"
-                                class="hover:text-blue-500">Products</a></li>
+                                class="{{ request()->is('product') ? 'text-blue-600' : 'text-black' }}">Products</a>
+                        </li>
                         <li class="py-2 hover:bg-slate-200 w-full text-center border-b"><a href="{{ url('/contact') }}"
-                                class="hover:text-blue-500">Contact</a></li>
+                                class="{{ request()->is('contact') ? 'text-blue-600' : 'text-black' }}">Contact</a>
+                        </li>
                     </ul>
                 </div>
             </div>

@@ -17,13 +17,12 @@
                     clients across various sectors. Our expertise ensures that we offer innovative and reliable solutions
                     that drive business growth and digital transformation.
                 </p>
-                <div class="space-y-6 grid grid-cols-2">
+                <div class="space-y-6 grid grid-cols-1 sm:grid-cols-2 ">
                     <!-- Feature 1 -->
                     <div class="flex items-center">
                         <div class="bg-blue-100 p-4 rounded-full" data-aos="fade-up" data-aos-duration="1000">
-                            <img src="https://demo.ajufbox.com/solit/assets/images/icons/best-practice.png"
-                                class="w-6 h-6 text-blue-600" fill="currentColor"
-                                viewBox="0 0 20 20"><!-- Icon SVG --></img>
+                            <img src="{{ asset('assets/images/app-design.png') }}" class="w-6 h-6 text-blue-600"
+                                fill="currentColor" viewBox="0 0 20 20"><!-- Icon SVG --></img>
                         </div>
                         <div class="ml-4" data-aos="fade-up" data-aos-duration="1000">
                             <h3 class="text-sm font-semibold">Web Development and Design</h3>
@@ -33,9 +32,8 @@
                     <!-- Feature 2 -->
                     <div class="flex items-center" data-aos="fade-up" data-aos-duration="1000">
                         <div class="bg-blue-100 p-4 rounded-full">
-                            <img src="https://demo.ajufbox.com/solit/assets/images/icons/expertise.png"
-                                class="w-6 h-6 text-blue-600" fill="currentColor"
-                                viewBox="0 0 20 20"><!-- Icon SVG --></img>
+                            <img src="{{ asset('assets/images/seo.png') }}" class="w-6 h-6 text-blue-600"
+                                fill="currentColor" viewBox="0 0 20 20"><!-- Icon SVG --></img>
                         </div>
                         <div class="ml-4" data-aos="fade-up" data-aos-duration="1000">
                             <h3 class="text-sm font-semibold">SEO and Digital Marketing</h3>
@@ -45,9 +43,8 @@
                     <!-- Feature 3 -->
                     <div class="flex items-center" data-aos="fade-up" data-aos-duration="1000">
                         <div class="bg-blue-100 p-4 rounded-full">
-                            <img src="https://demo.ajufbox.com/solit/assets/images/icons/expertise.png"
-                                class="w-6 h-6 text-blue-600" fill="currentColor"
-                                viewBox="0 0 20 20"><!-- Icon SVG --></img>
+                            <img src="{{ asset('assets/images/mobile.png') }}" class="w-6 h-6 text-blue-600"
+                                fill="currentColor" viewBox="0 0 20 20"><!-- Icon SVG --></img>
                         </div>
                         <div class="ml-4" data-aos="fade-up" data-aos-duration="1000">
                             <h3 class="text-sm font-semibold">Mobile App Development</h3>
@@ -58,9 +55,8 @@
                     <!-- Feature 4 -->
                     <div class="flex items-center" data-aos="fade-up" data-aos-duration="1000">
                         <div class="bg-blue-100 p-4 rounded-full">
-                            <img src="https://demo.ajufbox.com/solit/assets/images/icons/expertise.png"
-                                class="w-6 h-6 text-blue-600" fill="currentColor"
-                                viewBox="0 0 20 20"><!-- Icon SVG --></img>
+                            <img src="{{ asset('assets/images/custom-software.png') }}" class="w-6 h-6 text-blue-600"
+                                fill="currentColor" viewBox="0 0 20 20"><!-- Icon SVG --></img>
                         </div>
                         <div class="ml-4" data-aos="fade-up" data-aos-duration="1000">
                             <h3 class="text-sm font-semibold">Custom Software Development</h3>
@@ -70,9 +66,8 @@
                     <!-- Feature 5 -->
                     <div class="flex items-center" data-aos="fade-up" data-aos-duration="1000">
                         <div class="bg-blue-100 p-4 rounded-full">
-                            <img src="https://demo.ajufbox.com/solit/assets/images/icons/expertise.png"
-                                class="w-6 h-6 text-blue-600" fill="currentColor"
-                                viewBox="0 0 20 20"><!-- Icon SVG --></img>
+                            <img src="{{ asset('assets/images/cloud.png') }}" class="w-6 h-6 text-blue-600"
+                                fill="currentColor" viewBox="0 0 20 20"><!-- Icon SVG --></img>
                         </div>
                         <div class="ml-4" data-aos="fade-up" data-aos-duration="1000">
                             <h3 class="text-sm font-semibold">Cloud Hosting</h3>
@@ -86,13 +81,13 @@
                 <img src="https://demo.ajufbox.com/solit/assets/images/about-us/about-us-1.jpg" alt="Team Working"
                     class="rounded-tl-[200px] rounded-br-[200px] rounded-bl-[100px] rounded-tr-[100px] shadow-lg ">
                 <div class="absolute md:-top-2 md:-right-7 -top-2 -right-5 bg-zinc-50/70  rounded-lg p-2 md:p-3 lg:p-4">
-                    <span class="text-xl font-bold text-blue-600">100+</span>
-                    <p class="text-gray-500  text-[12px]">Satisfied Clients</p>
+                    <span class="sm:text-xl font-bold text-blue-600">100+</span>
+                    <p class="text-gray-500 text-[10px]  sm:text-[12px]">Satisfied Clients</p>
                 </div>
                 <div
                     class="absolute md:bottom-4 lg:-left-2  -left-2 bottom-4 bg-zinc-50/70 rounded-lg shadow p-2 md:p-3 lg:p-4">
-                    <span class="text-xl font-bold text-blue-600">15+</span>
-                    <p class="text-gray-500  text-[12px]">Years of Experience</p>
+                    <span class="sm:text-xl font-bold text-blue-600">15+</span>
+                    <p class="text-gray-500 text-[10px]  sm:text-[12px]">Years of Experience</p>
                 </div>
             </div>
         </div>
@@ -102,7 +97,7 @@
     <section class="mt-20 p-5">
         <div class="max-w-screen-xl mx-auto ">
             <div class="">
-                <h1 class="font-costum5 text-5xl">
+                <h1 class="font-costum5 text-3xl sm:text-5xl">
                     Our Mission
                 </h1>
                 <p class="text-base max-w-[500px] text-justify mt-5">
@@ -116,9 +111,9 @@
     </section>
     {{-- End completed project --}}
 
-    <section class="py-10 lg:mt-20  px-4">
+    <section class="mb-10 mt-5   lg:mt-20  px-4">
         <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8">
-            <div class="mb-8 md:col-span-4">
+            <div class="sm:mb-8 md:col-span-4">
                 <span
                     class="inline-block text-sm text-blue-500 font-semibold mb-2 bg-blue-100 px-3 py-1 rounded-full">Benefits</span>
                 <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Why Choose Us?</h2>
@@ -169,8 +164,8 @@
                 <div class="bg-gray-50 p-6 rounded-lg shadow-md text-center">
                     <div class="text-blue-500 mb-4">
                         <!-- Icon -->
-                        <img src="https://demo.ajufbox.com/solit/assets/images/icons/clean-design.png"
-                            class="w-14 mx-auto" alt="Clean and Minimal Icon">
+                        <img src="{{ asset('assets/images/solution1.png') }}" class="w-14 mx-auto"
+                            alt="Clean and Minimal Icon">
                     </div>
                     <h3 class="text-lg md:text-xl font-semibold text-gray-900 mb-2">End-to-End Solutions</h3>
                     <p class="text-gray-600 text-sm md:text-base">

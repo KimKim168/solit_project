@@ -5,10 +5,10 @@
 
         <div class=" p-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
             <div class="mx-auto text-center max-w-full space-y-2">
-                <button class="py-2 px-6 bg-primary1 text-white rounded-full text-xl font-costum4 tracking-normal">
+                <button class="py-2 px-6 bg-primary1 text-white rounded-full sm:text-xl font-costum4 tracking-normal">
                     What We Do For You
                 </button>
-                <h1 class="font-costum4 text-white text-xl mx-auto text-center max-w-[600px] leading-normal line-clamp-3">
+                <h1 class="font-costum4 text-white sm:text-xl mx-auto text-center max-w-[600px] leading-normal line-clamp-3">
                     With over 15 years of industry experience, our company is a leading provider of cutting-edge technology
                     solutions. We specialize in delivering a wide range of services tailored to meet the unique needs of our
                     clients across various sectors. Our expertise ensures that we offer innovative and reliable solutions
@@ -20,14 +20,12 @@
                     consectetur adipiscing elita florai psum dolor ectetuolor sit amet, consectetur adipiscine.
                 </p> --}}
             </div>
-
-
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 font-costum3 gap-6 mt-6">
                 <div
                     class="w-full bg-white border text-center p-3 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
-                        <img class="rounded-t-lg w-[40%] mx-auto mt-4" src="{{ asset('assets/images/digital-services.png') }}"
-                            alt="" />
+                        <img class="rounded-t-lg w-[30%] sm:w-[40%] mx-auto mt-4"
+                            src="{{ asset('assets/images/app-design.png') }}" alt="" />
                     </a>
                     <div class="p-5">
                         <a href="#">
@@ -50,8 +48,8 @@
                 <div
                     class="w-full bg-white border text-center p-3 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
-                        <img class="rounded-t-lg w-[40%] mx-auto mt-4"
-                            src="{{ asset('assets/images/digital-services.png') }}" alt="" />
+                        <img class="rounded-t-lg  w-[30%] sm:w-[40%] mx-auto mt-4"
+                            src="{{ asset('assets/images/seo.png') }}" alt="" />
                     </a>
                     <div class="p-5">
                         <a href="#">
@@ -74,8 +72,8 @@
                 <div
                     class="w-full bg-white border text-center p-3 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
-                        <img class="rounded-t-lg w-[40%] mx-auto mt-4"
-                            src="{{ asset('assets/images/digital-services.png') }}" alt="" />
+                        <img class="rounded-t-lg  w-[30%] sm:w-[40%] mx-auto mt-4"
+                            src="{{ asset('assets/images/mobile.png') }}" alt="" />
                     </a>
                     <div class="p-5">
                         <a href="#">
@@ -97,8 +95,8 @@
                 <div
                     class="w-full bg-white border text-center p-3 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
-                        <img class="rounded-t-lg w-[40%] mx-auto mt-4"
-                            src="{{ asset('assets/images/digital-services.png') }}" alt="" />
+                        <img class="rounded-t-lg  w-[30%] sm:w-[40%] mx-auto mt-4"
+                            src="{{ asset('assets/images/custom-software.png') }}" alt="" />
                     </a>
                     <div class="p-5">
                         <a href="#">
@@ -120,8 +118,8 @@
                 <div
                     class="w-full bg-white border text-center p-3 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
-                        <img class="rounded-t-lg w-[40%] mx-auto mt-4"
-                            src="{{ asset('assets/images/digital-services.png') }}" alt="" />
+                        <img class="rounded-t-lg  w-[30%] sm:w-[40%] mx-auto mt-4"
+                            src="{{ asset('assets/images/cloud.png') }}" alt="" />
                     </a>
                     <div class="p-5">
                         <a href="#">
