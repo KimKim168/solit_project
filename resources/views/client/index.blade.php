@@ -25,9 +25,9 @@
                                 delivers custom-built apps with intuitive design and seamless functionality across
                                 platforms.
                             </p>
-                            <div class="my-4 md:my-7 flex mt-2 gap-4 md:gap-8">
+                            <div class=" md:my-7 flex mt-2 gap-4 md:gap-8">
                                 <a href="{{ url('/mobile_app_development') }}"
-                                    class="text-sm sm:text-base md:text-lg p-2 sm:px-4 md:px-5 md:py-3 border-2 rounded-md border-white text-white transition duration-300">
+                                    class="text-sm sm:text-base md:text-lg p-2 sm:px-2 md:px-5 md:py-3 border-2 rounded-md border-white text-white transition duration-300">
                                     Learn More
                                 </a>
                             </div>
