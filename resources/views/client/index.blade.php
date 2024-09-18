@@ -16,7 +16,7 @@
 
                         <!-- Content -->
                         <div
-                            class="absolute top-1/2 left-5 md:left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
+                            class="absolute top-1/2 left-[50%] md:left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
                             <h1 class="text-sm sm:text-xl lg:text-5xl font-costum1 text-[#11ace3]">
                                 Innovative Mobile App Solutions
                             </h1>
@@ -44,7 +44,7 @@
 
                         <!-- Content -->
                         <div
-                            class="absolute top-1/2 left-5 md:left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
+                            class="absolute top-1/2 left-[50%] md:left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
                             <h1 class="text-sm sm:text-xl lg:text-5xl font-costum1 text-[#11ace3]">
                                 Custom Web Solutions
                             </h1>
@@ -72,7 +72,7 @@
 
                         <!-- Content -->
                         <div
-                            class="absolute top-1/2 left-5 md:left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
+                            class="absolute top-1/2 left-[50%] md:left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
                             <h1 class="text-sm sm:text-xl lg:text-5xl font-costum1 text-[#11ace3]">
                                 Cloud Hosting Solutions
                             </h1>
@@ -162,7 +162,7 @@
                 <a href="{{ url('/about_us') }}"
                     class="inline-block px-8 py-3 font-costum8 text-white bg-primary1 rounded-md hover:bg-primary2 transition-colors"
                     data-aos="fa[10px] border sm:text-sm data-aos-duration="2000">
-                    md: Learn More
+                    Learn More
                 </a>
             </div>
         </div>
