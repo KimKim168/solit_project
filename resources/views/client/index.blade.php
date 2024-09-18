@@ -17,7 +17,7 @@
                         <!-- Content -->
                         <div
                             class="absolute top-1/2 left-5 md:left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
-                            <h1 class="text-2xl sm:text-3xl lg:text-5xl font-costum1 text-[#11ace3]">
+                            <h1 class="text-xl sm:text-2xl lg:text-5xl font-costum1 text-[#11ace3]">
                                 Innovative Mobile App Solutions
                             </h1>
                             <p class="text-xs sm:text-sm md:text-base lg:text-lg mt-2 md:mt-5">
