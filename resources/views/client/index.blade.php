@@ -27,7 +27,7 @@
                             </p>
                             <div class=" md:my-7 flex mt-2 gap-4 md:gap-8">
                                 <a href="{{ url('/mobile_app_development') }}"
-                                    class="text-[10px] border sm:text-sm ext-base md:text-lg p-2 sm:px-2 md:px-5 md:md:py-3 border-2 rounded-md border-white text-white transition duration-300">
+                                    class="text-[8px] border sm:text-sm  md:text-lg p-1 p-x-3 md:px-5  md:py-3  md:border-2 rounded-md border-white text-white transition duration-300">
                                     Learn More
                                 </a>
                             </div>
@@ -56,7 +56,7 @@
 
                             <div class="md:my-7 flex mt-2 md:gap-8">
                                 <a href="{{ url('/custom_software_development') }}"
-                                    class="text-[10px] border sm:text-sm  md:text-lg p-1 p-x-3 md:px-5  md:py-3  md:border rounded-md border-white text-white transition duration-300">
+                                    class="text-[8px] border sm:text-sm  md:text-lg p-1 p-x-3 md:px-5  md:py-3  md:border-2 rounded-md border-white text-white transition duration-300">
                                     Learn More
                                 </a>
                             </div>
@@ -85,7 +85,7 @@
 
                             <div class="md:my-7 flex mt-2 md:gap-8">
                                 <a href="{{ url('/cloud_hosting') }}"
-                                    class="text-[10px] border sm:text-sm  md:text-lg p-1 p-x-3 md:px-5  md:py-3  md:border rounded-md border-white text-white transition duration-300">
+                                    class="text-[8px] border sm:text-sm  md:text-lg p-1 p-x-3 md:px-5  md:py-3  md:border-2 rounded-md border-white text-white transition duration-300">
                                     Learn More
                                 </a>
                             </div>
