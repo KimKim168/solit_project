@@ -16,7 +16,7 @@
 
                         <!-- Content -->
                         <div
-                            class="absolute top-1/2 left-[50%] md:left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
+                            class="absolute top-1/2 left-3 md:left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
                             <h1 class="text-sm sm:text-xl lg:text-5xl font-costum1 text-[#11ace3]">
                                 Innovative Mobile App Solutions
                             </h1>
@@ -44,7 +44,7 @@
 
                         <!-- Content -->
                         <div
-                            class="absolute top-1/2 left-[50%] md:left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
+                            class="absolute top-1/2 left-3 md:left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
                             <h1 class="text-sm sm:text-xl lg:text-5xl font-costum1 text-[#11ace3]">
                                 Custom Web Solutions
                             </h1>
@@ -72,7 +72,7 @@
 
                         <!-- Content -->
                         <div
-                            class="absolute top-1/2 left-[50%] md:left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
+                            class="absolute top-1/2 left-3 md:left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
                             <h1 class="text-sm sm:text-xl lg:text-5xl font-costum1 text-[#11ace3]">
                                 Cloud Hosting Solutions
                             </h1>
