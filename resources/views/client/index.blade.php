@@ -102,7 +102,7 @@
     <!-- End transform -->
     <!-- strat middle -->
     <section class="max-w-screen-xl mx-auto mt-32 overflow-hidden px-4">
-        <div class="p-10  flex flex-col lg:flex-row gap-10 mx-auto max-w-screen-xl lg:px-6">
+        <div class="sm:p-10  flex flex-col lg:flex-row gap-10 mx-auto max-w-screen-xl lg:px-6">
             <!-- Image Section -->
             <div class="relative md:px-10 w-full md:mr-10 md:w-10/12 lg:w-1/2 aspect-square mx-auto"
                 data-aos="zoom-out-left" data-aos-duration="1000">
