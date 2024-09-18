@@ -4,7 +4,7 @@
         <div class="max-w-screen-xl mx-auto px-4 py-12">
             <!-- Contact Header -->
             <div class="mb-8">
-                <h2 class="text-4xl font-bold text-primary1 mb-2">Contact Us For Any Questions</h2>
+                <h2 class="text-2xl font-bold text-primary1 mb-2">Contact Us For Any Questions</h2>
                 <p class="text-gray-600 font-costum8">
                     Let’s collaborate and take your business to the next level. Contact us today to discuss how we can help
                     you achieve your digital transformation goals.
@@ -27,14 +27,14 @@
                                 <!-- Phone Icon -->
                                 <img src="{{ asset('assets/images/phone.png') }}" class="w-10">
                             </span>
-                            <span class="text-lg">+123 456 6789</span>
+                            <span class="text-lg">010775589</span>
                         </li>
                         <li class="flex items-center">
                             <span class=" mr-3">
                                 <!-- Location Icon -->
                                 <img src="{{ asset('assets/images/gps.png') }}" class="w-10">
                             </span>
-                            <span class="text-lg">A108 Adam Street, New York, NY 535022</span>
+                            <span class="text-lg">Phnom Penh, Cambodia</span>
                         </li>
 
                     </ul>

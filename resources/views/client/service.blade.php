@@ -8,7 +8,7 @@
                 <button class="py-2 px-6 bg-primary1 text-white rounded-full text-xl font-costum4 tracking-normal">
                     What We Do For You
                 </button>
-                <h1 class="font-costum9 text-white text-xl mx-auto text-center max-w-[600px] leading-normal line-clamp-3">
+                <h1 class="font-costum4 text-white text-xl mx-auto text-center max-w-[600px] leading-normal line-clamp-3">
                     With over 15 years of industry experience, our company is a leading provider of cutting-edge technology
                     solutions. We specialize in delivering a wide range of services tailored to meet the unique needs of our
                     clients across various sectors. Our expertise ensures that we offer innovative and reliable solutions

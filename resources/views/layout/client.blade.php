@@ -18,6 +18,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.0/css/glightbox.css" />
+    <link rel="stylesheet" href="js/app.js">
     <style>
         @font-face {
             font-family: "Costum1";
@@ -224,16 +225,26 @@
                 </div>
                 <div class="flex items-center space-x-5 md:space-x-10">
                     <!-- Menu for larger screens -->
-                    <ul class="hidden lg:flex gap-8 text-sm font-Poppins items-center">
-                        <li><a href="{{ url('/') }}" class="text-blue-500">Home</a></li>
-                        <li><a href="{{ url('/about_us') }}" class="hover:text-blue-500">About Us</a></li>
-                        <li><a href="{{ url('/service') }}" class="hover:text-blue-500">Services</a></li>
-                        <li><a href="#" class="hover:text-blue-500">Products</a></li>
-                        <li><a href="{{ url('/contact') }}" class="hover:text-blue-500">Contact</a></li>
+                    <ul class="hidden lg:flex gap-8 text-[16px] items-center">
+                        <li><a href="{{ url('/') }}"
+                                class="{{ request()->is('/') ? 'text-blue-600' : 'text-black' }}">Home</a></li>
+                        <li><a href="{{ url('/about_us') }}"
+                                class="{{ request()->is('about_us') ? 'text-blue-600' : 'text-black' }}">About Us</a>
+                        </li>
+                        <li><a href="{{ url('/service') }}"
+                                class="{{ request()->is('service') ? 'text-blue-600' : 'text-black' }}">Services</a>
+                        </li>
+                        <li><a href="{{ url('/product') }}"
+                                class="{{ request()->is('product') ? 'text-blue-600' : 'text-black' }}">Products</a>
+                        </li>
+                        <li><a href="{{ url('/contact') }}"
+                                class="{{ request()->is('contact') ? 'text-blue-600' : 'text-black' }}">Contact</a>
+                        </li>
                     </ul>
                     <!-- Chat Button - visible on all screen sizes -->
                     <div>
-                        <a href="#" class="p-2 md:p-4 bg-[#43428d] text-white hover:bg-[#3a3e67] rounded-md">
+                        <a href="#"
+                            class="p-2 md:p-4 bg-[#43428d] text-[16px] text-white hover:bg-[#3a3e67] rounded-md">
                             Chat with Us
                         </a>
                     </div>
@@ -268,7 +279,7 @@
                             </a>
                         </li>
 
-                        <li class="py-2 hover:bg-slate-200 w-full text-center border-b"><a href="#"
+                        <li class="py-2 hover:bg-slate-200 w-full text-center border-b"><a href="{{ url('/product') }}"
                                 class="hover:text-blue-500">Products</a></li>
                         <li class="py-2 hover:bg-slate-200 w-full text-center border-b"><a href="{{ url('/contact') }}"
                                 class="hover:text-blue-500">Contact</a></li>
@@ -302,7 +313,7 @@
                                 d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
                             <circle cx="12" cy="10" r="3" />
                         </svg>
-                        1234 Sunshine Boulevard, Los Angeles, CA 90001
+                        Phnom Penh, Cambodia
                     </li>
                     <li class="flex items-center  gap-5 mb-2">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -313,7 +324,7 @@
                             <path d="M14.05 2a9 9 0 0 1 8 7.94" />
                             <path d="M14.05 6A5 5 0 0 1 18 10" />
                         </svg>
-                        +123 777 8888<br>+123 456 789
+                        010775589
                     </li>
                     <li class="flex items-center  gap-5 mb-2">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -332,15 +343,16 @@
             <div>
                 <h2 class="text-white font-bold mb-4">Menu</h2>
                 <ul class="space-y-2">
-                    <li><a href="#" class="hover:text-white">Company</a></li>
-                    <li><a href="#" class="hover:text-white">Careers</a></li>
-                    <li><a href="#" class="hover:text-white">Press Media</a></li>
-                    <li><a href="#" class="hover:text-white">Our Blog</a></li>
-                    <li><a href="#" class="hover:text-white">Privacy Policy</a></li>
+                    <li><a href="{{ url('/') }}" class="hover:text-white">Home</a></li>
+                    <li><a href="{{ url('/about_us') }}" class="hover:text-white"> About Us</a></li>
+                    <li><a href="{{ url('/service') }}" class="hover:text-white">Services</a></li>
+                    <li><a href="{{ url('/product') }}" class="hover:text-white">Products</a></li>
+                    <li><a href="{{ url('/contact') }}" class="hover:text-white">Contact</a></li>
                 </ul>
             </div>
+            {{-- Social Media --}}
             <div>
-                <h2 class="text-white font-bold mb-4">social media</h2>
+                <h2 class="text-white font-bold mb-4">Social Media</h2>
                 <div class="flex gap-4 mt-6 md:mt-0">
                     <!-- Facebook icons -->
                     <a href="#" class="bg-[#252443] p-2 rounded-md hover:bg-blue-600">
@@ -380,8 +392,6 @@
                 <img src="https://demo.ajufbox.com/solit/assets/images/logo-solit-light.png" class="w-20 mb-2"
                     alt="Footer Logo">
             </div>
-
-
         </div>
         <div class="max-w-screen-xl mx-auto px-4">
             <p class="text-xs ">&copy; Solit | All Rights Reserved</p>

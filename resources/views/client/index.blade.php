@@ -3,10 +3,10 @@
     <!-- Strat transform -->
     <div id="controls-carousel" class="relative w-full mt-20">
         <!-- Carousel wrapper -->
-        <div class="relative aspect-[16/6] w-full overflow-hidden rounded-lg">
+        <div class="relative aspect-[16/6] w-full overflow-hidden ">
             <!-- Swiper -->
-            <swiper-container class="mySwiper w-full h-full" pagination="true" navigation="true" space-between="30"
-                centered-slides="true" autoplay-delay="3000" autoplay-disable-on-interaction="false">
+            <swiper-container class="mySwiper w-full h-full" centered-slides="true" autoplay-delay="4000"
+                autoplay-disable-on-interaction="false">
                 <!-- slide 1 -->
                 <swiper-slide class="w-full h-full">
                     <div class="flex h-full w-full relative bg-cover bg-center bg-blend-multiply" data-carousel-item
@@ -16,22 +16,23 @@
 
                         <!-- Content -->
                         <div
-                            class="absolute top-1/2 left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
-                            <h1 class="text-2xl lg:text-5xl font-costum1 text-[#11ace3]">
+                            class="absolute top-1/2 left-5 md:left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
+                            <h1 class="text-2xl sm:text-3xl lg:text-5xl font-costum1 text-[#11ace3]">
                                 Innovative Mobile App Solutions
                             </h1>
-                            <p class="text-xs mt-2 md:text-lg md:mt-5">
+                            <p class="text-xs sm:text-sm md:text-base lg:text-lg mt-2 md:mt-5">
                                 Transform your ideas into engaging and high-performance mobile applications. Our team
                                 delivers custom-built apps with intuitive design and seamless functionality across
                                 platforms.
                             </p>
-                            <div class="md:my-7 flex mt-2 md:gap-8">
+                            <div class="md:my-7 flex mt-2 gap-4 md:gap-8">
                                 <a href="{{ url('/mobile_app_development') }}"
-                                    class="text-sm mr-5 md:text-lg p-2 p-x-3 md:px-5  md:py-3  border-2 rounded-md border-white text-white transition duration-300">
+                                    class="text-sm sm:text-base md:text-lg p-2 sm:px-4 md:px-5 md:py-3 border-2 rounded-md border-white text-white transition duration-300">
                                     Learn More
                                 </a>
                             </div>
                         </div>
+
                     </div>
                 </swiper-slide>
                 <!-- slide 2 -->
@@ -44,10 +45,10 @@
                         <!-- Content -->
                         <div
                             class="absolute top-1/2 left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
-                            <h1 class="text-2xl lg:text-5xl font-costum1 text-[#11ace3]">
+                            <h1 class="text-2xl sm:text-3xl lg:text-5xl font-costum1 text-[#11ace3]">
                                 Custom Web Solutions
                             </h1>
-                            <p class="text-xs mt-2 md:text-lg md:mt-5">
+                            <p class="text-xs sm:text-sm md:text-base lg:text-lg mt-2 md:mt-5">
                                 Build a unique online presence with our custom web development services. We design and
                                 develop responsive, fast, and secure websites that elevate your brand and engage your
                                 audience.
@@ -62,7 +63,6 @@
                         </div>
                     </div>
                 </swiper-slide>
-
                 <!-- slide 3 -->
                 <swiper-slide class="w-full h-full">
                     <div class="flex h-full w-full relative bg-cover bg-center bg-blend-multiply" data-carousel-item
@@ -73,7 +73,7 @@
                         <!-- Content -->
                         <div
                             class="absolute top-1/2 left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
-                            <h1 class="text-2xl lg:text-5xl font-costum1 text-[#11ace3]">
+                            <h1 class="text-2xl sm:text-3xl lg:text-5xl font-costum1 text-[#11ace3]">
                                 Cloud Hosting Solutions
                             </h1>
                             <p class="text-xs mt-2 md:text-lg md:mt-5">
@@ -127,29 +127,35 @@
                 </div>
                 <h2 class="mb-4 text-3xl md:text-5xl font-costum4 leading-normal font-bold" data-aos="zoom-out-right"
                     data-aos-duration="1000">
-                    Our Technology Enables You to Enjoy the Finest Software Experience
+                    Company Profile
                 </h2>
-                <p class="mb-6 text-sm md:text-base text-text_color2">
-                    Ut sem nulla pharetra diam sit amet nisl suscipit adipiscing bibendum est ultricies integer quis
-                    auctor elit sed vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar
+                <p class="mb-6 text-sm md:text-base text-text_color2 line-clamp-2">
+                    With over 15 years of industry experience, our company is a leading provider of cutting-edge technology
+                    solutions. We specialize in delivering a wide range of services tailored to meet the unique needs of our
+                    clients across various sectors. Our expertise ensures that we offer innovative and reliable solutions
+                    that drive business growth and digital transformation.
                 </p>
                 <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6 text-text_color2" data-aos="fade-up"
                     data-aos-duration="1000">
                     <li class="flex items-center space-x-2">
                         <span class="text-blue-500">&#10003;</span>
-                        <span>Holistic Approach</span>
+                        <span>Web Development and Design</span>
                     </li>
                     <li class="flex items-center space-x-2">
                         <span class="text-blue-500">&#10003;</span>
-                        <span>Proven Track Record</span>
+                        <span>SEO and Digital Marketing</span>
                     </li>
                     <li class="flex items-center space-x-2">
                         <span class="text-blue-500">&#10003;</span>
-                        <span>Attention to Detail</span>
+                        <span>Mobile App Development</span>
                     </li>
                     <li class="flex items-center space-x-2">
                         <span class="text-blue-500">&#10003;</span>
-                        <span>Collaborative Communication</span>
+                        <span>Custom Software Development</span>
+                    </li>
+                    <li class="flex items-center space-x-2">
+                        <span class="text-blue-500">&#10003;</span>
+                        <span>Cloud Hosting</span>
                     </li>
                 </ul>
                 <!-- Button -->
@@ -161,7 +167,6 @@
             </div>
         </div>
     </section>
-
     <!-- End middle -->
 
     <!-- Strat Section -->
@@ -378,7 +383,7 @@
         <div class="text-center mb-8">
             <p class=" font-costum4 bg-primary1 text-white inline-block p-2 px-4 rounded-full text-xl">Our Blog
             </p>
-            <h2 class="text-4xl font-costum5 text-white mt-4">Latest News and Updates</h2>
+            <h2 class="text-2xl font-costum4 text-white mt-4">Latest News and Updates</h2>
         </div>
 
         <!-- Blog Cards -->

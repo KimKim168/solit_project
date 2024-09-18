@@ -26,6 +26,10 @@ Route::get('/service', function () {
     return view('client.service');
 });
 
+Route::get('/product', function () {
+    return view('client.product');
+});
+
 Route::get('/detail', function () {
     return view('client.detail');
 });
