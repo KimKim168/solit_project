@@ -7,6 +7,8 @@
     <title>
         Cora Soft Solution
     </title>
+    <link rel="icon" type="image/png" href="{{ asset('assets/images/Cora.png') }}">
+
     <script src="https://cdn.tailwindcss.com"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
