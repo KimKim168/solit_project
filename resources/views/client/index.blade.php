@@ -3,7 +3,7 @@
     <!-- Strat transform -->
     <div id="controls-carousel" class="relative w-full mt-20">
         <!-- Carousel wrapper -->
-        <div class="relative aspect-[16/6] sm:aspect-[16/4]  w-full overflow-hidden ">
+        <div class="relative md:aspect-[16/4]  w-full overflow-hidden ">
             <!-- Swiper -->
             <swiper-container class="mySwiper w-full h-full" centered-slides="true" autoplay-delay="4000"
                 autoplay-disable-on-interaction="false">
@@ -17,17 +17,17 @@
                         <!-- Content -->
                         <div
                             class="absolute top-1/2 left-3 md:left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
-                            <h1 class="text-[13px] sm:text-xl lg:text-5xl font-costum1 text-[#11ace3]">
+                            <h1 class="text-sm sm:text-xl lg:text-5xl font-costum1 text-[#11ace3]">
                                 Innovative Mobile App Solutions
                             </h1>
-                            <p class="text-[8px] sm:text-sm md:text-base lg:text-lg  md:mt-5">
+                            <p class="text-[10px] sm:text-sm md:text-base lg:text-lg mt-2 md:mt-5">
                                 Transform your ideas into engaging and high-performance mobile applications. Our team
                                 delivers custom-built apps with intuitive design and seamless functionality across
                                 platforms.
                             </p>
                             <div class="md:my-7 flex mt-2  md:gap-8">
                                 <a href="{{ url('/mobile_app_development') }}"
-                                    class="text-[6px] border sm:text-sm  md:text-lg p-1 p-x-3 md:px-5  md:py-3  md:border-2 rounded-md border-white text-white transition duration-300">
+                                    class="text-[8px] border sm:text-sm  md:text-lg p-1 p-x-3 md:px-5  md:py-3  md:border-2 rounded-md border-white text-white transition duration-300"">
                                     Learn More
                                 </a>
                             </div>
@@ -46,10 +46,10 @@
                         <!-- Content -->
                         <div
                             class="absolute top-1/2 left-3 md:left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
-                            <h1 class="text-[13px] sm:text-xl lg:text-5xl font-costum1 text-[#11ace3]">
+                            <h1 class="text-sm sm:text-xl lg:text-5xl font-costum1 text-[#11ace3]">
                                 Custom Web Solutions
                             </h1>
-                            <p class="text-[8px] sm:text-sm md:text-base lg:text-lg  md:mt-5">
+                            <p class="text-[10px] sm:text-sm md:text-base lg:text-lg mt-2 md:mt-5">
                                 Build a unique online presence with our custom web development services. We design and
                                 develop responsive, fast, and secure websites that elevate your brand and engage your
                                 audience.
@@ -57,7 +57,7 @@
 
                             <div class="md:my-7 flex mt-2 md:gap-8">
                                 <a href="{{ url('/custom_software_development') }}"
-                                    class="text-[6px] border sm:text-sm  md:text-lg p-1 p-x-3 md:px-5  md:py-3  md:border-2 rounded-md border-white text-white transition duration-300">
+                                    class="text-[8px] border sm:text-sm  md:text-lg p-1 p-x-3 md:px-5  md:py-3  md:border-2 rounded-md border-white text-white transition duration-300">
                                     Learn More
                                 </a>
                             </div>
@@ -74,10 +74,10 @@
                         <!-- Content -->
                         <div
                             class="absolute top-1/2 left-3 md:left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
-                            <h1 class="text-[13px] sm:text-xl lg:text-5xl font-costum1 text-[#11ace3]">
+                            <h1 class="text-sm sm:text-xl lg:text-5xl font-costum1 text-[#11ace3]">
                                 Cloud Hosting Solutions
                             </h1>
-                            <p class="text-[8px] sm:text-sm md:text-base lg:text-lg  md:mt-5">
+                            <p class="text-[10px] sm:text-sm md:text-base lg:text-lg mt-2 md:mt-5">
                                 Scale your business with ease using our cloud hosting solutions. Our services provide
                                 flexibility, speed, and security, making sure your website can handle growing traffic and
                                 data demands.
@@ -86,7 +86,7 @@
 
                             <div class="md:my-7 flex mt-2 md:gap-8">
                                 <a href="{{ url('/cloud_hosting') }}"
-                                    class="text-[6px] border sm:text-sm  md:text-lg p-1 p-x-3 md:px-5  md:py-3  md:border-2 rounded-md border-white text-white transition duration-300">
+                                    class="text-[8px] border sm:text-sm  md:text-lg p-1 p-x-3 md:px-5  md:py-3  md:border-2 rounded-md border-white text-white transition duration-300">
                                     Learn More
                                 </a>
                             </div>
@@ -128,7 +128,7 @@
                 </div>
                 <h2 class="mb-4 text-3xl md:text-5xl font-costum4 leading-normal font-bold" data-aos="zoom-out-right"
                     data-aos-duration="1000">
-                    Company Profile
+                    Cora Soft Solution
                 </h2>
                 <p class="mb-6 text-sm md:text-base text-text_color2 line-clamp-2">
                     With over 15 years of industry experience, our company is a leading provider of cutting-edge technology
@@ -306,6 +306,28 @@
                         </a>
                     </div>
                 </div>
+                <div
+                    class="w-full bg-white border text-center p-3 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <img class="rounded-t-lg  w-[30%] sm:w-[40%] mx-auto mt-4"
+                            src="{{ asset('assets/images/it.png') }}" alt="" />
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-xl md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                IT Consultancy
+                            </h5>
+                        </a>
+                        <p class="mb-3 text-sm md:text-base font-normal text-gray-700 dark:text-gray-400 line-clamp-2">
+                            we provide comprehensive IT consultancy services designed to empower your business with
+                            innovative technology solutions. Our expert consultants work closely with you to
+                        </p>
+                        <a href="{{ url('it_consultancy_services') }}"
+                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-primary1 border-2 border-transparent hover:bg-transparent hover:border-primary2 hover:text-primary1 rounded-lg">
+                            See Details
+                        </a>
+                    </div>
+                </div>
 
                 <!-- Repeat similar structure for other services -->
 
@@ -329,49 +351,61 @@
             </div>
             <div class="mt-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {{-- item 1 --}}
-                <div
-                    class="md:max-w-sm max-w-full border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
-                    <img src="https://demo.ajufbox.com/solit/assets/images/team/team-1.jpg"
-                        class="w-full h-auto object-cover rounded-t-md rounded-br-[200px]">
-                    <div class="p-8">
-                        <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-[16px] md:text-xl">John Smith
-                        </h1>
-                        <p class="font-medium text-text_color1 text-sm md:text-[16px] mt-2">Data Analyst</p>
+                <a href="{{ url('/completed_project') }}">
+                    <div
+                        class="md:max-w-sm max-w-full border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
+                        <img src="https://demo.ajufbox.com/solit/assets/images/team/team-1.jpg"
+                            class="w-full h-auto object-cover rounded-t-md rounded-br-[200px]">
+                        <div class="p-8">
+                            <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-[16px] md:text-xl">John
+                                Smith
+                            </h1>
+                            <p class="font-medium text-text_color1 text-sm md:text-[16px] mt-2">Data Analyst</p>
+                        </div>
                     </div>
-                </div>
+                </a>
                 {{-- item 2 --}}
-                <div
-                    class="md:max-w-sm max-w-full border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
-                    <img src="https://demo.ajufbox.com/solit/assets/images/team/team-2.jpg"
-                        class="w-full h-auto object-cover rounded-t-md rounded-br-[200px]">
-                    <div class="p-8">
-                        <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-[16px] md:text-xl">John Smith
-                        </h1>
-                        <p class="font-medium text-text_color1 text-sm md:text-[16px] mt-2">Data Analyst</p>
+                <a href="{{ url('/completed_project') }}">
+                    <div
+                        class="md:max-w-sm max-w-full border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
+                        <img src="https://demo.ajufbox.com/solit/assets/images/team/team-2.jpg"
+                            class="w-full h-auto object-cover rounded-t-md rounded-br-[200px]">
+                        <div class="p-8">
+                            <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-[16px] md:text-xl">John
+                                Smith
+                            </h1>
+                            <p class="font-medium text-text_color1 text-sm md:text-[16px] mt-2">Data Analyst</p>
+                        </div>
                     </div>
-                </div>
+                </a>
                 {{-- item 3 --}}
-                <div
-                    class="md:max-w-sm max-w-full border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
-                    <img src="https://demo.ajufbox.com/solit/assets/images/team/team-3.jpg"
-                        class="w-full h-auto object-cover rounded-t-md rounded-br-[200px]">
-                    <div class="p-8">
-                        <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-[16px] md:text-xl">John Smith
-                        </h1>
-                        <p class="font-medium text-text_color1 text-sm md:text-[16px] mt-2">Data Analyst</p>
+                <a href="{{ url('/completed_project') }}">
+                    <div
+                        class="md:max-w-sm max-w-full border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
+                        <img src="https://demo.ajufbox.com/solit/assets/images/team/team-3.jpg"
+                            class="w-full h-auto object-cover rounded-t-md rounded-br-[200px]">
+                        <div class="p-8">
+                            <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-[16px] md:text-xl">John
+                                Smith
+                            </h1>
+                            <p class="font-medium text-text_color1 text-sm md:text-[16px] mt-2">Data Analyst</p>
+                        </div>
                     </div>
-                </div>
+                </a>
                 {{-- item 4 --}}
-                <div
-                    class="md:max-w-sm max-w-full border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
-                    <img src="https://demo.ajufbox.com/solit/assets/images/team/team-4.jpg"
-                        class="w-full h-auto object-cover rounded-t-md rounded-br-[200px]">
-                    <div class="p-8">
-                        <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-[16px] md:text-xl">John Smith
-                        </h1>
-                        <p class="font-medium text-text_color1 text-sm md:text-[16px] mt-2">Data Analyst</p>
+                <a href="{{ url('/completed_project') }}">
+                    <div
+                        class="md:max-w-sm max-w-full border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
+                        <img src="https://demo.ajufbox.com/solit/assets/images/team/team-4.jpg"
+                            class="w-full h-auto object-cover rounded-t-md rounded-br-[200px]">
+                        <div class="p-8">
+                            <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-[16px] md:text-xl">John
+                                Smith
+                            </h1>
+                            <p class="font-medium text-text_color1 text-sm md:text-[16px] mt-2">Data Analyst</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </section>
@@ -390,73 +424,80 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid gap-6 lg:grid-cols-3">
                 <!-- Card 1 -->
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden ">
-                    <img class="w-full h-48 object-cover"
-                        src="https://demo.ajufbox.com/solit/assets/images/blog/blog-1.jpg" alt="Blog Image">
-                    <div class="p-6">
-                        <h3
-                            class="text-lg font-semibold text-gray-900 mb-2 hover:text-blue-600 hover:cursor-pointer hover:">
-                            Exploring the Future Cutting-Edge
-                            Technologies</h3>
-                        <p class="text-gray-600 text-sm mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing
-                            elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                            Fuga accusantium dolore autem saepe. </p>
-                        <div class="flex items-center justify-between">
-                            <div class="flex items-center">
-                                <img class="w-8 h-8 rounded-full mr-2"
-                                    src="https://demo.ajufbox.com/solit/assets/images/blog/blog-2.jpg" alt="Author Image">
-                                <span class="text-gray-800 text-sm">Adam Smith</span>
+                <a href="{{ url('/latest_news') }}">
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden ">
+                        <img class="w-full h-48 object-cover"
+                            src="https://demo.ajufbox.com/solit/assets/images/blog/blog-1.jpg" alt="Blog Image">
+                        <div class="p-6">
+                            <h3
+                                class="text-lg font-semibold text-gray-900 mb-2 hover:text-blue-600 hover:cursor-pointer hover:">
+                                Exploring the Future Cutting-Edge
+                                Technologies</h3>
+                            <p class="text-gray-600 text-sm mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Fuga accusantium dolore autem saepe. </p>
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center">
+                                    <img class="w-8 h-8 rounded-full mr-2"
+                                        src="https://demo.ajufbox.com/solit/assets/images/blog/blog-2.jpg"
+                                        alt="Author Image">
+                                    <span class="text-gray-800 text-sm">Adam Smith</span>
+                                </div>
+                                <span class="text-gray-500 text-sm">August 3</span>
                             </div>
-                            <span class="text-gray-500 text-sm">August 3</span>
                         </div>
                     </div>
-                </div>
+                </a>
 
                 <!-- Card 2 -->
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <img class="w-full h-48 object-cover"
-                        src="https://demo.ajufbox.com/solit/assets/images/blog/blog-3.jpg" alt="Blog Image">
-                    <div class="p-6">
-                        <h3
-                            class="text-lg font-semibold text-gray-900 mb-2 hover:text-blue-600 hover:cursor-pointer hover:">
-                            Exploring the Future Cutting-Edge
-                            Technologies</h3>
-                        <p class="text-gray-600 text-sm mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing
-                            elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                            Fuga accusantium dolore autem saepe. </p>
-                        <div class="flex items-center justify-between">
-                            <div class="flex items-center">
-                                <img class="w-8 h-8 rounded-full mr-2" src="https://via.placeholder.com/40"
-                                    alt="Author Image">
-                                <span class="text-gray-800 text-sm">Emma Kandel</span>
+                <a href="{{ url('/latest_news') }}">
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                        <img class="w-full h-48 object-cover"
+                            src="https://demo.ajufbox.com/solit/assets/images/blog/blog-3.jpg" alt="Blog Image">
+                        <div class="p-6">
+                            <h3
+                                class="text-lg font-semibold text-gray-900 mb-2 hover:text-blue-600 hover:cursor-pointer hover:">
+                                Exploring the Future Cutting-Edge
+                                Technologies</h3>
+                            <p class="text-gray-600 text-sm mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Fuga accusantium dolore autem saepe. </p>
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center">
+                                    <img class="w-8 h-8 rounded-full mr-2" src="https://via.placeholder.com/40"
+                                        alt="Author Image">
+                                    <span class="text-gray-800 text-sm">Emma Kandel</span>
+                                </div>
+                                <span class="text-gray-500 text-sm">August 2</span>
                             </div>
-                            <span class="text-gray-500 text-sm">August 2</span>
                         </div>
                     </div>
-                </div>
+                </a>
 
                 <!-- Card 3 -->
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <img class="w-full h-48 object-cover"
-                        src="https://demo.ajufbox.com/solit/assets/images/blog/blog-2.jpg" alt="Blog Image">
-                    <div class="p-6">
-                        <h3
-                            class="text-lg font-semibold text-gray-900 mb-2 hover:text-blue-600 hover:cursor-pointer hover:">
-                            Exploring the Future Cutting-Edge
-                            Technologies</h3>
-                        <p class="text-gray-600 text-sm mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing
-                            elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                            Fuga accusantium dolore autem saepe. </p>
-                        <div class="flex items-center justify-between">
-                            <div class="flex items-center">
-                                <img class="w-8 h-8 rounded-full mr-2" src="https://via.placeholder.com/40"
-                                    alt="Author Image">
-                                <span class="text-gray-800 text-sm">Thomas Johnson</span>
+                <a href="{{ url('/latest_news') }}">
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                        <img class="w-full h-48 object-cover"
+                            src="https://demo.ajufbox.com/solit/assets/images/blog/blog-2.jpg" alt="Blog Image">
+                        <div class="p-6">
+                            <h3
+                                class="text-lg font-semibold text-gray-900 mb-2 hover:text-blue-600 hover:cursor-pointer hover:">
+                                Exploring the Future Cutting-Edge
+                                Technologies</h3>
+                            <p class="text-gray-600 text-sm mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Fuga accusantium dolore autem saepe. </p>
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center">
+                                    <img class="w-8 h-8 rounded-full mr-2" src="https://via.placeholder.com/40"
+                                        alt="Author Image">
+                                    <span class="text-gray-800 text-sm">Thomas Johnson</span>
+                                </div>
+                                <span class="text-gray-500 text-sm">August 1</span>
                             </div>
-                            <span class="text-gray-500 text-sm">August 1</span>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </section>

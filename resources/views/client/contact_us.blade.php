@@ -41,16 +41,15 @@
                 </div>
 
                 <!-- Contact Form -->
-                <div>
-                    <div class="mt-4  border border-gray-200 rounded-lg shadow-lg overflow-hidden">
+                <a href="https://www.google.com/maps/@11.5503692,104.8842911,4877m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI0MDkxNy4wIKXMDSoASAFQAw%3D%3D"
+                    target="_blak">
+                    <div class="mt-4  border p-4 bg-white border-gray-200 rounded-lg shadow-lg overflow-hidden ">
                         <!-- Embed Google Map -->
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1683.1583140169473!2d104.9233199662918!3d11.535005383653287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310950da5cfa9463%3A0x3755d57e39ef4861!2sRULE%20Library!5e1!3m2!1sen!2skh!4v1726216894557!5m2!1sen!2skh"
-                            width="700" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <img src="{{ asset('assets/images/map.png') }}" allowfullscreen="" loading="lazy"
+                            referrerpolicy=""></img>
                     </div>
-                </div>
             </div>
+        </div>
         </div>
     </section>
 @endsection

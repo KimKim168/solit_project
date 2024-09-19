@@ -137,6 +137,28 @@
                         </a>
                     </div>
                 </div>
+                <div
+                    class="w-full bg-white border text-center p-3 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <img class="rounded-t-lg  w-[30%] sm:w-[40%] mx-auto mt-4"
+                            src="{{ asset('assets/images/it.png') }}" alt="" />
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-xl md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                IT Consultancy
+                            </h5>
+                        </a>
+                        <p class="mb-3 text-sm md:text-base font-normal text-gray-700 dark:text-gray-400 line-clamp-2">
+                            we provide comprehensive IT consultancy services designed to empower your business with
+                            innovative technology solutions. Our expert consultants work closely with you to
+                        </p>
+                        <a href="{{ url('it_consultancy_services') }}"
+                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-primary1 border-2 border-transparent hover:bg-transparent hover:border-primary2 hover:text-primary1 rounded-lg">
+                            See Details
+                        </a>
+                    </div>
+                </div>
 
                 <!-- Repeat similar structure for other services -->
 

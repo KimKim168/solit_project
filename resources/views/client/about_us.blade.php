@@ -9,7 +9,7 @@
                     Know
                     Us</button>
                 <h2 class="text-3xl font-bold mb-4" data-aos="fade-up" data-aos-duration="1000">
-                    Company Profile
+                    Cora Soft Solution
                 </h2>
                 <p class="text-gray-500 mb-6" data-aos="fade-up" data-aos-duration="1000">
                     With over 15 years of industry experience, our company is a leading provider of cutting-edge technology

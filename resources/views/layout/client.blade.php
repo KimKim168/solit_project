@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Solit Website</title>
+    <title>
+        Cora Soft Solution
+    </title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
@@ -221,7 +223,7 @@
             <div class="max-w-screen-xl mx-auto flex items-center justify-between p-5">
                 <!-- Logo -->
                 <div class="flex items-center">
-                    <img src="{{ asset('assets/images/logo-solit-dark.png') }}" class="w-16 md:w-20" alt="Logo">
+                    <img src="{{ asset('assets/images/Cora.png') }}" class="w-16 md:w-20" alt="Logo">
                 </div>
                 <div class="flex items-center space-x-5 md:space-x-10">
                     <!-- Menu for larger screens -->
@@ -306,7 +308,7 @@
 
     <!-- Footer -->
     <footer class="bg-[#2b334a] text-gray-400 py-12">
-        <div class="container max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-4">
+        <div class="container max-w-screen-xl mx-auto justify-between flex flex-col  md:flex-row gap-8 px-4">
             <!-- Information Section -->
             <div>
                 <h2 class="text-white font-bold mb-4">Information</h2>
@@ -345,7 +347,7 @@
             </div>
 
             <!-- Menu Section -->
-            <div>
+            {{-- <div>
                 <h2 class="text-white font-bold mb-4">Menu</h2>
                 <ul class="space-y-2">
                     <li><a href="{{ url('/') }}" class="hover:text-white">Home</a></li>
@@ -354,7 +356,7 @@
                     <li><a href="{{ url('/product') }}" class="hover:text-white">Products</a></li>
                     <li><a href="{{ url('/contact') }}" class="hover:text-white">Contact</a></li>
                 </ul>
-            </div>
+            </div> --}}
             {{-- Social Media --}}
             <div>
                 <h2 class="text-white font-bold mb-4">Social Media</h2>
@@ -392,13 +394,7 @@
         </div>
 
         <!-- Footer Bottom -->
-        <div class="max-w-screen-xl mx-auto flex flex-col md:flex-row justify-between p-4 text-gray-500">
-            <div class="flex  items-center gap-2 ">
-                <img src="https://demo.ajufbox.com/solit/assets/images/logo-solit-light.png" class="w-20 mb-2"
-                    alt="Footer Logo">
-            </div>
-        </div>
-        <div class="max-w-screen-xl mx-auto px-4">
+        <div class="max-w-screen-xl mt-10 text-center mx-auto px-4">
             <p class="text-xs ">&copy; Solit | All Rights Reserved</p>
         </div>
     </footer>

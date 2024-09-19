@@ -53,3 +53,15 @@ Route::get('/cloud_hosting', function () {
 Route::get('/seo_and_digital_marketing', function () {
     return view('client.seo_and_digital_marketing');
 });
+
+Route::get('/completed_project', function () {
+    return view('client.completed_project');
+});
+
+Route::get('/latest_news', function () {
+    return view('client.latest_news');
+});
+
+Route::get('/it_consultancy_services', function () {
+    return view('client.it_consultancy_services');
+});
