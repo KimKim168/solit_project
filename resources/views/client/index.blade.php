@@ -3,7 +3,7 @@
     <!-- Strat transform -->
     <div id="controls-carousel" class="relative w-full mt-20">
         <!-- Carousel wrapper -->
-        <div class="relative aspect-[16/5]  w-full overflow-hidden ">
+        <div class="relative aspect-[16/4]  w-full overflow-hidden ">
             <!-- Swiper -->
             <swiper-container class="mySwiper w-full h-full" centered-slides="true" autoplay-delay="4000"
                 autoplay-disable-on-interaction="false">
@@ -17,21 +17,22 @@
                         <!-- Content -->
                         <div
                             class="absolute top-1/2 left-3 md:left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
-                            <h1 class="text-sm sm:text-xl lg:text-5xl font-costum1 text-[#11ace3]">
+                            <h1 class="text-[13px] sm:text-xl lg:text-5xl font-costum1 text-[#11ace3]">
                                 Innovative Mobile App Solutions
                             </h1>
-                            <p class="text-[10px] sm:text-sm md:text-base lg:text-lg mt-2 md:mt-5">
+                            <p class="text-[8px] sm:text-sm md:text-base lg:text-lg  md:mt-5">
                                 Transform your ideas into engaging and high-performance mobile applications. Our team
                                 delivers custom-built apps with intuitive design and seamless functionality across
                                 platforms.
                             </p>
-                            <div class=" md:my-7 flex mt-2 gap-4 md:gap-8">
+                            <div class="md:my-7 flex mt-2  md:gap-8">
                                 <a href="{{ url('/mobile_app_development') }}"
-                                    class="text-[8px] border sm:text-sm  md:text-lg p-1 p-x-3 md:px-5  md:py-3  md:border-2 rounded-md border-white text-white transition duration-300">
+                                    class="text-[6px] border sm:text-sm  md:text-lg p-1 p-x-3 md:px-5  md:py-3  md:border-2 rounded-md border-white text-white transition duration-300">
                                     Learn More
                                 </a>
                             </div>
                         </div>
+
 
                     </div>
                 </swiper-slide>
@@ -45,10 +46,10 @@
                         <!-- Content -->
                         <div
                             class="absolute top-1/2 left-3 md:left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
-                            <h1 class="text-sm sm:text-xl lg:text-5xl font-costum1 text-[#11ace3]">
+                            <h1 class="text-[13px] sm:text-xl lg:text-5xl font-costum1 text-[#11ace3]">
                                 Custom Web Solutions
                             </h1>
-                            <p class="text-[10px] sm:text-sm md:text-base lg:text-lg mt-2 md:mt-5">
+                            <p class="text-[8px] sm:text-sm md:text-base lg:text-lg  md:mt-5">
                                 Build a unique online presence with our custom web development services. We design and
                                 develop responsive, fast, and secure websites that elevate your brand and engage your
                                 audience.
@@ -56,7 +57,7 @@
 
                             <div class="md:my-7 flex mt-2 md:gap-8">
                                 <a href="{{ url('/custom_software_development') }}"
-                                    class="text-[8px] border sm:text-sm  md:text-lg p-1 p-x-3 md:px-5  md:py-3  md:border-2 rounded-md border-white text-white transition duration-300">
+                                    class="text-[6px] border sm:text-sm  md:text-lg p-1 p-x-3 md:px-5  md:py-3  md:border-2 rounded-md border-white text-white transition duration-300">
                                     Learn More
                                 </a>
                             </div>
@@ -73,10 +74,10 @@
                         <!-- Content -->
                         <div
                             class="absolute top-1/2 left-3 md:left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
-                            <h1 class="text-sm sm:text-xl lg:text-5xl font-costum1 text-[#11ace3]">
+                            <h1 class="text-[13px] sm:text-xl lg:text-5xl font-costum1 text-[#11ace3]">
                                 Cloud Hosting Solutions
                             </h1>
-                            <p class="text-[10px] sm:text-sm md:text-base lg:text-lg mt-2 md:mt-5">
+                            <p class="text-[8px] sm:text-sm md:text-base lg:text-lg  md:mt-5">
                                 Scale your business with ease using our cloud hosting solutions. Our services provide
                                 flexibility, speed, and security, making sure your website can handle growing traffic and
                                 data demands.
@@ -85,7 +86,7 @@
 
                             <div class="md:my-7 flex mt-2 md:gap-8">
                                 <a href="{{ url('/cloud_hosting') }}"
-                                    class="text-[8px] border sm:text-sm  md:text-lg p-1 p-x-3 md:px-5  md:py-3  md:border-2 rounded-md border-white text-white transition duration-300">
+                                    class="text-[6px] border sm:text-sm  md:text-lg p-1 p-x-3 md:px-5  md:py-3  md:border-2 rounded-md border-white text-white transition duration-300">
                                     Learn More
                                 </a>
                             </div>
