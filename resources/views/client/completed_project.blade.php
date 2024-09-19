@@ -3,12 +3,15 @@
     <section class=" mt-14 bg-white dark:bg-gray-900 space-y-20">
         <div id="product1"
             class="border-t-2 border-primary1 border-dotted gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-            <img class="w-full dark:hidden"
-                src="https://www.liquidplanner.com/wp-content/uploads/2019/04/HiRes-17-1536x922.jpg" alt="dashboard image">
-
+            {{-- <img class="w-full dark:hidden" src="{{ asset('assets/images/repeat1.png') }}" alt="dashboard image"> --}}
+            <div class="grid grid-cols-2 gap-4 mt-8">
+                <img class="w-full rounded-lg" src="{{ asset('assets/images/repeatgym.png') }}" alt="office content 1">
+                <img class="mt-4 w-full lg:mt-10 rounded-lg" src="{{ asset('assets/images/repeat2.png') }}"
+                    alt="office content 2">
+            </div>
             <div class="mt-4 md:mt-0">
                 <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-                    Completed Project
+                    Home Page
                 </h2>
                 <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">
                     We craft dynamic, user-friendly, and visually appealing websites that provide seamless user experiences

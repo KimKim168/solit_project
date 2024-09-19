@@ -354,13 +354,15 @@
                 <a href="{{ url('/completed_project') }}">
                     <div
                         class="md:max-w-sm max-w-full border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
-                        <img src="https://demo.ajufbox.com/solit/assets/images/team/team-1.jpg"
+                        <img src="{{ asset('assets/images/repeatgym.png') }}"
                             class="w-full h-auto object-cover rounded-t-md rounded-br-[200px]">
+
                         <div class="p-8">
-                            <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-[16px] md:text-xl">John
-                                Smith
+                            <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-[16px] md:text-xl">
+                                Repeat Gym
                             </h1>
-                            <p class="font-medium text-text_color1 text-sm md:text-[16px] mt-2">Data Analyst</p>
+                            <p class="font-medium text-text_color1 text-sm md:text-[16px] mt-2">Web Development and Design
+                            </p>
                         </div>
                     </div>
                 </a>
@@ -368,13 +370,14 @@
                 <a href="{{ url('/completed_project') }}">
                     <div
                         class="md:max-w-sm max-w-full border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
-                        <img src="https://demo.ajufbox.com/solit/assets/images/team/team-2.jpg"
+                        <img src="{{ asset('assets/images/repeatgym.png') }}"
                             class="w-full h-auto object-cover rounded-t-md rounded-br-[200px]">
                         <div class="p-8">
-                            <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-[16px] md:text-xl">John
-                                Smith
+                            <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-[16px] md:text-xl">
+                                Repeat Gym
                             </h1>
-                            <p class="font-medium text-text_color1 text-sm md:text-[16px] mt-2">Data Analyst</p>
+                            <p class="font-medium text-text_color1 text-sm md:text-[16px] mt-2">Web Development and Design
+                            </p>
                         </div>
                     </div>
                 </a>
@@ -382,13 +385,14 @@
                 <a href="{{ url('/completed_project') }}">
                     <div
                         class="md:max-w-sm max-w-full border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
-                        <img src="https://demo.ajufbox.com/solit/assets/images/team/team-3.jpg"
+                        <img src="{{ asset('assets/images/repeatgym.png') }}"
                             class="w-full h-auto object-cover rounded-t-md rounded-br-[200px]">
                         <div class="p-8">
-                            <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-[16px] md:text-xl">John
-                                Smith
+                            <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-[16px] md:text-xl">
+                                Repeat Gym
                             </h1>
-                            <p class="font-medium text-text_color1 text-sm md:text-[16px] mt-2">Data Analyst</p>
+                            <p class="font-medium text-text_color1 text-sm md:text-[16px] mt-2">Web Development and Design
+                            </p>
                         </div>
                     </div>
                 </a>
@@ -396,13 +400,14 @@
                 <a href="{{ url('/completed_project') }}">
                     <div
                         class="md:max-w-sm max-w-full border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
-                        <img src="https://demo.ajufbox.com/solit/assets/images/team/team-4.jpg"
+                        <img src="{{ asset('assets/images/repeatgym.png') }}"
                             class="w-full h-auto object-cover rounded-t-md rounded-br-[200px]">
                         <div class="p-8">
-                            <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-[16px] md:text-xl">John
-                                Smith
+                            <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-[16px] md:text-xl">
+                                Repeat Gym
                             </h1>
-                            <p class="font-medium text-text_color1 text-sm md:text-[16px] mt-2">Data Analyst</p>
+                            <p class="font-medium text-text_color1 text-sm md:text-[16px] mt-2">Web Development and Design
+                            </p>
                         </div>
                     </div>
                 </a>
