@@ -3,7 +3,7 @@
     <!-- Strat transform -->
     <div id="controls-carousel" class="relative w-full mt-20">
         <!-- Carousel wrapper -->
-        <div class="relative aspect-[16/6] w-full overflow-hidden ">
+        <div class="relative aspect-[16/5]  w-full overflow-hidden ">
             <!-- Swiper -->
             <swiper-container class="mySwiper w-full h-full" centered-slides="true" autoplay-delay="4000"
                 autoplay-disable-on-interaction="false">

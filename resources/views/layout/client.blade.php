@@ -225,7 +225,7 @@
                 </div>
                 <div class="flex items-center space-x-5 md:space-x-10">
                     <!-- Menu for larger screens -->
-                    <ul class="hidden lg:flex gap-8 text-[16px] items-center">
+                    <ul class="hidden lg:flex gap-8 text-[17px] 2xl:text-[18px] items-center">
                         <li><a href="{{ url('/') }}"
                                 class="{{ request()->is('/') ? 'text-blue-600' : 'text-black' }}">Home</a></li>
                         <li><a href="{{ url('/about_us') }}"
@@ -244,7 +244,7 @@
                     <!-- Chat Button - visible on all screen sizes -->
                     <div>
                         <a href="#"
-                            class="p-2 md:p-4 bg-[#43428d] text-[16px] text-white hover:bg-[#3a3e67] rounded-md">
+                            class="p-2 md:p-4 bg-[#43428d] text-[17px] 2xl:text-[18px] text-white hover:bg-[#3a3e67] rounded-md">
                             Chat with Us
                         </a>
                     </div>
