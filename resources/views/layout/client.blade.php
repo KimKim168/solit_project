@@ -397,7 +397,7 @@
 
         <!-- Footer Bottom -->
         <div class="max-w-screen-xl mt-10 text-center mx-auto px-4">
-            <p class="text-xs ">&copy; Solit | All Rights Reserved</p>
+            <p class="text-xs ">&copy; Cora Soft Solution | All Rights Reserved</p>
         </div>
     </footer>
 

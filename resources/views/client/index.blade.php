@@ -102,7 +102,7 @@
 
     <!-- End transform -->
     <!-- strat middle -->
-    <section class="max-w-screen-xl mx-auto mt-32 overflow-hidden px-4">
+    <section class="max-w-screen-xl mx-auto mt-20 sm:mt-32 overflow-hidden px-4">
         <div class="p-5 sm:p-10  flex flex-col lg:flex-row gap-10 mx-auto max-w-screen-xl lg:px-6">
             <!-- Image Section -->
             <div class="relative md:px-10 w-full md:mr-10 md:w-10/12 lg:w-1/2 aspect-square mx-auto"
@@ -426,7 +426,7 @@
         </div>
 
         <!-- Blog Cards -->
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto  sm:px-6 lg:px-8">
             <div class="grid gap-6 lg:grid-cols-3">
                 <!-- Card 1 -->
                 <a href="{{ url('/latest_news') }}">

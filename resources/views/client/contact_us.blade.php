@@ -20,7 +20,7 @@
                             <span class=" mr-3 ">
                                 <img src="{{ asset('assets/images/email.png') }}" class="w-10">
                             </span>
-                            <span class="text-lg">Example@Example.Com</span>
+                            <span class="text-lg">info@corasolutions.com</span>
                         </li>
                         <li class="flex items-center">
                             <span class=" mr-3">
