@@ -349,13 +349,13 @@
                     tailored to meet specific needs.
                 </p>
             </div>
-            <div class="mt-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <div class="mt-10 aspect-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {{-- item 1 --}}
                 <a href="{{ url('/completed_project') }}">
                     <div
                         class="md:max-w-sm max-w-full border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
                         <img src="{{ asset('assets/images/repeatgym.png') }}"
-                            class="w-full h-auto object-cover rounded-t-md rounded-br-[200px]">
+                            class="w-full aspect-[3/4] object-cover rounded-t-md rounded-br-[200px]">
 
                         <div class="p-8">
                             <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-[16px] md:text-xl">
@@ -370,8 +370,8 @@
                 <a href="{{ url('/completed_project') }}">
                     <div
                         class="md:max-w-sm max-w-full border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
-                        <img src="{{ asset('assets/images/repeatgym.png') }}"
-                            class="w-full h-auto object-cover rounded-t-md rounded-br-[200px]">
+                        <img src="{{ asset('assets/images/repeat1.png') }}"
+                            class="w-full aspect-[3/4] object-cover rounded-t-md rounded-br-[200px]">
                         <div class="p-8">
                             <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-[16px] md:text-xl">
                                 Repeat Gym
@@ -386,7 +386,7 @@
                     <div
                         class="md:max-w-sm max-w-full border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
                         <img src="{{ asset('assets/images/repeatgym.png') }}"
-                            class="w-full h-auto object-cover rounded-t-md rounded-br-[200px]">
+                            class="w-full aspect-[3/4] object-cover rounded-t-md rounded-br-[200px]">
                         <div class="p-8">
                             <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-[16px] md:text-xl">
                                 Repeat Gym
@@ -401,7 +401,7 @@
                     <div
                         class="md:max-w-sm max-w-full border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
                         <img src="{{ asset('assets/images/repeatgym.png') }}"
-                            class="w-full h-auto object-cover rounded-t-md rounded-br-[200px]">
+                            class="w-full aspect-[3/4] object-cover rounded-t-md rounded-br-[200px]">
                         <div class="p-8">
                             <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-[16px] md:text-xl">
                                 Repeat Gym
