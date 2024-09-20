@@ -346,7 +346,7 @@
     <section class="mt-20 overflow-hidden p-5">
         <div class="max-w-screen-xl mx-auto">
             <div class="" data-aos="flip-down" data-aos-duration="1000">
-                <h1 class="font-costum5 text-5xl">
+                <h1 class="font-costum5 text-3xl md:text-5xl">
                     Completed Projects
                 </h1>
                 <p class="text-base max-w-[500px] text-justify mt-5">
