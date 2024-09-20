@@ -3,7 +3,7 @@
     <!-- Strat transform -->
     <div id="controls-carousel" class="relative w-full mt-[100px] md:mt-[123px]">
         <!-- Carousel wrapper -->
-        <div class="relative aspect-[16/5]  w-full overflow-hidden ">
+        <div class="relative aspect-[16/6] sm:aspect-[16/5]  w-full overflow-hidden ">
             <!-- Swiper -->
             <swiper-container class="mySwiper w-full h-full" centered-slides="true" autoplay-delay="4000"
                 autoplay-disable-on-interaction="false">
@@ -37,14 +37,14 @@
                     </div>
                 </swiper-slide>
                 <!-- slide 2 -->
-                <swiper-slide class="w-full h-full">
+                {{-- <swiper-slide class="w-full h-full">
                     <div class="flex h-full w-full relative bg-cover bg-center bg-blend-multiply" data-carousel-item
                         style="background-image: url('assets/images/slide2.jpg');">
                         <!-- Dark Overlay -->
                         {{-- <div class="absolute inset-0 bg-[#151516a6] bg-opacity-80"></div> --}}
 
-                        <!-- Content -->
-                        <div
+                <!-- Content -->
+                {{-- <div
                             class="absolute top-1/2 left-3 md:left-5 lg:left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
                             <h1
                                 class="text-sm sm:text-xl md:text-xl lg:text-5xl font-costum1 text-white max-w-[9rem] sm:max-w-[11rem] md:max-w-full">
@@ -64,8 +64,8 @@
                                 </a>
                             </div>
                         </div>
-                    </div>
-                </swiper-slide>
+                    </div> 
+                </swiper-slide> --}}
                 <!-- slide 3 -->
                 <swiper-slide class="w-full h-full">
                     <div class="flex h-full w-full relative bg-cover bg-center bg-blend-multiply" data-carousel-item
