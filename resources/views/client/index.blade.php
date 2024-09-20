@@ -22,7 +22,7 @@
                                 Innovative Mobile App Solutions
                             </h1>
                             <p
-                                class="text-[10px] line-clamp-2 sm:line-clamp-3 md:line-clamp-4 lg:line-clamp-5 sm:text-sm md:text-sm lg:text-lg  sm:text-white mt-2 lg:mt-5 max-w-[15rem] sm:max-w-[20rem] md:max-w-full">
+                                class="text-[10px] line-clamp-2 sm:line-clamp-3 md:line-clamp-4 lg:line-clamp-5 sm:text-sm md:text-sm lg:text-lg  sm:text-white mt-2 lg:mt-5 max-w-[30ch] sm:max-w-[60ch] ">
                                 Transform your ideas into engaging and high-performance mobile applications. Our team
                                 delivers custom-built apps
                                 with intuitive design and seamless functionality across platforms.
@@ -51,7 +51,7 @@
                                 Custom Web Solutions
                             </h1>
                             <p
-                                class="text-[10px] line-clamp-2 sm:line-clamp-3 md:line-clamp-4 lg:line-clamp-5 sm:text-sm md:text-sm lg:text-lg  sm:text-white mt-2 lg:mt-5 max-w-[15rem] sm:max-w-[20rem] md:max-w-full">
+                                class="text-[10px] line-clamp-2 sm:line-clamp-3 md:line-clamp-4 lg:line-clamp-5 sm:text-sm md:text-sm lg:text-lg  sm:text-white mt-2 lg:mt-5 max-w-[30ch] sm:max-w-[60ch] ">
                                 Build a unique online presence with our custom web development services. We design and
                                 develop responsive, fast, and secure websites that elevate your brand and engage your
                                 audience.
@@ -81,7 +81,7 @@
                                 Cloud Hosting Solutions
                             </h1>
                             <p
-                                class="text-[10px] line-clamp-2 sm:line-clamp-3 md:line-clamp-4 lg:line-clamp-5 sm:text-sm md:text-sm lg:text-lg  sm:text-white mt-2 lg:mt-5 max-w-[15rem] sm:max-w-[20rem] md:max-w-full">
+                                class="text-[10px] line-clamp-2 sm:line-clamp-3 md:line-clamp-4 lg:line-clamp-5 sm:text-sm md:text-sm lg:text-lg  sm:text-white mt-2 lg:mt-5 max-w-[30ch] sm:max-w-[60ch] ">
                                 Scale your business with ease using our cloud hosting solutions. Our services provide
                                 flexibility, speed, and security, ensuring your website can handle growing traffic and data
                                 demands.
