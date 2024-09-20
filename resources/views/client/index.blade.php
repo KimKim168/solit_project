@@ -18,16 +18,16 @@
                         <div
                             class="absolute top-1/2 left-3 md:left-5 lg:left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
                             <h1
-                                class="text-sm sm:text-xl md:text-xl lg:text-5xl font-costum1 text-white max-w-[9rem] sm:max-w-[11rem] md:max-w-full">
+                                class="text-[12px] sm:text-xl md:text-xl lg:text-5xl font-costum1 text-white max-w-[9rem] sm:max-w-[11rem] md:max-w-full">
                                 Innovative Mobile App Solutions
                             </h1>
                             <p
-                                class="text-[10px] line-clamp-2 sm:line-clamp-3 md:line-clamp-4 lg:line-clamp-5 sm:text-sm md:text-sm lg:text-lg  sm:text-white mt-2 lg:mt-5 max-w-[30ch] sm:max-w-[60ch] ">
+                                class="text-[8px] line-clamp-2 sm:line-clamp-3 md:line-clamp-4 lg:line-clamp-5 sm:text-sm md:text-sm lg:text-lg  sm:text-white mt-1 lg:mt-5 max-w-[30ch] sm:max-w-[60ch] ">
                                 Transform your ideas into engaging and high-performance mobile applications. Our team
                                 delivers custom-built apps
                                 with intuitive design and seamless functionality across platforms.
                             </p>
-                            <div class="mt-2 md:mt-4">
+                            <div class="mt-1 md:mt-4">
                                 <a href="{{ url('/mobile_app_development') }}"
                                     class="text-[8px] sm:text-sm md:text-lg border border-white rounded-md p-1 px-3 md:px-5 md:py-3 md:border-2 text-white transition duration-300">
                                     Learn More
@@ -47,15 +47,15 @@
                 {{-- <div
                             class="absolute top-1/2 left-3 md:left-5 lg:left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
                             <h1
-                                class="text-sm sm:text-xl md:text-xl lg:text-5xl font-costum1 text-white max-w-[9rem] sm:max-w-[11rem] md:max-w-full">
+                                class="text-[12px] sm:text-xl md:text-xl lg:text-5xl font-costum1 text-white max-w-[9rem] sm:max-w-[11rem] md:max-w-full">
                                 Custom Web Solutions
                             </h1>
-                            <p
-                                class="text-[10px] line-clamp-2 sm:line-clamp-3 md:line-clamp-4 lg:line-clamp-5 sm:text-sm md:text-sm lg:text-lg  sm:text-white mt-2 lg:mt-5 max-w-[30ch] sm:max-w-[60ch] ">
+                8    <p
+                                class="text-[10px] line-clamp-2 sm:line-clamp-3 md:line-clamp-4 lg:line-clamp-5 sm:text-sm md:text-sm lg:text-lg  sm:text-white mt-1 lg:mt-5 max-w-[30ch] sm:max-w-[60ch] ">
                                 Build a unique online presence with our custom web development services. We design and
                                 develop responsive, fast, and secure websites that elevate your brand and engage your
                                 audience.
-                            </p>
+                    1     </p>
 
                             <div class="mt-2 md:mt-4">
                                 <a href="{{ url('/custom_software_development') }}"
@@ -77,16 +77,16 @@
                         <div
                             class="absolute top-1/2 left-3 md:left-5 lg:left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
                             <h1
-                                class="text-sm sm:text-xl md:text-xl lg:text-5xl font-costum1 text-white max-w-[9rem] sm:max-w-[11rem] md:max-w-full">
+                                class="text-[12px] sm:text-xl md:text-xl lg:text-5xl font-costum1 text-white max-w-[9rem] sm:max-w-[11rem] md:max-w-full">
                                 Cloud Hosting Solutions
                             </h1>
                             <p
-                                class="text-[10px] line-clamp-2 sm:line-clamp-3 md:line-clamp-4 lg:line-clamp-5 sm:text-sm md:text-sm lg:text-lg  sm:text-white mt-2 lg:mt-5 max-w-[30ch] sm:max-w-[60ch] ">
+                                class="text-[8px] line-clamp-2 sm:line-clamp-3 md:line-clamp-4 lg:line-clamp-5 sm:text-sm md:text-sm lg:text-lg  sm:text-white mt-1 lg:mt-5 max-w-[30ch] sm:max-w-[60ch] ">
                                 Scale your business with ease using our cloud hosting solutions. Our services provide
                                 flexibility, speed, and security, ensuring your website can handle growing traffic and data
                                 demands.
                             </p>
-                            <div class="mt-2 md:mt-4">
+                            <div class="mt-1 md:mt-4">
                                 <a href="{{ url('/cloud_hosting') }}"
                                     class="text-[8px] sm:text-sm md:text-lg border border-white rounded-md p-1 px-3 md:px-5 md:py-3 md:border-2 text-white transition duration-300">
                                     Learn More
