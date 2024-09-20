@@ -1,7 +1,7 @@
 @extends('layout.client')
 @section('content')
     <section class="font-costum4">
-        <main class=" pt-28 pb-16 lg:pt-28 lg:pb-24 bg-white dark:bg-gray-900 antialiased">
+        <main class=" pt-32 md:pt-40 pb-16 lg:pt-40 lg:pb-24 bg-white dark:bg-gray-900 antialiased">
             <div class="flex justify-between px-4 mx-auto max-w-screen-xl ">
                 <article
                     class="mx-auto w-full max-w-7xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
@@ -12,7 +12,8 @@
                             Latest News and Updates
                         </h1>
                     </header>
-                    <p class="lead text-[16px]">In the mobile-first world we live in, having a mobile app is essential for
+                    <p class="lead md:text-[16px]">In the mobile-first world we live in, having a mobile app is essential
+                        for
                         businesses
                         looking to engage customers, streamline operations, and stay competitive. At [Your Company Name], we
                         offer full-cycle <b>Mobile App Development</b> services tailored to meet the unique needs of your
@@ -29,7 +30,7 @@
                         <ol class="list-decimal text-xl p-4 space-y-4">
                             {{-- container Item 1  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Custom Mobile App Development</strong>
+                                <strong class="text-blue-600 md:text-xl ">Custom Mobile App Development</strong>
                                 <p> We specialize in building bespoke mobile applications tailored to your specific business
                                     needs. Whether you’re looking for a customer-facing app or a robust internal tool, our
                                     team will work with you from concept to launch to ensure your app meets your objectives.
@@ -50,7 +51,7 @@
                             </li>
                             {{-- container Item 2  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">iOS App Development</strong>
+                                <strong class="text-blue-600 md:text-xl ">iOS App Development</strong>
                                 <p> Our team of expert iOS developers is proficient in building high-performance, scalable,
                                     and secure apps for the Apple ecosystem. We ensure that your app is optimized for the
                                     latest iOS devices and meets all App Store guidelines, providing seamless performance on
@@ -71,7 +72,7 @@
                             </li>
                             {{-- container Item 3  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Android App Development</strong>
+                                <strong class="text-blue-600 md:text-xl ">Android App Development</strong>
                                 <p>Our Android app development team creates apps that are fully compatible with the Android
                                     ecosystem, including smartphones, tablets, wearables, and more. We deliver Android apps
                                     that provide a consistent and engaging user experience across all devices. Our Android
@@ -92,7 +93,7 @@
                             </li>
                             {{-- container Item 4  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Cross-Platform App Development</strong>
+                                <strong class="text-blue-600 md:text-xl ">Cross-Platform App Development</strong>
                                 <p>To help you reach the widest possible audience, we offer cross-platform app development
                                     services that allow your app to run on both iOS and Android using a single codebase.
                                     This approach reduces development time and costs while ensuring your app functions
@@ -113,7 +114,7 @@
                             </li>
                             {{-- container Item 5  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">UI/UX Design</strong>
+                                <strong class="text-blue-600 md:text-xl ">UI/UX Design</strong>
                                 <p>A great mobile app isn’t just about functionality; it’s also about delivering an
                                     exceptional user experience. Our UI/UX design team focuses on creating visually stunning
                                     interfaces that are easy to navigate and provide a seamless experience. We focus on:
@@ -136,7 +137,7 @@
                             </li>
                             {{-- container Item 6  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Mobile App Maintenance and Support</strong>
+                                <strong class="text-blue-600 md:text-xl ">Mobile App Maintenance and Support</strong>
                                 <p>Our services don’t stop after launch. We offer ongoing maintenance and support to ensure
                                     your mobile app continues to perform optimally. This includes:
                                 </p>
@@ -159,7 +160,7 @@
                             </li>
                             {{-- container Item 7  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Enterprise Mobile Solutions</strong>
+                                <strong class="text-blue-600 md:text-xl ">Enterprise Mobile Solutions</strong>
                                 <p>We build enterprise-level mobile applications that streamline operations, improve
                                     workflow, and boost productivity within your organization. Our enterprise solutions are
                                     customized to meet the specific needs of your business and may include:
@@ -183,7 +184,7 @@
                             </li>
                             {{-- container Item 8  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">API and Third-Party Integrations</strong>
+                                <strong class="text-blue-600 md:text-xl ">API and Third-Party Integrations</strong>
                                 <p>
                                     We integrate third-party services and APIs into your app to extend functionality and
                                     provide additional features. Whether you need to integrate payment gateways, social
@@ -193,7 +194,7 @@
                             </li>
                             {{-- container Item 9  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">E-Commerce and mCommerce App Development</strong>
+                                <strong class="text-blue-600 md:text-xl ">E-Commerce and mCommerce App Development</strong>
                                 <p>For businesses looking to sell products or services online, we offer eCommerce and mobile
                                     commerce app development. We create robust, secure, and user-friendly eCommerce apps
                                     that enable customers to browse, shop, and make purchases easily. Features include:
@@ -216,7 +217,7 @@
                             </li>
                             {{-- container Item 10  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">App Testing and Quality Assurance</strong>
+                                <strong class="text-blue-600 md:text-xl ">App Testing and Quality Assurance</strong>
                                 <p>Our mobile app testing services ensure that your app is free of bugs and performs well
                                     across all devices and operating systems. We conduct thorough testing to ensure the
                                     highest quality, focusing on:
@@ -247,7 +248,7 @@
                         <ol class="list-decimal text-xl p-4 space-y-4">
                             {{-- item 1 --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Discovery & Requirement Gathering:</strong>
+                                <strong class="text-blue-600 md:text-xl ">Discovery & Requirement Gathering:</strong>
                                 <p>We begin by understanding your business goals and mobile app requirements. This phase
                                     includes market research, competitor analysis, and identifying the key features and
                                     functionality of your app.
@@ -255,7 +256,7 @@
                             </li>
                             {{-- item 2 --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Design & Prototyping:</strong>
+                                <strong class="text-blue-600 md:text-xl ">Design & Prototyping:</strong>
                                 <p>Our design team creates wireframes and interactive prototypes to give you a clear vision
                                     of the app’s layout and user flow. We ensure that the design aligns with your brand and
                                     provides a user-friendly experience.
@@ -264,7 +265,7 @@
                             </li>
                             {{-- item 3 --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Development & Testing:</strong>
+                                <strong class="text-blue-600 md:text-xl ">Development & Testing:</strong>
                                 <p>Once the design is approved, our developers begin coding your app. We follow Agile
                                     development methodologies to ensure timely delivery and flexibility for updates. During
                                     development, we conduct regular testing to identify and resolve any issues.
@@ -272,7 +273,7 @@
                             </li>
                             {{-- item 4 --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Launch & Deployment:</strong>
+                                <strong class="text-blue-600 md:text-xl ">Launch & Deployment:</strong>
                                 <p>After thorough testing, we prepare your app for launch. We handle the submission process
                                     to the Apple App Store and Google Play Store, ensuring that your app meets all necessary
                                     guidelines for approval.
@@ -280,7 +281,7 @@
                             </li>
                             {{-- item 5 --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Ongoing Support & Maintenance:</strong>
+                                <strong class="text-blue-600 md:text-xl ">Ongoing Support & Maintenance:</strong>
                                 <p>Post-launch, we continue to monitor the app’s performance, making improvements based on
                                     user feedback, ensuring compatibility with new OS updates, and providing any necessary
                                     maintenance and support.

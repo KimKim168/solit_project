@@ -1,7 +1,7 @@
 @extends('layout.client')
 @section('content')
     <section class="font-costum4">
-        <main class=" pt-28 pb-16 lg:pt-28 lg:pb-24 bg-white dark:bg-gray-900 antialiased">
+        <main class=" pt-32 md:pt-40 pb-16 lg:pt-40 lg:pb-24 bg-white dark:bg-gray-900 antialiased">
             <div class="flex justify-between px-4 mx-auto max-w-screen-xl ">
                 <article
                     class="mx-auto w-full max-w-7xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
@@ -11,7 +11,7 @@
                             Web Development and Design Service
                         </h1>
                     </header>
-                    <p class="lead text-[16px]">At [Your Company Name], we provide comprehensive <b> Web Development and
+                    <p class="lead md:text-[16px]">At [Your Company Name], we provide comprehensive <b> Web Development and
                             Design </b>
                         services
                         that cater to businesses and individuals looking to establish a strong online presence. With over 15
@@ -23,12 +23,12 @@
                             alt="">
                     </figure>
                     <div>
-                        <h2 class="mb-3 text-xl  leading-tight text-gray-900 lg:mb-4 lg:text-2xl dark:text-white">
+                        <h2 class="  mb-3 text-xl  leading-tight text-gray-900 lg:mb-4 lg:text-2xl dark:text-white">
                             Our Key Offerings:</h2>
                         <ol class="list-decimal text-xl p-4 space-y-4">
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Custom Web Design</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Custom Web Design</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p> We specialize in creating unique, tailor-made websites that reflect your brand's
                                         identity.
                                         Our design process begins with understanding your vision and objectives, ensuring
@@ -50,8 +50,8 @@
                                 </div>
                             </li>
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Responsive Web Development</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Responsive Web Development</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p> We ensure that your website is accessible and user-friendly on all devices—desktops,
                                         tablets, and smartphones. Our responsive design approach guarantees that your
                                         website
@@ -62,8 +62,8 @@
 
                             </li>
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">E-Commerce Development</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">E-Commerce Development</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p> We help you build powerful, secure, and scalable eCommerce websites that drive
                                         online
                                         sales. Our eCommerce solutions include:
@@ -77,8 +77,8 @@
                                 </div>
                             </li>
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Content Management Systems (CMS)</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Content Management Systems (CMS)</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p> Our CMS solutions empower you to manage your website content easily without needing
                                         any
                                         technical expertise. We offer solutions built on platforms like WordPress, Joomla,
@@ -88,8 +88,9 @@
                                 </div>
                             </li>
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Search Engine Optimization (SEO) Integration</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Search Engine Optimization (SEO)
+                                    Integration</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p> Every website we build is SEO-ready. We implement the best practices in on-page
                                         optimization, metadata structuring, and website performance, ensuring that your
                                         website
@@ -98,8 +99,8 @@
                                 </div>
                             </li>
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Custom Web Applications</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Custom Web Applications</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p>Our team is proficient in developing custom web applications that are scalable,
                                         secure,
                                         and tailored to meet your specific business needs. Whether it's a customer portal,
@@ -109,8 +110,8 @@
                                 </div>
                             </li>
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Website Maintenance and Support</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Website Maintenance and Support</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p>After launching your website, we provide ongoing maintenance and support to ensure
                                         its
                                         optimal performance. Our services include regular updates, security patches,
@@ -120,8 +121,8 @@
                                 </div>
                             </li>
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">UX/UI Design and Prototyping</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">UX/UI Design and Prototyping</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p>We focus on creating intuitive user experiences with attention to detail in user
                                         interface design. Our team utilizes the latest design trends and technologies to
                                         ensure
@@ -131,8 +132,8 @@
                                 </div>
                             </li>
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Third-Party API Integration</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Third-Party API Integration</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p>We seamlessly integrate third-party tools and APIs into your website to enhance
                                         functionality. Whether it's integrating payment gateways, social media, or marketing
                                         tools, we ensure smooth and secure API integration.
@@ -140,8 +141,8 @@
                                 </div>
                             </li>
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Cloud Hosting Solutions</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Cloud Hosting Solutions</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p>We offer reliable and scalable cloud hosting solutions to ensure your website is
                                         always
                                         online, secure, and fast. Our hosting services include regular backups, SSL
@@ -152,12 +153,12 @@
                         </ol>
                     </div>
                     <div class="border-t">
-                        <h2 class="mb-3 text-xl  leading-tight text-gray-900 lg:my-4  lg:text-2xl dark:text-white">
+                        <h2 class=" mt-3 mb-3 text-xl  leading-tight text-gray-900 lg:my-4  lg:text-2xl dark:text-white">
                             Our Process:</h2>
                         <ol class="list-decimal text-xl p-4 space-y-4">
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Discovery & Planning:</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Discovery & Planning:</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p> We begin by understanding your business, audience, and goals. We then create a
                                         detailed
                                         project plan that includes timelines, design prototypes, and functionality
@@ -166,8 +167,8 @@
                                 </div>
                             </li>
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Design & Development:</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Design & Development:</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p> Once the plan is finalized, we move into the design and development phase, where our
                                         designers create visually stunning interfaces, and our developers bring those
                                         designs to
@@ -176,16 +177,16 @@
                                 </div>
                             </li>
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Testing & Quality Assurance:</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Testing & Quality Assurance:</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p> We rigorously test every aspect of your website to ensure it is free of bugs and
                                         performs well across all devices and browsers.
                                     </p>
                                 </div>
                             </li>
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Launch & Post-Launch Support:</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Launch & Post-Launch Support:</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p>After the website is tested and approved, we launch it and provide ongoing support to
                                         ensure everything continues to run smoothly.
                                     </p>

@@ -1,7 +1,7 @@
 @extends('layout.client')
 @section('content')
     <section class="font-costum4">
-        <main class=" pt-28 pb-16 lg:pt-28 lg:pb-24 bg-white dark:bg-gray-900 antialiased">
+        <main class=" pt-32 md:pt-40 pb-16 lg:pt-40 lg:pb-24 bg-white dark:bg-gray-900 antialiased">
             <div class="flex justify-between px-4 mx-auto max-w-screen-xl ">
                 <article
                     class="mx-auto w-full max-w-7xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
@@ -12,7 +12,8 @@
                             IT Consultancy Services
                         </h1>
                     </header>
-                    <p class="lead text-[16px]">we provide comprehensive IT consultancy services designed to empower your
+                    <p class="lead md:text-[16px]">we provide comprehensive IT consultancy services designed to empower
+                        your
                         business with innovative technology solutions. Our expert consultants work closely with you to
                         assess your current infrastructure, identify areas for improvement, and implement strategies that
                         align with your business goals. With over 15 years of experience, we offer specialized services in:
@@ -27,7 +28,7 @@
                         <ol class=" text-xl pt-2 px-4 space-y-4">
                             {{-- container Item 1  --}}
                             <li class="space-y-2">
-                                <div class="text-[16px]">
+                                <div class="text-sm md:text-[16px]">
                                     {{-- Item1 --}}
                                     <ul class="list-disc px-4">
                                         <li><strong class="text-blue-600  ">Digital Transformation:</strong>
@@ -57,7 +58,8 @@
 
                         </ol>
                     </div>
-                    <p class="lead text-[16px] mt-2">Our approach is client-centric, focusing on delivering value through
+                    <p class="lead md:text-[16px] mt-2"> Our approach is client-centric, focusing on delivering value
+                        through
                         tailored solutions that drive
                         efficiency, security, and growth. Whether you’re a small business or a large enterprise, we can help
                         you navigate the complexities of IT and stay ahead in the digital age.</p>

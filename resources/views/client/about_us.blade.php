@@ -9,13 +9,16 @@
                     Know
                     Us</button>
                 <h2 class="text-3xl font-bold mb-4" data-aos="fade-up" data-aos-duration="1000">
-                    Cora Soft Solution
+                    Cora Soft
                 </h2>
                 <p class="text-gray-500 mb-6" data-aos="fade-up" data-aos-duration="1000">
-                    With over 15 years of industry experience, our company is a leading provider of cutting-edge technology
+                    {{-- With over 15 years of industry experience, our company is a leading provider of cutting-edge technology
                     solutions. We specialize in delivering a wide range of services tailored to meet the unique needs of our
                     clients across various sectors. Our expertise ensures that we offer innovative and reliable solutions
-                    that drive business growth and digital transformation.
+                    that drive business growth and digital transformation. --}}
+                    With extensive industry experience, our company is a leading provider of cutting-edge technology
+                    solutions. We specialize in delivering a wide range of services tailored to meet the unique needs of our
+                    clients.
                 </p>
                 <div class="space-y-6 grid grid-cols-1 sm:grid-cols-2 ">
                     <!-- Feature 1 -->
@@ -25,8 +28,12 @@
                                 fill="currentColor" viewBox="0 0 20 20"><!-- Icon SVG --></img>
                         </div>
                         <div class="ml-4" data-aos="fade-up" data-aos-duration="1000">
-                            <h3 class="text-sm font-semibold">Web Development and Design</h3>
-                            <a href="{{ url('/product#product1') }} " class="text-gray-500 text-[12px]">Product</a>
+                            <a href="{{ url('development_and_design_detail') }}">
+                                <h3 class="text-sm
+                                font-semibold">Web Development and Design
+                                </h3>
+                            </a>
+                            {{-- <a href="{{ url('/product#product1') }} " class="text-gray-500 text-[12px]">Product</a> --}}
                         </div>
                     </div>
                     <!-- Feature 2 -->
@@ -36,8 +43,10 @@
                                 fill="currentColor" viewBox="0 0 20 20"><!-- Icon SVG --></img>
                         </div>
                         <div class="ml-4" data-aos="fade-up" data-aos-duration="1000">
-                            <h3 class="text-sm font-semibold">SEO and Digital Marketing</h3>
-                            <a href="{{ url('/product#product2') }} " class="text-gray-500 text-[12px]">Product</a>
+                            <a href="{{ url('seo_and_digital_marketing') }}">
+                                <h3 class="text-sm font-semibold">SEO and Digital Marketing</h3>
+                            </a>
+                            {{-- <a href="{{ url('/product#product2') }} " class="text-gray-500 text-[12px]">Product</a> --}}
                         </div>
                     </div>
                     <!-- Feature 3 -->
@@ -46,11 +55,12 @@
                             <img src="{{ asset('assets/images/mobile.png') }}" class="w-6 h-6 text-blue-600"
                                 fill="currentColor" viewBox="0 0 20 20"><!-- Icon SVG --></img>
                         </div>
-                        <div class="ml-4" data-aos="fade-up" data-aos-duration="1000">
+                        <a href="{{ url('mobile_app_development') }}" class="ml-4" data-aos="fade-up"
+                            data-aos-duration="1000">
                             <h3 class="text-sm font-semibold">Mobile App Development</h3>
-                            <a href="{{ url('/product#product3') }} " class="text-gray-500  text-[12px]">Product</a>
+                            {{-- <a href="{{ url('/product#product3') }} " class="text-gray-500  text-[12px]">Product</a> --}}
 
-                        </div>
+                        </a>
                     </div>
                     <!-- Feature 4 -->
                     <div class="flex items-center" data-aos="fade-up" data-aos-duration="1000">
@@ -59,8 +69,10 @@
                                 fill="currentColor" viewBox="0 0 20 20"><!-- Icon SVG --></img>
                         </div>
                         <div class="ml-4" data-aos="fade-up" data-aos-duration="1000">
-                            <h3 class="text-sm font-semibold">Custom Software Development</h3>
-                            <a href="{{ url('/product#product4') }} " class="text-gray-500 text-[12px]">Product</a>
+                            <a href="{{ url('custom_software_development') }}">
+                                <h3 class="text-sm font-semibold">Custom Software Development</h3>
+                            </a>
+                            {{-- <a href="{{ url('/product#product4') }} " class="text-gray-500 text-[12px]">Product</a> --}}
                         </div>
                     </div>
                     <!-- Feature 5 -->
@@ -70,8 +82,10 @@
                                 fill="currentColor" viewBox="0 0 20 20"><!-- Icon SVG --></img>
                         </div>
                         <div class="ml-4" data-aos="fade-up" data-aos-duration="1000">
-                            <h3 class="text-sm font-semibold">Cloud Hosting</h3>
-                            <a href="{{ url('/product#product5') }} " class="text-gray-500  text-[12px]">Product</a>
+                            <a href="{{ url('cloud_hosting') }}">
+                                <h3 class="text-sm  font-semibold">Cloud Hosting</h3>
+                            </a>
+                            {{-- <a href="{{ url('/product#product5') }} " class="text-gray-500  text-[12px]">Product</a> --}}
                         </div>
                     </div>
                 </div>

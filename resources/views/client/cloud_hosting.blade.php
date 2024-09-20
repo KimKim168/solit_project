@@ -1,7 +1,7 @@
 @extends('layout.client')
 @section('content')
     <section class="font-costum4 ">
-        <main class=" pt-28 pb-16 lg:pt-28 lg:pb-24 bg-white dark:bg-gray-900 antialiased">
+        <main class=" pt-32 md:pt-40 pb-16 lg:pt-40 lg:pb-24 bg-white dark:bg-gray-900 antialiased">
             <div class="flex justify-between px-4 mx-auto max-w-screen-xl ">
                 <article
                     class="mx-auto w-full max-w-7xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
@@ -12,7 +12,7 @@
                             Cloud Hosting Services
                         </h1>
                     </header>
-                    <p class="lead text-[16px]">
+                    <p class="lead md:text-[16px]">
                         At [Your Company Name], we offer reliable and scalable <b>Cloud Hosting</b> solutions designed to
                         meet the
                         needs of businesses of all sizes. Our cloud hosting services provide you with the flexibility,
@@ -30,8 +30,8 @@
                         <ol class="list-decimal text-xl p-4 space-y-4">
                             {{-- container Item 1  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Scalable Cloud Hosting</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Scalable Cloud Hosting</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p>
                                         As your business grows, so do your hosting needs. Our scalable cloud hosting
                                         solutions
@@ -56,8 +56,8 @@
                             </li>
                             {{-- container Item 2  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Managed Cloud Hosting</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Managed Cloud Hosting</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p>
                                         Our fully managed cloud hosting services allow you to focus on your business while
                                         we
@@ -84,8 +84,8 @@
                             </li>
                             {{-- container Item 3  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">High Availability and Uptime</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">High Availability and Uptime</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p>
                                         We understand the importance of keeping your website or application online at all
                                         times.
@@ -109,8 +109,8 @@
                             </li>
                             {{-- container Item 4  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Security and Compliance</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Security and Compliance</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p>
                                         Security is a top priority in our cloud hosting services. We implement advanced
                                         security
@@ -136,8 +136,8 @@
                             </li>
                             {{-- container Item 5  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Customizable Solutions</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Customizable Solutions</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p>
                                         No two businesses are the same, which is why we offer customizable cloud hosting
                                         solutions that are tailored to meet your specific needs. Whether you require a
@@ -149,8 +149,8 @@
                             </li>
                             {{-- container Item 6  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Global Data Centers</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Global Data Centers</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p>
                                         Our cloud hosting services are backed by a network of global data centers that
                                         ensure
@@ -176,8 +176,8 @@
                             </li>
                             {{-- container Item 7  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Backup and Disaster Recovery</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Backup and Disaster Recovery</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p>
                                         Data loss can be catastrophic for any business. Our cloud hosting solutions include
                                         automated backups and robust disaster recovery plans to protect your data. In the
@@ -205,8 +205,8 @@
                             </li>
                             {{-- container Item 8  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Cloud Hosting for Applications</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Cloud Hosting for Applications</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p>
                                         Our cloud hosting isn’t just for websites—we also provide hosting for web
                                         applications,
@@ -231,8 +231,8 @@
                             </li>
                             {{-- container Item 9  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Hybrid Cloud Solutions</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Hybrid Cloud Solutions</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p>
                                         For businesses with specific hosting needs, we offer hybrid cloud solutions that
                                         combine
@@ -257,8 +257,8 @@
                             </li>
                             {{-- container Item 10  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Cloud Migration Services</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Cloud Migration Services</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p>
                                         If you’re looking to move from an on-premise infrastructure or another hosting
                                         provider
@@ -294,8 +294,8 @@
                         <ol class="list-decimal text-xl p-4 space-y-4">
                             {{-- item 1 --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Consultation and Assessment:</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Consultation and Assessment:</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p>
                                         We begin by understanding your business needs and evaluating your current
                                         infrastructure. Our team will recommend the best cloud hosting solution based on
@@ -306,8 +306,8 @@
                             </li>
                             {{-- item 2 --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Setup and Configuration:</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Setup and Configuration:</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p>
                                         Once we’ve designed your cloud hosting solution, we take care of the setup and
                                         configuration process. This includes server provisioning, security settings, and any
@@ -317,8 +317,8 @@
                             </li>
                             {{-- item 3 --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Monitoring and Management:</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Monitoring and Management:</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p>
                                         After your cloud hosting environment is set up, we provide ongoing monitoring and
                                         management to ensure optimal performance. Our team is available 24/7 to address any
@@ -328,8 +328,8 @@
                             </li>
                             {{-- item 4 --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Ongoing Support:</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Ongoing Support:</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p>
                                         We provide continuous support to keep your cloud hosting environment up to date and
                                         functioning at peak performance. This includes security updates, resource scaling,

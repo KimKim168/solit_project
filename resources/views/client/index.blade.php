@@ -1,39 +1,39 @@
 @extends('layout.client')
 @section('content')
     <!-- Strat transform -->
-    <div id="controls-carousel" class="relative w-full mt-20">
+    <div id="controls-carousel" class="relative w-full mt-[100px] md:mt-[123px]">
         <!-- Carousel wrapper -->
-        <div class="relative aspect-[16/6] md:aspect-[16/4]  w-full overflow-hidden ">
+        <div class="relative aspect-[16/5]  w-full overflow-hidden ">
             <!-- Swiper -->
             <swiper-container class="mySwiper w-full h-full" centered-slides="true" autoplay-delay="4000"
                 autoplay-disable-on-interaction="false">
                 <!-- slide 1 -->
                 <swiper-slide class="w-full h-full">
                     <div class="flex h-full w-full relative bg-cover bg-center bg-blend-multiply" data-carousel-item
-                        style="background-image: url('assets/images/slide1.jpg');">
+                        style="background-image: url('assets/images/cora-mobile.png');">
                         <!-- Dark Overlay -->
-                        <div class="absolute inset-0 bg-[#151516a6] bg-opacity-80"></div>
+                        {{-- <div class="absolute inset-0 bg-[#151516a6] bg-opacity-80"></div> --}}
 
                         <!-- Content -->
                         <div
-                            class="absolute top-1/2 left-3 md:left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
-                            <h1 class="text-sm sm:text-xl lg:text-5xl font-costum1 text-[#11ace3]">
+                            class="absolute top-1/2 left-3 md:left-5 lg:left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
+                            <h1
+                                class="text-sm sm:text-xl md:text-xl lg:text-5xl font-costum1 text-white max-w-[9rem] sm:max-w-[11rem] md:max-w-full">
                                 Innovative Mobile App Solutions
                             </h1>
-                            <p class="text-[10px] sm:text-sm md:text-base lg:text-lg mt-2 md:mt-5">
+                            <p
+                                class="text-[10px] sm:text-sm md:text-sm lg:text-lg  sm:text-white mt-2 lg:mt-5 max-w-[15rem] sm:max-w-[20rem] md:max-w-full">
                                 Transform your ideas into engaging and high-performance mobile applications. Our team
-                                delivers custom-built apps with intuitive design and seamless functionality across
-                                platforms.
+                                delivers custom-built apps
+                                with intuitive design and seamless functionality across platforms.
                             </p>
-                            <div class="md:my-7 flex mt-2  md:gap-8">
+                            <div class="mt-2 md:mt-4">
                                 <a href="{{ url('/mobile_app_development') }}"
-                                    class="text-[8px] border sm:text-sm  md:text-lg p-1 p-x-3 md:px-5  md:py-3  md:border-2 rounded-md border-white text-white transition duration-300"">
+                                    class="text-[8px] sm:text-sm md:text-lg border border-white rounded-md p-1 px-3 md:px-5 md:py-3 md:border-2 text-white transition duration-300">
                                     Learn More
                                 </a>
                             </div>
                         </div>
-
-
                     </div>
                 </swiper-slide>
                 <!-- slide 2 -->
@@ -41,23 +41,25 @@
                     <div class="flex h-full w-full relative bg-cover bg-center bg-blend-multiply" data-carousel-item
                         style="background-image: url('assets/images/slide2.jpg');">
                         <!-- Dark Overlay -->
-                        <div class="absolute inset-0 bg-[#151516a6] bg-opacity-80"></div>
+                        {{-- <div class="absolute inset-0 bg-[#151516a6] bg-opacity-80"></div> --}}
 
                         <!-- Content -->
                         <div
-                            class="absolute top-1/2 left-3 md:left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
-                            <h1 class="text-sm sm:text-xl lg:text-5xl font-costum1 text-[#11ace3]">
+                            class="absolute top-1/2 left-3 md:left-5 lg:left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
+                            <h1
+                                class="text-sm sm:text-xl md:text-xl lg:text-5xl font-costum1 text-white max-w-[9rem] sm:max-w-[11rem] md:max-w-full">
                                 Custom Web Solutions
                             </h1>
-                            <p class="text-[10px] sm:text-sm md:text-base lg:text-lg mt-2 md:mt-5">
+                            <p
+                                class="text-[10px] sm:text-sm md:text-sm lg:text-lg  sm:text-white mt-2 lg:mt-5 max-w-[15rem] sm:max-w-[20rem] md:max-w-full">
                                 Build a unique online presence with our custom web development services. We design and
                                 develop responsive, fast, and secure websites that elevate your brand and engage your
                                 audience.
                             </p>
 
-                            <div class="md:my-7 flex mt-2 md:gap-8">
+                            <div class="mt-2 md:mt-4">
                                 <a href="{{ url('/custom_software_development') }}"
-                                    class="text-[8px] border sm:text-sm  md:text-lg p-1 p-x-3 md:px-5  md:py-3  md:border-2 rounded-md border-white text-white transition duration-300">
+                                    class="text-[8px] sm:text-sm md:text-lg border border-white rounded-md p-1 px-3 md:px-5 md:py-3 md:border-2 text-white transition duration-300">
                                     Learn More
                                 </a>
                             </div>
@@ -67,30 +69,31 @@
                 <!-- slide 3 -->
                 <swiper-slide class="w-full h-full">
                     <div class="flex h-full w-full relative bg-cover bg-center bg-blend-multiply" data-carousel-item
-                        style="background-image: url('assets/images/slide3.jpg');">
+                        style="background-image: url('assets/images/Cora-hosting.png');">
                         <!-- Dark Overlay -->
-                        <div class="absolute inset-0 bg-[#151516a6] bg-opacity-80"></div>
+                        {{-- <div class="absolute inset-0 bg-[#151516a6] bg-opacity-80"></div> --}}
 
                         <!-- Content -->
                         <div
-                            class="absolute top-1/2 left-3 md:left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
-                            <h1 class="text-sm sm:text-xl lg:text-5xl font-costum1 text-[#11ace3]">
+                            class="absolute top-1/2 left-3 md:left-5 lg:left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
+                            <h1
+                                class="text-sm sm:text-xl md:text-xl lg:text-5xl font-costum1 text-white max-w-[9rem] sm:max-w-[11rem] md:max-w-full">
                                 Cloud Hosting Solutions
                             </h1>
-                            <p class="text-[10px] sm:text-sm md:text-base lg:text-lg mt-2 md:mt-5">
+                            <p
+                                class="text-[10px] sm:text-sm md:text-sm lg:text-lg  sm:text-white mt-2 lg:mt-5 max-w-[15rem] sm:max-w-[20rem] md:max-w-full">
                                 Scale your business with ease using our cloud hosting solutions. Our services provide
-                                flexibility, speed, and security, making sure your website can handle growing traffic and
-                                data demands.
+                                flexibility, speed, and security, ensuring your website can handle growing traffic and data
+                                demands.
                             </p>
-
-
-                            <div class="md:my-7 flex mt-2 md:gap-8">
+                            <div class="mt-2 md:mt-4">
                                 <a href="{{ url('/cloud_hosting') }}"
-                                    class="text-[8px] border sm:text-sm  md:text-lg p-1 p-x-3 md:px-5  md:py-3  md:border-2 rounded-md border-white text-white transition duration-300">
+                                    class="text-[8px] sm:text-sm md:text-lg border border-white rounded-md p-1 px-3 md:px-5 md:py-3 md:border-2 text-white transition duration-300">
                                     Learn More
                                 </a>
                             </div>
                         </div>
+
                     </div>
                 </swiper-slide>
             </swiper-container>
@@ -128,13 +131,16 @@
                 </div>
                 <h2 class="mb-4 text-3xl md:text-5xl font-costum4 leading-normal font-bold" data-aos="zoom-out-right"
                     data-aos-duration="1000">
-                    Cora Soft Solution
+                    Cora Soft
                 </h2>
                 <p class="mb-6 text-sm md:text-base text-text_color2 line-clamp-2">
-                    With over 15 years of industry experience, our company is a leading provider of cutting-edge technology
+                    {{-- With over 15 years of industry experience, our company is a leading provider of cutting-edge technology
                     solutions. We specialize in delivering a wide range of services tailored to meet the unique needs of our
                     clients across various sectors. Our expertise ensures that we offer innovative and reliable solutions
-                    that drive business growth and digital transformation.
+                    that drive business growth and digital transformation. --}}
+                    With extensive industry experience, our company is a leading provider of cutting-edge technology
+                    solutions. We specialize in delivering a wide range of services tailored to meet the unique needs of our
+                    clients.
                 </p>
                 <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6 text-text_color2" data-aos="fade-up"
                     data-aos-duration="1000">
@@ -171,9 +177,9 @@
     <!-- End middle -->
 
     <!-- Strat Section -->
-    <section class="py-8 mt-20 antialiased md:py-12 overflow-hidden bg-primary2 ">
+    <section class="py-8 mt-20 antialiased  overflow-hidden bg-primary2 ">
 
-        <div class=" p-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+        <div class=" p-4 mx-auto max-w-screen-xl lg:px-6">
             <div class="mx-auto text-center max-w-full space-y-2">
                 <button class="py-2 px-6 bg-primary1 text-white rounded-full sm:text-xl font-costum4 tracking-normal">
                     What We Do For You
@@ -341,7 +347,7 @@
         <div class="max-w-screen-xl mx-auto">
             <div class="" data-aos="flip-down" data-aos-duration="1000">
                 <h1 class="font-costum5 text-5xl">
-                    Completed Project
+                    Completed Projects
                 </h1>
                 <p class="text-base max-w-[500px] text-justify mt-5">
                     Explore our range of completed projects, showcasing innovative solutions and expert craftsmanship. Each
@@ -418,7 +424,7 @@
     {{-- End completed project --}}
 
     {{-- Blog --}}
-    <section class="py-8 p-5  mt-20 antialiased md:py-28 overflow-hidden bg-primary2">
+    <section class="py-8  p-4  mt-20 antialiased overflow-hidden bg-primary2">
         <div class="text-center mb-8">
             <p class=" font-costum4 bg-primary1 text-white inline-block p-2 px-4 rounded-full text-xl">Our Blog
             </p>
@@ -426,7 +432,7 @@
         </div>
 
         <!-- Blog Cards -->
-        <div class="max-w-7xl mx-auto  sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto ">
             <div class="grid gap-6 lg:grid-cols-3">
                 <!-- Card 1 -->
                 <a href="{{ url('/latest_news') }}">

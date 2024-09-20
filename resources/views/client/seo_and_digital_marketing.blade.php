@@ -1,7 +1,7 @@
 @extends('layout.client')
 @section('content')
     <section class="font-costum4">
-        <main class=" pt-28 pb-16 lg:pt-28 lg:pb-24 bg-white dark:bg-gray-900 antialiased">
+        <main class=" pt-32 md:pt-40 pb-16 lg:pt-40 lg:pb-24 bg-white dark:bg-gray-900 antialiased">
             <div class="flex justify-between px-4 mx-auto max-w-screen-xl ">
                 <article
                     class="mx-auto w-full max-w-7xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
@@ -12,7 +12,8 @@
                             SEO and Digital Marketing Services
                         </h1>
                     </header>
-                    <p class="lead text-[16px]">In today's digital world, having a website is just the beginning. To thrive,
+                    <p class="lead md:text-[16px]">In today's digital world, having a website is just the beginning. To
+                        thrive,
                         your
                         business needs to stand out in search engines and engage effectively with your audience online. At
                         [Your Company Name], we offer expert <b>SEO and Digital Marketing</b> services designed to help you
@@ -23,13 +24,13 @@
                             alt="">
                     </figure>
                     <div>
-                        <h2 class="mb-3 text-xl  leading-tight text-gray-900 lg:mb-4 lg:text-2xl dark:text-white">
+                        <h2 class="  mb-3 text-xl  leading-tight text-gray-900 lg:mb-4 lg:text-2xl dark:text-white">
                             Our Key Offerings:</h2>
                         <ol class="list-decimal text-xl p-4 space-y-4">
                             {{-- container Item 1  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Search Engine Optimization (SEO)</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Search Engine Optimization (SEO)</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p> SEO is the backbone of any digital marketing strategy. Our SEO experts will ensure
                                         your
                                         website ranks higher in search engine results, driving more organic traffic to your
@@ -62,8 +63,8 @@
                             </li>
                             {{-- container Item 2  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Pay-Per-Click (PPC) Advertising</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Pay-Per-Click (PPC) Advertising</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p> We manage highly targeted and cost-effective PPC campaigns that drive immediate
                                         traffic
                                         and leads to your business. Our PPC services include:
@@ -83,8 +84,8 @@
                             </li>
                             {{-- container Item 3  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Content Marketing</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Content Marketing</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p>Content is king, and we focus on creating high-quality, engaging, and SEO-optimized
                                         content that speaks directly to your audience. We help you build authority in your
                                         niche
@@ -108,8 +109,8 @@
                             </li>
                             {{-- container Item 4  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Social Media Marketing</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Social Media Marketing</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p>Social media is a powerful platform for building relationships with your audience and
                                         enhancing brand visibility. Our social media marketing services include:
                                     </p>
@@ -133,8 +134,8 @@
                             </li>
                             {{-- container Item 5  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Email Marketing</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Email Marketing</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p>Email marketing remains one of the most effective ways to engage your audience and
                                         drive
                                         conversions. We design and manage email campaigns that:
@@ -158,8 +159,8 @@
                             </li>
                             {{-- container Item 6  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Conversion Rate Optimization (CRO)</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Conversion Rate Optimization (CRO)</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p>Driving traffic is important, but turning that traffic into leads and sales is the
                                         ultimate goal. Our CRO services focus on optimizing your website for better user
                                         experiences, leading to higher conversion rates. We analyze user behavior and make
@@ -182,8 +183,8 @@
                             </li>
                             {{-- container Item 7  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Analytics and Reporting</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Analytics and Reporting</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p>Data is at the core of every successful digital marketing campaign. We track,
                                         measure,
                                         and report on key performance indicators (KPIs) to ensure that your campaigns are
@@ -209,8 +210,8 @@
                             </li>
                             {{-- container Item 8  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Online Reputation Management (ORM)</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Online Reputation Management (ORM)</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p>Your online reputation can make or break your business. We help you maintain a
                                         positive
                                         image online by managing customer reviews, handling negative feedback, and promoting
@@ -220,8 +221,8 @@
                             </li>
                             {{-- container Item 9  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Influencer Marketing</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Influencer Marketing</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p>We connect your brand with influencers who can amplify your message and engage with
                                         your
                                         target audience. Our influencer marketing services help you:
@@ -244,13 +245,14 @@
                         </ol>
                     </div>
                     <div class="border-t">
-                        <h2 class="mb-3 text-xl  leading-tight text-gray-900 lg:my-4  lg:text-2xl dark:text-white">
+                        <h2 class=" mt-3 mb-3 text-xl  leading-tight text-gray-900 lg:my-4  lg:text-2xl dark:text-white">
                             Our Process:</h2>
                         <ol class="list-decimal text-xl p-4 space-y-4">
                             {{-- item 1 --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Initial Consultation & Strategy Development:</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Initial Consultation & Strategy
+                                    Development:</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p> We begin with a detailed analysis of your business, website, and competitors. Based
                                         on
                                         this, we create a tailored digital marketing strategy designed to meet your specific
@@ -260,8 +262,8 @@
                             </li>
                             {{-- item 2 --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Implementation:</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Implementation:</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p>Once the strategy is finalized, we begin implementing it across all relevant
                                         channels,
                                         from optimizing your website for SEO to launching social media and PPC campaigns.
@@ -270,8 +272,8 @@
                             </li>
                             {{-- item 3 --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Monitoring & Optimization:</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Monitoring & Optimization:</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p>We continuously monitor the performance of your campaigns, making adjustments where
                                         necessary to maximize results. This includes testing different approaches and
                                         refining
@@ -281,8 +283,8 @@
                             </li>
                             {{-- item 4 --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 text-xl ">Reporting & Analytics:</strong>
-                                <div class="text-[16px]">
+                                <strong class="text-blue-600 md:text-xl ">Reporting & Analytics:</strong>
+                                <div class="text-sm md:text-[16px]">
                                     <p>We provide you with regular reports that detail the progress of your campaigns, key
                                         metrics, and actionable insights for further improvement. We work closely with you
                                         to

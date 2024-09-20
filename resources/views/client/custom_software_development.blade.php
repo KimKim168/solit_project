@@ -10,7 +10,8 @@
                         Custom Software Development Services
                     </h1>
                 </header>
-                <p class="lead text-[16px]">In today’s fast-paced digital landscape, off-the-shelf solutions may not always
+                <p class="lead md:text-[16px]">In today’s fast-paced digital landscape, off-the-shelf solutions may not
+                    always
                     meet
                     the unique needs of your business. At [Your Company Name], we specialize in Custom Software
                     Development to help businesses achieve their goals through tailored software solutions. With over 15
@@ -27,8 +28,8 @@
                     <ol class="list-decimal text-xl p-4 space-y-4">
                         {{-- container Item 1  --}}
                         <li class="space-y-2">
-                            <strong class="text-blue-600 text-xl ">Custom Software Solutions</strong>
-                            <div class="text-[16px]">
+                            <strong class="text-blue-600 md:text-xl ">Custom Software Solutions</strong>
+                            <div class="text-sm md:text-[16px]">
                                 <p> We develop bespoke software tailored to your specific business needs, ensuring that your
                                     processes are streamlined and your goals are met. Whether you need a customer
                                     relationship management (CRM) system, enterprise resource planning (ERP) software, or a
@@ -50,8 +51,8 @@
                         </li>
                         {{-- container Item 2  --}}
                         <li class="space-y-2">
-                            <strong class="text-blue-600 text-xl ">Enterprise Software Development</strong>
-                            <div class="text-[16px]">
+                            <strong class="text-blue-600 md:text-xl ">Enterprise Software Development</strong>
+                            <div class="text-sm md:text-[16px]">
                                 <p> Our enterprise software development services are designed to improve operational
                                     efficiency and productivity within your organization. We develop powerful, secure, and
                                     scalable solutions for managing large-scale operations, including:
@@ -72,8 +73,8 @@
                         </li>
                         {{-- container Item 3  --}}
                         <li class="space-y-2">
-                            <strong class="text-blue-600 text-xl ">SaaS (Software as a Service) Development</strong>
-                            <div class="text-[16px]">
+                            <strong class="text-blue-600 md:text-xl ">SaaS (Software as a Service) Development</strong>
+                            <div class="text-sm md:text-[16px]">
                                 <p>We develop SaaS applications that are hosted in the cloud, offering flexible and scalable
                                     solutions for businesses of all sizes. Our SaaS development services allow you to offer
                                     software to your customers via subscription, with features like:
@@ -94,8 +95,8 @@
                         </li>
                         {{-- container Item 4  --}}
                         <li class="space-y-2">
-                            <strong class="text-blue-600 text-xl ">Cloud-Based Solutions</strong>
-                            <div class="text-[16px]">
+                            <strong class="text-blue-600 md:text-xl ">Cloud-Based Solutions</strong>
+                            <div class="text-sm md:text-[16px]">
                                 <p>We design and develop cloud-based applications that allow your business to operate
                                     seamlessly across different locations and devices. Our cloud software solutions are
                                     scalable, secure, and cost-effective, offering features like:
@@ -116,8 +117,8 @@
                         </li>
                         {{-- container Item 5  --}}
                         <li class="space-y-2">
-                            <strong class="text-blue-600 text-xl ">Mobile and Web-Based Applications</strong>
-                            <div class="text-[16px]">
+                            <strong class="text-blue-600 md:text-xl ">Mobile and Web-Based Applications</strong>
+                            <div class="text-sm md:text-[16px]">
                                 <p>
                                     We develop custom mobile and web-based applications that allow your team and customers
                                     to interact with your business from anywhere, at any time. Our mobile and web solutions
@@ -141,8 +142,8 @@
                         </li>
                         {{-- container Item 6  --}}
                         <li class="space-y-2">
-                            <strong class="text-blue-600 text-xl ">API Development and Integration</strong>
-                            <div class="text-[16px]">
+                            <strong class="text-blue-600 md:text-xl ">API Development and Integration</strong>
+                            <div class="text-sm md:text-[16px]">
                                 <p>
                                     We specialize in creating and integrating Application Programming Interfaces (APIs) that
                                     allow different software systems to communicate with each other. Our API development
@@ -165,8 +166,8 @@
                         </li>
                         {{-- container Item 7  --}}
                         <li class="space-y-2">
-                            <strong class="text-blue-600 text-xl ">Legacy Software Modernization</strong>
-                            <div class="text-[16px]">
+                            <strong class="text-blue-600 md:text-xl ">Legacy Software Modernization</strong>
+                            <div class="text-sm md:text-[16px]">
                                 <p>
                                     If you have outdated systems that are slowing down your business processes, we can help
                                     you modernize them. Our legacy software modernization services involve rebuilding,
@@ -191,8 +192,8 @@
                         </li>
                         {{-- container Item 8  --}}
                         <li class="space-y-2">
-                            <strong class="text-blue-600 text-xl ">Software Maintenance and Support</strong>
-                            <div class="text-[16px]">
+                            <strong class="text-blue-600 md:text-xl ">Software Maintenance and Support</strong>
+                            <div class="text-sm md:text-[16px]">
                                 <p>
                                     After your software is deployed, we provide ongoing maintenance and support to ensure
                                     that it continues to function at its best. Our team offers:
@@ -213,8 +214,8 @@
                         </li>
                         {{-- container Item 9  --}}
                         <li class="space-y-2">
-                            <strong class="text-blue-600 text-xl ">Database Development and Management</strong>
-                            <div class="text-[16px]">
+                            <strong class="text-blue-600 md:text-xl ">Database Development and Management</strong>
+                            <div class="text-sm md:text-[16px]">
                                 <p>We develop and manage custom databases to store, manage, and analyze your business data.
                                     Our database solutions are optimized for performance and scalability, ensuring that your
                                     business can efficiently handle growing data demands. Our services include:
@@ -236,8 +237,8 @@
                         </li>
                         {{-- container Item 10  --}}
                         <li class="space-y-2">
-                            <strong class="text-blue-600 text-xl ">Automation Solutions</strong>
-                            <div class="text-[16px]">
+                            <strong class="text-blue-600 md:text-xl ">Automation Solutions</strong>
+                            <div class="text-sm md:text-[16px]">
                                 <p>
                                     To help businesses improve efficiency and reduce manual work, we create automation
                                     solutions that optimize routine tasks and business processes. Our automation services
@@ -268,8 +269,8 @@
                     <ol class="list-decimal text-xl p-4 space-y-4">
                         {{-- item 1 --}}
                         <li class="space-y-2">
-                            <strong class="text-blue-600 text-xl ">Consultation & Requirement Gathering:</strong>
-                            <div class="text-[16px]">
+                            <strong class="text-blue-600 md:text-xl ">Consultation & Requirement Gathering:</strong>
+                            <div class="text-sm md:text-[16px]">
                                 <p>We start by understanding your business needs and processes. Our team conducts thorough
                                     research and works with you to define the scope, functionality, and goals of your custom
                                     software solution.
@@ -278,8 +279,8 @@
                         </li>
                         {{-- item 2 --}}
                         <li class="space-y-2">
-                            <strong class="text-blue-600 text-xl ">Planning & Design:</strong>
-                            <div class="text-[16px]">
+                            <strong class="text-blue-600 md:text-xl ">Planning & Design:</strong>
+                            <div class="text-sm md:text-[16px]">
                                 <p>
                                     Once we understand your requirements, we create a detailed project plan and design the
                                     architecture of the software. This includes creating wireframes, user stories, and
@@ -289,8 +290,8 @@
                         </li>
                         {{-- item 3 --}}
                         <li class="space-y-2">
-                            <strong class="text-blue-600 text-xl ">Development:</strong>
-                            <div class="text-[16px]">
+                            <strong class="text-blue-600 md:text-xl ">Development:</strong>
+                            <div class="text-sm md:text-[16px]">
                                 <p>
                                     Our experienced developers build your software using the latest technologies, ensuring
                                     that it is secure, scalable, and future-proof. We follow agile development
@@ -300,8 +301,8 @@
                         </li>
                         {{-- item 4 --}}
                         <li class="space-y-2">
-                            <strong class="text-blue-600 text-xl ">Testing & Quality Assurance:</strong>
-                            <div class="text-[16px]">
+                            <strong class="text-blue-600 md:text-xl ">Testing & Quality Assurance:</strong>
+                            <div class="text-sm md:text-[16px]">
                                 <p>
                                     Before deployment, we rigorously test the software to ensure it is free of bugs and
                                     meets your quality standards. This includes functional testing, performance testing, and
@@ -311,8 +312,8 @@
                         </li>
                         {{-- item 5 --}}
                         <li class="space-y-2">
-                            <strong class="text-blue-600 text-xl ">Deployment & Integration:</strong>
-                            <div class="text-[16px]">
+                            <strong class="text-blue-600 md:text-xl ">Deployment & Integration:</strong>
+                            <div class="text-sm md:text-[16px]">
                                 <p>
                                     Once testing is complete, we deploy your software in your chosen environment, whether
                                     on-premise or in the cloud. We also ensure that your new system is fully integrated with
@@ -322,8 +323,8 @@
                         </li>
                         {{-- item 6 --}}
                         <li class="space-y-2">
-                            <strong class="text-blue-600 text-xl ">Ongoing Support & Maintenance:</strong>
-                            <div class="text-[16px]">
+                            <strong class="text-blue-600 md:text-xl ">Ongoing Support & Maintenance:</strong>
+                            <div class="text-sm md:text-[16px]">
                                 <p>
                                     After deployment, we continue to provide maintenance and support, ensuring your software
                                     is always up-to-date, secure, and functioning optimally. We provide regular updates and

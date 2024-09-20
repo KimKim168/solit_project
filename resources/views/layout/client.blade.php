@@ -225,7 +225,9 @@
             <div class="max-w-screen-xl mx-auto flex items-center justify-between p-5">
                 <!-- Logo -->
                 <div class="flex items-center">
-                    <img src="{{ asset('assets/images/Cora.png') }}" class="w-16 md:w-20" alt="Logo">
+                    <a href="{{ url('/') }}">
+                        <img src="{{ asset('assets/images/Cora_logo.png') }}" class="w-16 md:w-20" alt="Logo">
+                    </a>
                 </div>
                 <div class="flex items-center space-x-5 md:space-x-10">
                     <!-- Menu for larger screens -->
@@ -268,7 +270,7 @@
                 <div id="mobile-menu"
                     class="hidden lg:hidden  absolute top-full left-0 w-full bg-white shadow-lg z-30 transition-transform transform">
 
-                    <ul class="flex flex-col items-center bg-white text-sm font-Poppins">
+                    <ul class="flex flex-col items-center bg-white text-[17px] 2xl:text-[18px] font-Poppins">
                         <li class="py-2 hover:bg-slate-200 w-full text-center border-b">
                             <a
                                 href="{{ url('/') }}"class="{{ request()->is('/') ? 'text-blue-600' : 'text-black' }}">Home</a>
@@ -397,7 +399,7 @@
 
         <!-- Footer Bottom -->
         <div class="max-w-screen-xl mt-10 text-center mx-auto px-4">
-            <p class="text-xs ">&copy; Cora Soft Solution | All Rights Reserved</p>
+            <p class="text-xs ">&copy; Corasoft | All Rights Reserved</p>
         </div>
     </footer>
 
