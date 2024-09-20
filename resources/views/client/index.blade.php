@@ -343,7 +343,7 @@
     <!--End Section  -->
 
     {{-- completed project --}}
-    <section class="mt-20 overflow-hidden p-5">
+    <section class="mt-6 md:mt-20 overflow-hidden p-5">
         <div class="max-w-screen-xl mx-auto">
             <div class="" data-aos="flip-down" data-aos-duration="1000">
                 <h1 class="font-costum5 text-3xl md:text-5xl">
