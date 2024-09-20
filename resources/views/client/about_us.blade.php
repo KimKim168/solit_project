@@ -20,7 +20,7 @@
                     solutions. We specialize in delivering a wide range of services tailored to meet the unique needs of our
                     clients.
                 </p>
-                <div class="space-y-6 grid grid-cols-1 sm:grid-cols-2 ">
+                <div class="gap-6  grid grid-cols-1 sm:grid-cols-2 ">
                     <!-- Feature 1 -->
                     <div class="flex items-center">
                         <div class="bg-blue-100 p-4 rounded-full" data-aos="fade-up" data-aos-duration="1000">
@@ -50,7 +50,7 @@
                         </div>
                     </div>
                     <!-- Feature 3 -->
-                    <div class="flex items-center" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="flex items-center " data-aos="fade-up" data-aos-duration="1000">
                         <div class="bg-blue-100 p-4 rounded-full">
                             <img src="{{ asset('assets/images/mobile.png') }}" class="w-6 h-6 text-blue-600"
                                 fill="currentColor" viewBox="0 0 20 20"><!-- Icon SVG --></img>
@@ -87,6 +87,19 @@
                             </a>
                             {{-- <a href="{{ url('/product#product5') }} " class="text-gray-500  text-[12px]">Product</a> --}}
                         </div>
+                    </div>
+                    <!-- Feature 6 -->
+                    <div class="flex items-center" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="bg-blue-100 p-4 rounded-full">
+                            <img src="{{ asset('assets/images/it.png') }}" class="w-6 h-6 text-blue-600"
+                                fill="currentColor" viewBox="0 0 20 20">
+                        </div>
+                        <a href="{{ url('it_consultancy_services') }}" class="ml-4" data-aos="fade-up"
+                            data-aos-duration="1000">
+                            <h3 class="text-sm font-semibold">IT Consultancy</h3>
+                            {{-- <a href="{{ url('/product#product3') }} " class="text-gray-500  text-[12px]">Product</a> --}}
+
+                        </a>
                     </div>
                 </div>
             </div>
