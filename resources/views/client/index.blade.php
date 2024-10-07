@@ -1,7 +1,7 @@
 @extends('layout.client')
 @section('content')
     <!-- Strat transform -->
-    <div id="controls-carousel" class="relative w-full mt-[100px] md:mt-[123px]">
+    <div id="controls-carousel" class="relative w-full mt-[60px] md:mt-[80px]">
         <!-- Carousel wrapper -->
         <div class="relative aspect-[16/5] md:aspect-[16/5]  w-full overflow-hidden ">
             <!-- Swiper -->
@@ -18,7 +18,7 @@
                         <div
                             class="absolute top-1/2 left-3 md:left-5 lg:left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
                             <h1
-                                class="text-[12px] sm:text-xl md:text-xl lg:text-5xl font-costum1 text-white max-w-[9rem] sm:max-w-[11rem] md:max-w-full">
+                                class="text-[12px] sm:text-xl md:text-xl lg:text-5xl font-costum1 text-blue-900 max-w-[9rem] sm:max-w-[11rem] md:max-w-full">
                                 Innovative Mobile App Solutions
                             </h1>
                             <p
@@ -77,7 +77,7 @@
                         <div
                             class="absolute top-1/2 left-3 md:left-5 lg:left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
                             <h1
-                                class="text-[12px] sm:text-xl md:text-xl lg:text-5xl font-costum1 text-white max-w-[9rem] sm:max-w-[11rem] md:max-w-full">
+                                class="text-[12px] sm:text-xl md:text-xl lg:text-5xl font-costum1 text-[#FFFF00] max-w-[9rem] sm:max-w-[11rem] md:max-w-full">
                                 Cloud Hosting Solutions
                             </h1>
                             <p
@@ -129,12 +129,12 @@
                     class="font-costum8 text-[#6251ef] border-b-2 border-t-2 border-primary1 inline-block py-2 px-4 rounded-md">
                     About Us
                 </div>
-                <h2 class="mb-4 text-3xl md:text-5xl font-costum4 leading-normal font-bold bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#cf2345] text-transparent bg-clip-text"
+                <h2 class="mb-4 text-5xl md:text-6xl font-costum4 leading-normal font-bold bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#cf2345] text-transparent bg-clip-text"
                     data-aos="zoom-out-right" data-aos-duration="1000">
                     Cora Soft
                 </h2>
 
-                <p class="mb-6 text-sm md:text-base text-text_color2 line-clamp-2">
+                <p class="mb-6 text-xl md:text-xl text-text_color2 line-clamp-2">
                     {{-- With over 15 years of industry experience, our company is a leading provider of cutting-edge technology
                     solutions. We specialize in delivering a wide range of services tailored to meet the unique needs of our
                     clients across various sectors. Our expertise ensures that we offer innovative and reliable solutions
@@ -143,8 +143,8 @@
                     solutions. We specialize in delivering a wide range of services tailored to meet the unique needs of our
                     clients.
                 </p>
-                <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6 text-text_color2" data-aos="fade-up"
-                    data-aos-duration="1000">
+                <ul class="grid grid-cols-1 md:grid-cols-2 text-[16px] gap-6 mb-6 bg-gradient-to-r from-cyan-500 to-blue-500 text-transparent bg-clip-text "
+                    data-aos="fade-up" data-aos-duration="1000">
                     <li class="flex items-center space-x-2">
                         <span class="text-blue-500">&#10003;</span>
                         <span>Web Development and Design</span>
@@ -182,11 +182,11 @@
 
         <div class=" p-4 mx-auto max-w-screen-xl lg:px-6">
             <div class="mx-auto text-center max-w-full space-y-2">
-                <button class="py-2 px-6 bg-primary1 text-white rounded-full sm:text-xl font-costum4 tracking-normal">
+                <button class="py-2 px-6 bg-primary1 text-white rounded-full text-3xl font-costum4 tracking-normal ">
                     What We Do For You
                 </button>
                 <h1
-                    class="font-costum8 text-white sm:text-xl mx-auto text-center max-w-[600px] leading-normal line-clamp-3">
+                    class="font-costum8 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-2xl mx-auto text-center max-w-[600px] leading-normal line-clamp-3 text-transparent bg-clip-text">
                     We Deal With The Aspects
                     Of Professional IT Services
 
@@ -348,16 +348,16 @@
         <div class="max-w-screen-xl mx-auto">
             <div class="" data-aos="flip-down" data-aos-duration="1000">
                 <h1
-                    class="font-costum5 text-3xl md:text-5xl bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#cf2345] text-transparent bg-clip-text ">
+                    class="font-costum5 text-5xl bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#cf2345] text-transparent bg-clip-text ">
                     Completed Projects
                 </h1>
-                <p class="text-base max-w-[500px] text-justify mt-5 ">
+                <p class="text-xl max-w-[500px] text-justify mt-5 ">
                     Explore our range of completed projects, showcasing innovative solutions and expert craftsmanship. Each
                     project reflects our commitment to quality, precision, and client satisfaction, delivered on time and
                     tailored to meet specific needs.
                 </p>
             </div>
-            <div class="mt-10 aspect-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <div class="mt-10 aspect-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                 {{-- item 1 --}}
                 <a href="{{ url('/completed_project') }}">
                     <div
@@ -366,10 +366,10 @@
                             class="w-full aspect-[3/4] object-cover rounded-t-md rounded-br-[200px]">
 
                         <div class="p-8">
-                            <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-[16px] md:text-xl">
+                            <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-xl md:text-2xl">
                                 Repeat Gym
                             </h1>
-                            <p class="font-medium text-text_color1 text-sm md:text-[16px] mt-2">Web Development and Design
+                            <p class="font-medium text-text_color1 text-[16px] md:text-xl mt-2">Web Development and Design
                             </p>
                         </div>
                     </div>
@@ -381,10 +381,10 @@
                         <img src="{{ asset('assets/images/repeat1.png') }}"
                             class="w-full aspect-[3/4] object-cover rounded-t-md rounded-br-[200px]">
                         <div class="p-8">
-                            <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-[16px] md:text-xl">
+                            <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-xl md:text-2xl">
                                 Repeat Gym
                             </h1>
-                            <p class="font-medium text-text_color1 text-sm md:text-[16px] mt-2">Web Development and Design
+                            <p class="font-medium text-text_color1 text-[16px] md:text-xl mt-2">Web Development and Design
                             </p>
                         </div>
                     </div>
@@ -396,10 +396,10 @@
                         <img src="{{ asset('assets/images/repeatgym.png') }}"
                             class="w-full aspect-[3/4] object-cover rounded-t-md rounded-br-[200px]">
                         <div class="p-8">
-                            <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-[16px] md:text-xl">
+                            <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-xl md:text-2xl">
                                 Repeat Gym
                             </h1>
-                            <p class="font-medium text-text_color1 text-sm md:text-[16px] mt-2">Web Development and Design
+                            <p class="font-medium text-text_color1 text-[16px] md:text-xl mt-2">Web Development and Design
                             </p>
                         </div>
                     </div>
@@ -411,10 +411,10 @@
                         <img src="{{ asset('assets/images/repeatgym.png') }}"
                             class="w-full aspect-[3/4] object-cover rounded-t-md rounded-br-[200px]">
                         <div class="p-8">
-                            <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-[16px] md:text-xl">
+                            <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-xl md:text-2xl">
                                 Repeat Gym
                             </h1>
-                            <p class="font-medium text-text_color1 text-sm md:text-[16px] mt-2">Web Development and Design
+                            <p class="font-medium text-text_color1 text-[16px] md:text-xl mt-2">Web Development and Design
                             </p>
                         </div>
                     </div>
@@ -428,9 +428,11 @@
     {{-- Blog --}}
     <section class="py-8  p-4  mt-20 antialiased overflow-hidden bg-primary2">
         <div class="text-center mb-8">
-            <p class=" font-costum4 bg-primary1 text-white inline-block p-2 px-4 rounded-full text-xl">Our Blog
+            <p class=" font-costum4 bg-primary1 text-white inline-block p-2 px-4 rounded-full text-3xl">Our Blog
             </p>
-            <h2 class="text-2xl font-costum4 text-white mt-4">Latest News and Updates</h2>
+            <h2
+                class="font-costum8 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-2xl mx-auto text-center max-w-[600px] leading-normal line-clamp-3 text-transparent bg-clip-text mt-2">
+                Latest News and Updates</h2>
         </div>
 
         <!-- Blog Cards -->

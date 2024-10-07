@@ -8,10 +8,12 @@
                     data-aos="fade-up" data-aos-duration="1000">Get to
                     Know
                     Us</button>
-                <h2 class="text-3xl font-bold mb-4" data-aos="fade-up" data-aos-duration="1000">
+                <h2 class="text-5xl md:text-6xl font-costum4 leading-normal font-bold bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#cf2345] text-transparent bg-clip-text mb-4"
+                    data-aos="fade-up" data-aos-duration="1000">
                     Cora Soft
                 </h2>
-                <p class="text-gray-500 mb-6" data-aos="fade-up" data-aos-duration="1000">
+                <p class="text-gray-500 text-xl md:text-xl text-text_color2 mb-6" data-aos="fade-up"
+                    data-aos-duration="1000">
                     {{-- With over 15 years of industry experience, our company is a leading provider of cutting-edge technology
                     solutions. We specialize in delivering a wide range of services tailored to meet the unique needs of our
                     clients across various sectors. Our expertise ensures that we offer innovative and reliable solutions
@@ -125,10 +127,11 @@
         <div class="max-w-screen-xl mx-auto ">
             <div class="">
                 <h1
-                    class="font-costum5 text-3xl sm:text-5xl bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#cf2345] text-transparent bg-clip-text">
+                    class="font-costum5 text-5xl md:text-5xl leading-normal  bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#cf2345] text-transparent bg-clip-text">
+
                     Our Mission
                 </h1>
-                <p class="text-base max-w-[500px] text-justify mt-5">
+                <p class=" max-w-[500px] text-xl md:text-xl text-text_color2  text-justify mt-5">
                     Our mission is to empower businesses with innovative and high-quality technology solutions that fuel
                     growth and improve efficiency. We are committed to delivering excellence through collaboration,
                     technical expertise, and a customer-centric approach.
@@ -144,7 +147,9 @@
             <div class="sm:mb-8 md:col-span-4">
                 <span
                     class="inline-block text-sm text-blue-500 font-semibold mb-2 bg-blue-100 px-3 py-1 rounded-full">Benefits</span>
-                <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Why Choose Us?</h2>
+                <h2
+                    class="text-4xl  leading-normal font-costum5 bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#cf2345] text-transparent bg-clip-text mb-4">
+                    Why Choose Us?</h2>
                 {{-- <p class="text-gray-600 text-base md:text-lg">Lorem ipsum dolor sit amet elit adipisicing consectetur</p> --}}
             </div>
 
