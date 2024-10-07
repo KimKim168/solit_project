@@ -124,7 +124,8 @@
     <section class="mt-20 p-5">
         <div class="max-w-screen-xl mx-auto ">
             <div class="">
-                <h1 class="font-costum5 text-3xl sm:text-5xl">
+                <h1
+                    class="font-costum5 text-3xl sm:text-5xl bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#cf2345] text-transparent bg-clip-text">
                     Our Mission
                 </h1>
                 <p class="text-base max-w-[500px] text-justify mt-5">

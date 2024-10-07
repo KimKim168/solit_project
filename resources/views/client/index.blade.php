@@ -129,10 +129,11 @@
                     class="font-costum8 text-[#6251ef] border-b-2 border-t-2 border-primary1 inline-block py-2 px-4 rounded-md">
                     About Us
                 </div>
-                <h2 class="mb-4 text-3xl md:text-5xl font-costum4 leading-normal font-bold" data-aos="zoom-out-right"
-                    data-aos-duration="1000">
+                <h2 class="mb-4 text-3xl md:text-5xl font-costum4 leading-normal font-bold bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#cf2345] text-transparent bg-clip-text"
+                    data-aos="zoom-out-right" data-aos-duration="1000">
                     Cora Soft
                 </h2>
+
                 <p class="mb-6 text-sm md:text-base text-text_color2 line-clamp-2">
                     {{-- With over 15 years of industry experience, our company is a leading provider of cutting-edge technology
                     solutions. We specialize in delivering a wide range of services tailored to meet the unique needs of our
@@ -346,10 +347,11 @@
     <section class="mt-6 md:mt-20 overflow-hidden p-5">
         <div class="max-w-screen-xl mx-auto">
             <div class="" data-aos="flip-down" data-aos-duration="1000">
-                <h1 class="font-costum5 text-3xl md:text-5xl">
+                <h1
+                    class="font-costum5 text-3xl md:text-5xl bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#cf2345] text-transparent bg-clip-text ">
                     Completed Projects
                 </h1>
-                <p class="text-base max-w-[500px] text-justify mt-5">
+                <p class="text-base max-w-[500px] text-justify mt-5 ">
                     Explore our range of completed projects, showcasing innovative solutions and expert craftsmanship. Each
                     project reflects our commitment to quality, precision, and client satisfaction, delivered on time and
                     tailored to meet specific needs.
