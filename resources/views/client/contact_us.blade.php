@@ -5,7 +5,7 @@
             <!-- Contact Header -->
             <div class="mb-8">
                 <h2
-                    class="text-3xl tracking-tight font-extrabold  bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#cf2345] text-transparent bg-clip-text mb-2">
+                    class="text-3xl tracking-tight   bg-gradient-to-r font-bold from-[#e921f3] to-[#1900ff] text-transparent bg-clip-text mb-2">
                     Contact Us For Any Questions</h2>
                 <p class="text-gray-600 font-costum8 text-xl">
                     Let’s collaborate and take your business to the next level. Contact us today to discuss how we can help
@@ -17,7 +17,7 @@
                 <!-- Contact Info -->
                 <div>
                     <h3
-                        class="text-2xl font-semibold  bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#cf2345] text-transparent bg-clip-text mb-4">
+                        class="text-2xl   bg-gradient-to-r font-bold from-[#303461] to-[#1900ff] text-transparent bg-clip-text mb-4">
                         Contact Info :</h3>
                     <ul class="space-y-4">
                         <li class="flex items-center">

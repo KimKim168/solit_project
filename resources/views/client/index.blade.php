@@ -129,7 +129,7 @@
                     class="font-costum8 text-[#6251ef] border-b-2 border-t-2 border-primary1 inline-block py-2 px-4 rounded-md">
                     About Us
                 </div>
-                <h2 class="mb-4 text-5xl md:text-6xl font-costum4 leading-normal font-bold bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#cf2345] text-transparent bg-clip-text"
+                <h2 class="mb-4 text-5xl md:text-6xl font-costum4 leading-normal  bg-gradient-to-r font-bold from-[#e921f3] to-[#1900ff] text-transparent bg-clip-text"
                     data-aos="zoom-out-right" data-aos-duration="1000">
                     Cora Soft
                 </h2>
@@ -349,7 +349,7 @@
         <div class="max-w-screen-xl mx-auto">
             <div class="" data-aos="flip-down" data-aos-duration="1000">
                 <h1
-                    class="font-costum5 text-5xl bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#cf2345] text-transparent bg-clip-text ">
+                    class="font-costum5 text-5xl bg-gradient-to-r font-bold from-[#e921f3] to-[#1900ff] text-transparent bg-clip-text ">
                     Completed Projects
                 </h1>
                 <p class="text-xl max-w-[500px] text-justify mt-5 ">
