@@ -1,16 +1,14 @@
 @extends('layout.client')
 @section('content')
     <!-- Strat Section -->
-    <section class="py-8 mt-20 antialiased md:py-12 overflow-hidden bg-primary2 ">
+    <section class="py-8 mt-20 antialiased md:py-12 overflow-hidden bg-primary1 ">
 
         <div class=" p-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
             <div class="mx-auto text-center max-w-full space-y-2">
-                <button
-                    class="py-2 px-6 bg-primary1 text-white rounded-full text-xl md:text-3xl font-costum4 tracking-normal">
+                <button class="py-2 px-6 bg-primary2 text-white rounded-full text-xl md:text-3xl tracking-normal">
                     What We Do For You
                 </button>
-                <h1
-                    class="font-costum4 text-white sm:text-xl mx-auto text-center max-w-[600px] leading-normal line-clamp-3 ">
+                <h1 class=" text-white text-xl md:text-2xl  mx-auto text-center max-w-[600px] leading-normal line-clamp-3 ">
                     With extensive industry experience, our company is a leading provider of cutting-edge technology
                     solutions. We specialize in delivering a wide range of services tailored to meet the unique needs of our
                     clients.
@@ -20,7 +18,7 @@
                     consectetur adipiscing elita florai psum dolor ectetuolor sit amet, consectetur adipiscine.
                 </p> --}}
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 font-costum3 gap-6 mt-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-6 mt-6">
                 <div
                     class="w-full bg-white border text-center p-3 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
@@ -29,17 +27,17 @@
                     </a>
                     <div class="p-5">
                         <a href="#">
-                            <h5 class="mb-2 text-xl md:text-2xl font-bold tracking-tight text-gray-900  dark:text-white">
+                            <h5 class="mb-2 text-xl md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                                 Web Development and Design
                             </h5>
                         </a>
-                        <p class="mb-3 text-sm md:text-base font-normal text-gray-700 dark:text-gray-400 line-clamp-2">
+                        <p class="mb-3 text-xl md:text-[22px] text-text_color2 line-clamp-2">
                             We craft dynamic, user-friendly, and visually appealing websites that provide seamless user
                             experiences across all devices. From design to development, we bring your vision to life,
                             ensuring your online presence stands out.
                         </p>
                         <a href="{{ url('development_and_design_detail') }}"
-                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-teal-400 to-[#2d37a4] hover:bg-transparent hover:from-blue-900 hover:to-teal-400 rounded-lg">
+                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-teal-400 to-[#2d37a4]  border-transparent hover:bg-transparent hover:from-blue-900 hover:to-teal-400  rounded-lg">
                             See Details
                         </a>
                     </div>
@@ -53,17 +51,17 @@
                     </a>
                     <div class="p-5">
                         <a href="#">
-                            <h5 class="mb-2 text-xl md:text-2xl font-bold tracking-tight text-gray-900  dark:text-white">
+                            <h5 class="mb-2 text-xl md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                                 SEO and Digital Marketing
                             </h5>
                         </a>
-                        <p class="mb-3 text-sm md:text-base font-normal text-gray-700 dark:text-gray-400 line-clamp-2">
+                        <p class="mb-3 text-xl md:text-[22px] text-text_color2 line-clamp-2">
                             Our team of digital marketing experts helps you enhance your online visibility, drive targeted
                             traffic, and increase conversions through strategic SEO practices and comprehensive digital
                             marketing campaigns.
                         </p>
                         <a href="{{ url('seo_and_digital_marketing') }}"
-                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-teal-400 to-[#2d37a4] hover:bg-transparent hover:from-blue-900 hover:to-teal-400 rounded-lg">
+                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-teal-400 to-[#2d37a4]  border-transparent hover:bg-transparent hover:from-blue-900 hover:to-teal-400  rounded-lg">
                             See Details
                         </a>
                     </div>
@@ -77,17 +75,17 @@
                     </a>
                     <div class="p-5">
                         <a href="#">
-                            <h5 class="mb-2 text-xl md:text-2xl font-bold tracking-tight text-gray-900  dark:text-white">
+                            <h5 class="mb-2 text-xl md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                                 Mobile App Development
                             </h5>
                         </a>
-                        <p class="mb-3 text-sm md:text-base font-normal text-gray-700 dark:text-gray-400 line-clamp-2">
+                        <p class="mb-3 text-xl md:text-[22px] text-text_color2 line-clamp-2">
                             We develop intuitive and functional mobile applications tailored to your business needs,
                             ensuring compatibility across both iOS and Android platforms for a wider reach and improved
                             customer engagement.
                         </p>
                         <a href="{{ url('mobile_app_development') }}"
-                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-teal-400 to-[#2d37a4] hover:bg-transparent hover:from-blue-900 hover:to-teal-400 rounded-lg">
+                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-teal-400 to-[#2d37a4]  border-transparent hover:bg-transparent hover:from-blue-900 hover:to-teal-400  rounded-lg">
                             See Details
                         </a>
                     </div>
@@ -100,17 +98,17 @@
                     </a>
                     <div class="p-5">
                         <a href="#">
-                            <h5 class="mb-2 text-xl md:text-2xl font-bold tracking-tight text-gray-900  dark:text-white">
+                            <h5 class="mb-2 text-xl md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                                 Custom Software Development
                             </h5>
                         </a>
-                        <p class="mb-3 text-sm md:text-base font-normal text-gray-700 dark:text-gray-400 line-clamp-2">
+                        <p class="mb-3 text-xl md:text-[22px] text-text_color2 line-clamp-2">
                             We build robust, scalable, and secure custom software solutions to address your specific
                             business challenges, helping you streamline operations, improve efficiency, and achieve your
                             goals.
                         </p>
                         <a href="{{ url('custom_software_development') }}"
-                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-teal-400 to-[#2d37a4] hover:bg-transparent hover:from-blue-900 hover:to-teal-400 rounded-lg">
+                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-teal-400 to-[#2d37a4]  border-transparent hover:bg-transparent hover:from-blue-900 hover:to-teal-400  rounded-lg">
                             See Details
                         </a>
                     </div>
@@ -123,16 +121,16 @@
                     </a>
                     <div class="p-5">
                         <a href="#">
-                            <h5 class="mb-2 text-xl md:text-2xl font-bold tracking-tight text-gray-900  dark:text-white">
+                            <h5 class="mb-2 text-xl md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                                 Cloud Hosting
                             </h5>
                         </a>
-                        <p class="mb-3 text-sm md:text-base font-normal text-gray-700 dark:text-gray-400 line-clamp-2">
+                        <p class="mb-3 text-xl md:text-[22px] text-text_color2 line-clamp-2">
                             Our reliable cloud hosting services provide secure, scalable, and cost-effective solutions for
                             your data and applications, ensuring optimal performance and accessibility for your business.
                         </p>
                         <a href="{{ url('cloud_hosting') }}"
-                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-teal-400 to-[#2d37a4] hover:bg-transparent hover:from-blue-900 hover:to-teal-400 rounded-lg">
+                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-teal-400 to-[#2d37a4]  border-transparent hover:bg-transparent hover:from-blue-900 hover:to-teal-400  rounded-lg">
                             See Details
                         </a>
                     </div>
@@ -145,16 +143,16 @@
                     </a>
                     <div class="p-5">
                         <a href="#">
-                            <h5 class="mb-2 text-xl md:text-2xl font-bold tracking-tight text-gray-900  dark:text-white">
+                            <h5 class="mb-2 text-xl md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                                 IT Consultancy
                             </h5>
                         </a>
-                        <p class="mb-3 text-sm md:text-base font-normal text-gray-700 dark:text-gray-400 line-clamp-2">
+                        <p class="mb-3 text-xl md:text-[22px] text-text_color2 line-clamp-2">
                             we provide comprehensive IT consultancy services designed to empower your business with
                             innovative technology solutions. Our expert consultants work closely with you to
                         </p>
                         <a href="{{ url('it_consultancy_services') }}"
-                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-teal-400 to-[#2d37a4] hover:bg-transparent hover:from-blue-900 hover:to-teal-400 rounded-lg">
+                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-teal-400 to-[#2d37a4]  border-transparent hover:bg-transparent hover:from-blue-900 hover:to-teal-400  rounded-lg">
                             See Details
                         </a>
                     </div>

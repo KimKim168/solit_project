@@ -134,7 +134,7 @@
                     Cora Soft
                 </h2>
 
-                <p class="mb-6 text-xl md:text-xl text-text_color2 line-clamp-2">
+                <p class="mb-6 text-xl md:text-[22px] text-text_color2 line-clamp-2">
                     {{-- With over 15 years of industry experience, our company is a leading provider of cutting-edge technology
                     solutions. We specialize in delivering a wide range of services tailored to meet the unique needs of our
                     clients across various sectors. Our expertise ensures that we offer innovative and reliable solutions
@@ -178,16 +178,14 @@
     <!-- End middle -->
 
     <!-- Strat Section -->
-    <section class="py-8 mt-20 antialiased  overflow-hidden bg-primary2 ">
+    <section class="py-8 mt-20 antialiased  overflow-hidden bg-primary1 ">
 
         <div class=" p-4 mx-auto max-w-screen-xl lg:px-6">
             <div class="mx-auto text-center max-w-full space-y-2">
-                <button
-                    class="py-2 px-6 bg-primary1 text-white rounded-full text-xl md:text-3xl font-costum4 tracking-normal ">
+                <button class="py-2 px-6 bg-primary2 text-white rounded-full text-xl md:text-3xl  tracking-normal ">
                     What We Do For You
                 </button>
-                <h1
-                    class="font-costum4 text-white sm:text-xl mx-auto text-center max-w-[600px] leading-normal line-clamp-3">
+                <h1 class=" text-white text-xl md:text-2xl  mx-auto text-center max-w-[600px] leading-normal line-clamp-3">
                     We Deal With The Aspects
                     Of Professional IT Services
 
@@ -197,7 +195,7 @@
                     consectetur adipiscing elita florai psum dolor ectetuolor sit amet, consectetur adipiscine.
                 </p> --}}
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 font-costum3 gap-6 mt-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-6 mt-6">
                 <div
                     class="w-full bg-white border text-center p-3 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
@@ -210,7 +208,7 @@
                                 Web Development and Design
                             </h5>
                         </a>
-                        <p class="mb-3 text-sm md:text-base font-normal text-gray-700 dark:text-gray-400 line-clamp-2">
+                        <p class="mb-3 text-xl md:text-[22px] text-text_color2 line-clamp-2">
                             We craft dynamic, user-friendly, and visually appealing websites that provide seamless user
                             experiences across all devices. From design to development, we bring your vision to life,
                             ensuring your online presence stands out.
@@ -234,7 +232,7 @@
                                 SEO and Digital Marketing
                             </h5>
                         </a>
-                        <p class="mb-3 text-sm md:text-base font-normal text-gray-700 dark:text-gray-400 line-clamp-2">
+                        <p class="mb-3 text-xl md:text-[22px] text-text_color2 line-clamp-2">
                             Our team of digital marketing experts helps you enhance your online visibility, drive targeted
                             traffic, and increase conversions through strategic SEO practices and comprehensive digital
                             marketing campaigns.
@@ -258,7 +256,7 @@
                                 Mobile App Development
                             </h5>
                         </a>
-                        <p class="mb-3 text-sm md:text-base font-normal text-gray-700 dark:text-gray-400 line-clamp-2">
+                        <p class="mb-3 text-xl md:text-[22px] text-text_color2 line-clamp-2">
                             We develop intuitive and functional mobile applications tailored to your business needs,
                             ensuring compatibility across both iOS and Android platforms for a wider reach and improved
                             customer engagement.
@@ -281,7 +279,7 @@
                                 Custom Software Development
                             </h5>
                         </a>
-                        <p class="mb-3 text-sm md:text-base font-normal text-gray-700 dark:text-gray-400 line-clamp-2">
+                        <p class="mb-3 text-xl md:text-[22px] text-text_color2 line-clamp-2">
                             We build robust, scalable, and secure custom software solutions to address your specific
                             business challenges, helping you streamline operations, improve efficiency, and achieve your
                             goals.
@@ -304,7 +302,7 @@
                                 Cloud Hosting
                             </h5>
                         </a>
-                        <p class="mb-3 text-sm md:text-base font-normal text-gray-700 dark:text-gray-400 line-clamp-2">
+                        <p class="mb-3 text-xl md:text-[22px] text-text_color2 line-clamp-2">
                             Our reliable cloud hosting services provide secure, scalable, and cost-effective solutions for
                             your data and applications, ensuring optimal performance and accessibility for your business.
                         </p>
@@ -326,7 +324,7 @@
                                 IT Consultancy
                             </h5>
                         </a>
-                        <p class="mb-3 text-sm md:text-base font-normal text-gray-700 dark:text-gray-400 line-clamp-2">
+                        <p class="mb-3 text-xl md:text-[22px] text-text_color2 line-clamp-2">
                             we provide comprehensive IT consultancy services designed to empower your business with
                             innovative technology solutions. Our expert consultants work closely with you to
                         </p>
@@ -352,7 +350,7 @@
                     class="font-costum5 text-5xl bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text ">
                     Completed Projects
                 </h1>
-                <p class="text-xl max-w-[500px] text-justify mt-5 ">
+                <p class="text-xl md:text-[22px] text-text_color2 max-w-[500px] text-justify mt-5 ">
                     Explore our range of completed projects, showcasing innovative solutions and expert craftsmanship. Each
                     project reflects our commitment to quality, precision, and client satisfaction, delivered on time and
                     tailored to meet specific needs.
@@ -370,7 +368,7 @@
                             <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-xl md:text-2xl">
                                 Repeat Gym
                             </h1>
-                            <p class="font-medium text-text_color1 text-[16px] md:text-xl mt-2">Web Development and Design
+                            <p class="text-xl md:text-[22px] text-text_color2 mt-2">Web Development and Design
                             </p>
                         </div>
                     </div>
@@ -385,7 +383,7 @@
                             <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-xl md:text-2xl">
                                 Repeat Gym
                             </h1>
-                            <p class="font-medium text-text_color1 text-[16px] md:text-xl mt-2">Web Development and Design
+                            <p class="text-xl md:text-[22px] text-text_color2 mt-2">Web Development and Design
                             </p>
                         </div>
                     </div>
@@ -400,7 +398,7 @@
                             <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-xl md:text-2xl">
                                 Repeat Gym
                             </h1>
-                            <p class="font-medium text-text_color1 text-[16px] md:text-xl mt-2">Web Development and Design
+                            <p class="text-xl md:text-[22px] text-text_color2 mt-2">Web Development and Design
                             </p>
                         </div>
                     </div>
@@ -415,7 +413,7 @@
                             <h1 class="hover:text-blue-600 hover:cursor-pointer font-bold text-xl md:text-2xl">
                                 Repeat Gym
                             </h1>
-                            <p class="font-medium text-text_color1 text-[16px] md:text-xl mt-2">Web Development and Design
+                            <p class="text-xl md:text-[22px] text-text_color2 mt-2">Web Development and Design
                             </p>
                         </div>
                     </div>
@@ -427,10 +425,10 @@
     {{-- End completed project --}}
 
     {{-- Blog --}}
-    <section class="py-8  p-4  mt-20 antialiased overflow-hidden bg-primary2">
+    <section class="py-8  p-4  mt-20 antialiased overflow-hidden bg-primary1">
         <div class="text-center mb-8">
             <p
-                class=" font-costum4 bg-primary1 text-white inline-block p-2 px-4 rounded-full text-xl md:text-3xl font-costum4 tracking-normal">
+                class=" font-costum4 bg-primary2 text-white inline-block p-2 px-4 rounded-full text-xl md:text-3xl font-costum4 tracking-normal">
                 Our Blog
             </p>
             <h2
@@ -448,10 +446,12 @@
                             src="https://demo.ajufbox.com/solit/assets/images/blog/blog-1.jpg" alt="Blog Image">
                         <div class="p-6">
                             <h3
-                                class="text-lg font-semibold text-gray-900 mb-2 hover:text-blue-600 hover:cursor-pointer hover:">
+                                class="text-xl md:text-2xl font-bold tracking-tight text-gray-900 mb-2 hover:text-blue-600 hover:cursor-pointer hover:">
                                 Exploring the Future Cutting-Edge
                                 Technologies</h3>
-                            <p class="text-gray-600 text-sm mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing
+                            <p class="text-xl md:text-[20px] text-text_color2 line-clamp-2 mb-4">Lorem ipsum dolor sit,
+                                amet consectetur
+                                adipisicing
                                 elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                                 Fuga accusantium dolore autem saepe. </p>
                             <div class="flex items-center justify-between">
@@ -474,10 +474,12 @@
                             src="https://demo.ajufbox.com/solit/assets/images/blog/blog-3.jpg" alt="Blog Image">
                         <div class="p-6">
                             <h3
-                                class="text-lg font-semibold text-gray-900 mb-2 hover:text-blue-600 hover:cursor-pointer hover:">
+                                class="text-xl md:text-2xl font-bold tracking-tight text-gray-900 mb-2 hover:text-blue-600 hover:cursor-pointer hover:">
                                 Exploring the Future Cutting-Edge
                                 Technologies</h3>
-                            <p class="text-gray-600 text-sm mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing
+                            <p class="text-xl md:text-[20px] text-text_color2 line-clamp-2 mb-4">Lorem ipsum dolor sit,
+                                amet consectetur
+                                adipisicing
                                 elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                                 Fuga accusantium dolore autem saepe. </p>
                             <div class="flex items-center justify-between">
@@ -499,10 +501,12 @@
                             src="https://demo.ajufbox.com/solit/assets/images/blog/blog-2.jpg" alt="Blog Image">
                         <div class="p-6">
                             <h3
-                                class="text-lg font-semibold text-gray-900 mb-2 hover:text-blue-600 hover:cursor-pointer hover:">
+                                class="text-xl md:text-2xl font-bold tracking-tight text-gray-900 mb-2 hover:text-blue-600 hover:cursor-pointer hover:">
                                 Exploring the Future Cutting-Edge
                                 Technologies</h3>
-                            <p class="text-gray-600 text-sm mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing
+                            <p class="text-xl md:text-[20px] text-text_color2 line-clamp-2 mb-4">Lorem ipsum dolor sit,
+                                amet consectetur
+                                adipisicing
                                 elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                                 Fuga accusantium dolore autem saepe. </p>
                             <div class="flex items-center justify-between">

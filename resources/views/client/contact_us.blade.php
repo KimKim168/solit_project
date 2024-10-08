@@ -7,7 +7,7 @@
                 <h2
                     class="text-3xl tracking-tight   bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text mb-2">
                     Contact Us For Any Questions</h2>
-                <p class="text-gray-600 font-mono text-xl">
+                <p class="text-xl md:text-[22px] text-text_color2">
                     Let’s collaborate and take your business to the next level. Contact us today to discuss how we can help
                     you achieve your digital transformation goals.
                 </p>

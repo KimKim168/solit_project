@@ -226,12 +226,13 @@
                 <!-- Logo -->
                 <div class="flex items-center">
                     <a href="{{ url('/') }}">
-                        <img src="{{ asset('assets/images/Cora_logo.png') }}" class="w-16 md:w-20" alt="Logo">
+                        <img src="{{ asset('assets/images/Cora_logo.png') }}" class="w-20  md:w-24 lg:w-28"
+                            alt="Logo">
                     </a>
                 </div>
                 <div class="flex items-center space-x-5 md:space-x-10">
                     <!-- Menu for larger screens -->
-                    <ul class="hidden lg:flex gap-8 text-[17px] 2xl:text-[18px] items-center">
+                    <ul class="hidden lg:flex gap-8 text-xl  items-center">
                         <li><a href="{{ url('/') }}"
                                 class="{{ request()->is('/') ? 'font-costum4 leading-normal font-bold bg-gradient-to-r from-[#2d37a4] to-teal-500 text-transparent bg-clip-text' : 'text-black' }}">Home</a>
                         </li>
@@ -252,7 +253,7 @@
                     <!-- Chat Button - visible on all screen sizes -->
                     <div>
                         <a href="#"
-                            class="p-2 md:p-4 bg-gradient-to-r from-teal-400 to-[#2d37a4]  border-transparent hover:bg-transparent hover:from-blue-900 hover:to-teal-400  text-[17px] 2xl:text-[18px] text-white hover:bg-[#3a3e67] rounded-md">
+                            class="p-2 md:p-4 bg-gradient-to-r from-teal-400 to-[#2d37a4]  border-transparent hover:bg-transparent hover:from-blue-900 hover:to-teal-400  text-xl 2xl:text-[18px] text-white hover:bg-[#3a3e67] rounded-md">
                             Chat with Us
                         </a>
                     </div>
@@ -272,7 +273,7 @@
                 <div id="mobile-menu"
                     class="hidden lg:hidden  absolute top-full left-0 w-full bg-white shadow-lg z-30 transition-transform transform">
 
-                    <ul class="flex flex-col items-center bg-white text-[17px] 2xl:text-[18px] font-Poppins">
+                    <ul class="flex flex-col items-center bg-white text-lg 2xl:text-[18px] font-Poppins">
                         <li class="py-2 hover:bg-slate-200 w-full text-center border-b">
                             <a
                                 href="{{ url('/') }}"class="{{ request()->is('/') ? 'font-costum4 leading-normal font-bold bg-gradient-to-r from-[#2d37a4] to-teal-500 text-transparent bg-clip-text' : 'text-black' }}">Home</a>
@@ -313,14 +314,14 @@
     @yield('content')
 
     <!-- Footer -->
-    <footer class="bg-[#2b334a] text-gray-400 py-12">
+    <footer class="bg-[#2b334a] text-gray-400 pt-5">
         <div class="container max-w-screen-xl mx-auto justify-between flex flex-col  md:flex-row gap-8 px-4">
             <!-- Information Section -->
             <div>
-                <h2 class="text-white  font-bold text-xl mb-4">Information</h2>
+                <h2 class="text-white text-[18px] mb-4">Information</h2>
                 <ul class="space-y-2">
-                    <li class="flex items-center text-[18px] gap-5">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none"
+                    <li class="flex items-center text-[15px] gap-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none"
                             stroke="#9ca3af" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path
                                 d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
@@ -328,8 +329,8 @@
                         </svg>
                         Phnom Penh, Cambodia
                     </li>
-                    <li class="flex items-center text-[18px] gap-5 mb-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    <li class="flex items-center text-[15px] gap-5 mb-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                             fill="none" stroke="#9ca3af" stroke-width="2" stroke-linecap="round"
                             stroke-linejoin="round" class="lucide lucide-phone-call">
                             <path
@@ -339,8 +340,8 @@
                         </svg>
                         010775589
                     </li>
-                    <li class="flex items-center text-[18px] gap-5 mb-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    <li class="flex items-center text-[15px] gap-5 mb-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                             fill="none" stroke="#9ca3af" stroke-width="2" stroke-linecap="round"
                             stroke-linejoin="round" class="lucide lucide-clock-3">
                             <circle cx="12" cy="12" r="10" />
@@ -351,6 +352,7 @@
                     <!-- Add other contact items similarly -->
                 </ul>
             </div>
+
 
             <!-- Menu Section -->
             {{-- <div>
@@ -365,18 +367,18 @@
             </div> --}}
             {{-- Social Media --}}
             <div>
-                <h2 class="text-white font-bold text-xl mb-4">Social Media</h2>
+                <h2 class="text-white text-[18px] mb-4">Social Media</h2>
                 <div class="flex gap-4 mt-6 md:mt-0">
                     <!-- Facebook icons -->
                     <a href="#" class="bg-[#252443] p-2 rounded-md hover:bg-blue-600">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white" viewBox="0 0 24 24"
-                            fill="none" stroke="currentColor" stroke-width="2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class=" text-white" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" width="25" height="25">
                             <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
                         </svg>
                     </a>
                     <!-- Email icons -->
                     <a href="#" class="bg-[#252443] p-2 rounded-md hover:bg-blue-600">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"
                             fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"
                             stroke-linejoin="round" class="lucide lucide-youtube">
                             <path
@@ -386,7 +388,7 @@
                     </a>
                     <!-- Telegram icons -->
                     <a href="#" class="bg-[#252443] p-2 rounded-md hover:bg-blue-600">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"
                             fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"
                             stroke-linejoin="round" class="lucide lucide-send">
                             <path
@@ -396,12 +398,13 @@
                     </a>
                     <!-- Add other social media icons similarly -->
                 </div>
+
             </div>
         </div>
 
         <!-- Footer Bottom -->
-        <div class="max-w-screen-xl mt-10 text-center mx-auto px-4">
-            <p class="text-[16px] ">&copy; Corasoft | All Rights Reserved</p>
+        <div class="max-w-screen-xl mt-2 md:text-right mx-auto pb-2 px-4">
+            <p class="text-sm ">&copy; Corasoft | All Rights Reserved</p>
         </div>
     </footer>
 

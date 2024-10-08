@@ -12,7 +12,7 @@
                     class="mb-4 text-4xl tracking-tight   bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text">
                     Web Development and Design Service
                 </h2>
-                <p class="mb-6 font-mono text-gray-500 text-2xl dark:text-gray-400">
+                <p class="mb-6 text-xl md:text-[22px] text-text_color2">
                     We craft dynamic, user-friendly, and visually appealing websites that provide seamless user experiences
                     across all devices. From design to development, we bring your vision to life, ensuring your online
                     presence stands out.
@@ -33,7 +33,7 @@
                     class="mb-4 text-4xl tracking-tight  bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text">
                     SEO and Digital Marketing
                 </h2>
-                <p class="mb-6 font-mono text-gray-500 text-2xl dark:text-gray-400">
+                <p class="mb-6 text-xl md:text-[22px] text-text_color2">
                     Our team of digital marketing experts helps you enhance your online visibility, drive targeted traffic,
                     and increase conversions through strategic SEO practices and comprehensive digital marketing campaigns.
                 </p>
@@ -58,7 +58,7 @@
                     class="mb-4 text-4xl tracking-tight  bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text">
                     Mobile App Development
                 </h2>
-                <p class="mb-6 font-mono text-gray-500 text-2xl dark:text-gray-400">
+                <p class="mb-6 text-xl md:text-[22px] text-text_color2">
                     We develop intuitive and functional mobile applications tailored to your business needs, ensuring
                     compatibility across both iOS and Android platforms for a wider reach and improved customer engagement.
                 </p>
@@ -77,7 +77,7 @@
                     class="mb-4 text-4xl tracking-tight  bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text">
                     Custom Software Development
                 </h2>
-                <p class="mb-6 font-mono text-gray-500 text-2xl dark:text-gray-400">
+                <p class="mb-6 text-xl md:text-[22px] text-text_color2">
                     We build robust, scalable, and secure custom software solutions to address your specific business
                     challenges, helping you streamline operations, improve efficiency, and achieve your goals.
                 </p>
@@ -103,7 +103,7 @@
                     class="mb-4 text-4xl tracking-tight  bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text">
                     Cloud Hosting
                 </h2>
-                <p class="mb-6 font-mono text-gray-500 text-2xl dark:text-gray-400">
+                <p class="mb-6 text-xl md:text-[22px] text-text_color2">
                     Our reliable cloud hosting services provide secure, scalable, and cost-effective solutions for your data
                     and applications, ensuring optimal performance and accessibility for your business.
                 </p>
