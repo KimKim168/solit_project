@@ -187,7 +187,7 @@
                     What We Do For You
                 </button>
                 <h1
-                    class="font-costum8 text-2xl mx-auto text-center text-white max-w-[600px] leading-normal line-clamp-3 text-transparent bg-clip-text">
+                    class="font-costum4 text-white sm:text-xl mx-auto text-center max-w-[600px] leading-normal line-clamp-3">
                     We Deal With The Aspects
                     Of Professional IT Services
 
@@ -429,10 +429,12 @@
     {{-- Blog --}}
     <section class="py-8  p-4  mt-20 antialiased overflow-hidden bg-primary2">
         <div class="text-center mb-8">
-            <p class=" font-costum4 bg-primary1 text-white inline-block p-2 px-4 rounded-full text-3xl">Our Blog
+            <p
+                class=" font-costum4 bg-primary1 text-white inline-block p-2 px-4 rounded-full text-xl md:text-3xl font-costum4 tracking-normal">
+                Our Blog
             </p>
             <h2
-                class="font-costum8 text-2xl mx-auto text-center text-white max-w-[600px] leading-normal line-clamp-3  mt-2">
+                class="font-costum4 text-white sm:text-xl mx-auto text-center max-w-[600px] leading-normal line-clamp-3 mt-2">
                 Latest News and Updates</h2>
         </div>
 
