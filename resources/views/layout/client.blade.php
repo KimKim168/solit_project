@@ -280,7 +280,7 @@
                         </li>
                         <li class="py-2 hover:bg-slate-200 w-full text-center border-b">
                             <a href="{{ url('/about_us') }}"
-                                class="{{ request()->is('about_us') ? 'font-costum4 leading-normal font-bold bg-gradient-to-r from-[#de21f3] to-[#1900ff]  text-transparent bg-clip-text' : 'text-black' }}">
+                                class="{{ request()->is('about_us') ? 'font-costum4 leading-normal font-bold bg-gradient-to-r from-[#2d37a4] to-teal-500  text-transparent bg-clip-text' : 'text-black' }}">
                                 About Us
                             </a>
                         </li>

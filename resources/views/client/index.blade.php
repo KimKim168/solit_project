@@ -1,7 +1,7 @@
 @extends('layout.client')
 @section('content')
     <!-- Strat transform -->
-    <div id="controls-carousel" class="relative w-full mt-[60px] md:mt-[80px]">
+    <div id="controls-carousel" class="relative w-full mt-[75px] md:mt-[98px] lg:mt-[110px] ">
         <!-- Carousel wrapper -->
         <div class="relative aspect-[16/5] md:aspect-[16/5]  w-full overflow-hidden ">
             <!-- Swiper -->
