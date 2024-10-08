@@ -233,20 +233,20 @@
                     <!-- Menu for larger screens -->
                     <ul class="hidden lg:flex gap-8 text-[17px] 2xl:text-[18px] items-center">
                         <li><a href="{{ url('/') }}"
-                                class="{{ request()->is('/') ? 'font-costum4 leading-normal font-bold bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#cf2345] text-transparent bg-clip-text' : 'text-black' }}">Home</a>
+                                class="{{ request()->is('/') ? 'font-costum4 leading-normal font-bold bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#de21f3] text-transparent bg-clip-text' : 'text-black' }}">Home</a>
                         </li>
                         <li><a href="{{ url('/about_us') }}"
-                                class="{{ request()->is('about_us') ? 'font-costum4 leading-normal font-bold bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#cf2345] text-transparent bg-clip-text' : 'text-black' }}">About
+                                class="{{ request()->is('about_us') ? 'font-costum4 leading-normal font-bold bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#de21f3] text-transparent bg-clip-text' : 'text-black' }}">About
                                 Us</a>
                         </li>
                         <li><a href="{{ url('/service') }}"
-                                class="{{ request()->is('service') ? 'font-costum4 leading-normal font-bold bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#cf2345] text-transparent bg-clip-text' : 'text-black' }}">Services</a>
+                                class="{{ request()->is('service') ? 'font-costum4 leading-normal font-bold bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#de21f3] text-transparent bg-clip-text' : 'text-black' }}">Services</a>
                         </li>
                         <li><a href="{{ url('/product') }}"
-                                class="{{ request()->is('product') ? 'font-costum4 leading-normal font-bold bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#cf2345] text-transparent bg-clip-text' : 'text-black' }}">Products</a>
+                                class="{{ request()->is('product') ? 'font-costum4 leading-normal font-bold bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#de21f3] text-transparent bg-clip-text' : 'text-black' }}">Products</a>
                         </li>
                         <li><a href="{{ url('/contact') }}"
-                                class="{{ request()->is('contact') ? 'font-costum4 leading-normal font-bold bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#cf2345] text-transparent bg-clip-text' : 'text-black' }}">Contact</a>
+                                class="{{ request()->is('contact') ? 'font-costum4 leading-normal font-bold bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#de21f3] text-transparent bg-clip-text' : 'text-black' }}">Contact</a>
                         </li>
                     </ul>
                     <!-- Chat Button - visible on all screen sizes -->
@@ -275,26 +275,26 @@
                     <ul class="flex flex-col items-center bg-white text-[17px] 2xl:text-[18px] font-Poppins">
                         <li class="py-2 hover:bg-slate-200 w-full text-center border-b">
                             <a
-                                href="{{ url('/') }}"class="{{ request()->is('/') ? 'font-costum4 leading-normal font-bold bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#cf2345] text-transparent bg-clip-text' : 'text-black' }}">Home</a>
+                                href="{{ url('/') }}"class="{{ request()->is('/') ? 'font-costum4 leading-normal font-bold bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#de21f3] text-transparent bg-clip-text' : 'text-black' }}">Home</a>
                         </li>
                         <li class="py-2 hover:bg-slate-200 w-full text-center border-b">
                             <a href="{{ url('/about_us') }}"
-                                class="{{ request()->is('about_us') ? 'font-costum4 leading-normal font-bold bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#cf2345] text-transparent bg-clip-text' : 'text-black' }}">
+                                class="{{ request()->is('about_us') ? 'font-costum4 leading-normal font-bold bg-gradient-to-r from-[#de21f3] to-[#1900ff]  text-transparent bg-clip-text' : 'text-black' }}">
                                 About Us
                             </a>
                         </li>
                         <li class="py-2 hover:bg-slate-200 w-full text-center border-b">
                             <a href="{{ url('/service') }}"
-                                class="{{ request()->is('service') ? 'font-costum4 leading-normal font-bold bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#cf2345] text-transparent bg-clip-text' : 'text-black' }}">
+                                class="{{ request()->is('service') ? 'font-costum4 leading-normal font-bold bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#de21f3] text-transparent bg-clip-text' : 'text-black' }}">
                                 Services
                             </a>
                         </li>
 
                         <li class="py-2 hover:bg-slate-200 w-full text-center border-b"><a href="{{ url('/product') }}"
-                                class="{{ request()->is('product') ? 'font-costum4 leading-normal font-bold bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#cf2345] text-transparent bg-clip-text' : 'text-black' }}">Products</a>
+                                class="{{ request()->is('product') ? 'font-costum4 leading-normal font-bold bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#de21f3] text-transparent bg-clip-text' : 'text-black' }}">Products</a>
                         </li>
                         <li class="py-2 hover:bg-slate-200 w-full text-center border-b"><a href="{{ url('/contact') }}"
-                                class="{{ request()->is('contact') ? 'font-costum4 leading-normal font-bold bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#cf2345] text-transparent bg-clip-text' : 'text-black' }}">Contact</a>
+                                class="{{ request()->is('contact') ? 'font-costum4 leading-normal font-bold bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#de21f3] text-transparent bg-clip-text' : 'text-black' }}">Contact</a>
                         </li>
                     </ul>
                 </div>

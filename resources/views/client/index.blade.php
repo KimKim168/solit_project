@@ -187,7 +187,7 @@
                     What We Do For You
                 </button>
                 <h1
-                    class="font-costum8 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-2xl mx-auto text-center max-w-[600px] leading-normal line-clamp-3 text-transparent bg-clip-text">
+                    class="font-costum8 text-2xl mx-auto text-center text-white max-w-[600px] leading-normal line-clamp-3 text-transparent bg-clip-text">
                     We Deal With The Aspects
                     Of Professional IT Services
 
@@ -432,7 +432,7 @@
             <p class=" font-costum4 bg-primary1 text-white inline-block p-2 px-4 rounded-full text-3xl">Our Blog
             </p>
             <h2
-                class="font-costum8 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-2xl mx-auto text-center max-w-[600px] leading-normal line-clamp-3 text-transparent bg-clip-text mt-2">
+                class="font-costum8 text-2xl mx-auto text-center text-white max-w-[600px] leading-normal line-clamp-3  mt-2">
                 Latest News and Updates</h2>
         </div>
 
