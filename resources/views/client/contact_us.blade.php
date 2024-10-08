@@ -5,9 +5,9 @@
             <!-- Contact Header -->
             <div class="mb-8">
                 <h2
-                    class="text-3xl tracking-tight   bg-gradient-to-r font-bold from-[#e921f3] to-[#1900ff] text-transparent bg-clip-text mb-2">
+                    class="text-3xl tracking-tight   bg-gradient-to-r font-bold from-[#1900ff] to-[#ff0ac2] text-transparent bg-clip-text mb-2">
                     Contact Us For Any Questions</h2>
-                <p class="text-gray-600 font-costum8 text-xl">
+                <p class="text-gray-600 font-mono text-xl">
                     Let’s collaborate and take your business to the next level. Contact us today to discuss how we can help
                     you achieve your digital transformation goals.
                 </p>

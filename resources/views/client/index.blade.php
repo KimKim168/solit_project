@@ -129,7 +129,7 @@
                     class="font-costum8 text-[#6251ef] border-b-2 border-t-2 border-primary1 inline-block py-2 px-4 rounded-md">
                     About Us
                 </div>
-                <h2 class="mb-4 text-5xl md:text-6xl font-costum4 leading-normal  bg-gradient-to-r font-bold from-[#e921f3] to-[#1900ff] text-transparent bg-clip-text"
+                <h2 class="mb-4 text-5xl md:text-6xl font-costum4 leading-normal  bg-gradient-to-r font-bold from-[#1900ff] to-[#ff0ac2] text-transparent bg-clip-text"
                     data-aos="zoom-out-right" data-aos-duration="1000">
                     Cora Soft
                 </h2>
@@ -168,7 +168,7 @@
                 </ul>
                 <!-- Button -->
                 <a href="{{ url('/about_us') }}"
-                    class="inline-block px-8 py-3 font-costum8 text-white bg-primary1 rounded-md hover:bg-primary2 transition-colors"
+                    class="inline-block px-8 py-3 font-costum8 text-white bg-gradient-to-r from-teal-400 to-[#2d37a4] hover:bg-transparent hover:from-blue-900 hover:to-teal-400  rounded-md  transition-colors"
                     data-aos="fa[10px] border sm:text-sm data-aos-duration="2000">
                     Learn More
                 </a>
@@ -216,7 +216,7 @@
                             ensuring your online presence stands out.
                         </p>
                         <a href="{{ url('development_and_design_detail') }}"
-                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-primary1 border-2 border-transparent hover:bg-transparent hover:border-primary2 hover:text-primary1 rounded-lg">
+                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-teal-400 to-[#2d37a4]  border-transparent hover:bg-transparent hover:from-blue-900 hover:to-teal-400  rounded-lg">
                             See Details
                         </a>
                     </div>
@@ -240,7 +240,7 @@
                             marketing campaigns.
                         </p>
                         <a href="{{ url('seo_and_digital_marketing') }}"
-                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-primary1 border-2 border-transparent hover:bg-transparent hover:border-primary2 hover:text-primary1 rounded-lg">
+                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-teal-400 to-[#2d37a4]  border-transparent hover:bg-transparent hover:from-blue-900 hover:to-teal-400  rounded-lg">
                             See Details
                         </a>
                     </div>
@@ -264,7 +264,7 @@
                             customer engagement.
                         </p>
                         <a href="{{ url('mobile_app_development') }}"
-                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-primary1 border-2 border-transparent hover:bg-transparent hover:border-primary2 hover:text-primary1 rounded-lg">
+                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-teal-400 to-[#2d37a4]  border-transparent hover:bg-transparent hover:from-blue-900 hover:to-teal-400  rounded-lg">
                             See Details
                         </a>
                     </div>
@@ -287,7 +287,7 @@
                             goals.
                         </p>
                         <a href="{{ url('custom_software_development') }}"
-                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-primary1 border-2 border-transparent hover:bg-transparent hover:border-primary2 hover:text-primary1 rounded-lg">
+                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-teal-400 to-[#2d37a4]  border-transparent hover:bg-transparent hover:from-blue-900 hover:to-teal-400  rounded-lg">
                             See Details
                         </a>
                     </div>
@@ -309,7 +309,7 @@
                             your data and applications, ensuring optimal performance and accessibility for your business.
                         </p>
                         <a href="{{ url('cloud_hosting') }}"
-                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-primary1 border-2 border-transparent hover:bg-transparent hover:border-primary2 hover:text-primary1 rounded-lg">
+                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-teal-400 to-[#2d37a4]  border-transparent hover:bg-transparent hover:from-blue-900 hover:to-teal-400  rounded-lg">
                             See Details
                         </a>
                     </div>
@@ -331,7 +331,7 @@
                             innovative technology solutions. Our expert consultants work closely with you to
                         </p>
                         <a href="{{ url('it_consultancy_services') }}"
-                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-primary1 border-2 border-transparent hover:bg-transparent hover:border-primary2 hover:text-primary1 rounded-lg">
+                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-teal-400 to-[#2d37a4]  border-transparent hover:bg-transparent hover:from-blue-900 hover:to-teal-400  rounded-lg">
                             See Details
                         </a>
                     </div>
@@ -349,7 +349,7 @@
         <div class="max-w-screen-xl mx-auto">
             <div class="" data-aos="flip-down" data-aos-duration="1000">
                 <h1
-                    class="font-costum5 text-5xl bg-gradient-to-r font-bold from-[#e921f3] to-[#1900ff] text-transparent bg-clip-text ">
+                    class="font-costum5 text-5xl bg-gradient-to-r font-bold from-[#1900ff] to-[#ff0ac2] text-transparent bg-clip-text ">
                     Completed Projects
                 </h1>
                 <p class="text-xl max-w-[500px] text-justify mt-5 ">

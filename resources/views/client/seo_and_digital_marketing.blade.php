@@ -8,7 +8,7 @@
                     <header class="mb-4 lg:mb-6 not-format">
 
                         <h1
-                            class="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white">
+                            class="mb-4 text-3xl font-extrabold leading-tight bg-gradient-to-r font-bold from-[#1900ff] to-[#ff0ac2] text-transparent bg-clip-text lg:mb-6 lg:text-4xl dark:text-white">
                             SEO and Digital Marketing Services
                         </h1>
                     </header>
