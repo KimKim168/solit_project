@@ -8,10 +8,11 @@
                 alt="dashboard image">
 
             <div class="mt-4 md:mt-0">
-                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+                <h2
+                    class="mb-4 text-4xl tracking-tight font-extrabold  bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#cf2345] text-transparent bg-clip-text dark:text-white">
                     Web Development and Design Service
                 </h2>
-                <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">
+                <p class="mb-6 font-light text-gray-500 text-2xl dark:text-gray-400">
                     We craft dynamic, user-friendly, and visually appealing websites that provide seamless user experiences
                     across all devices. From design to development, we bring your vision to life, ensuring your online
                     presence stands out.
@@ -28,10 +29,11 @@
         <div id="product2"
             class="border-t-2 border-primary1 border-dotted gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
             <div class="mt-4 md:mt-0">
-                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+                <h2
+                    class="mb-4 text-4xl tracking-tight font-extrabold  bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#cf2345] text-transparent bg-clip-text dark:text-white">
                     SEO and Digital Marketing
                 </h2>
-                <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">
+                <p class="mb-6 font-light text-gray-500 text-2xl dark:text-gray-400">
                     Our team of digital marketing experts helps you enhance your online visibility, drive targeted traffic,
                     and increase conversions through strategic SEO practices and comprehensive digital marketing campaigns.
                 </p>
@@ -52,10 +54,11 @@
                 alt="dashboard image">
 
             <div class="mt-4 md:mt-0">
-                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+                <h2
+                    class="mb-4 text-4xl tracking-tight font-extrabold  bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#cf2345] text-transparent bg-clip-text dark:text-white">
                     Mobile App Development
                 </h2>
-                <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">
+                <p class="mb-6 font-light text-gray-500 text-2xl dark:text-gray-400">
                     We develop intuitive and functional mobile applications tailored to your business needs, ensuring
                     compatibility across both iOS and Android platforms for a wider reach and improved customer engagement.
                 </p>
@@ -70,10 +73,11 @@
         <div id="product4"
             class="border-t-2 border-primary1 border-dotted gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
             <div class="mt-4 md:mt-0">
-                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+                <h2
+                    class="mb-4 text-4xl tracking-tight font-extrabold  bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#cf2345] text-transparent bg-clip-text dark:text-white">
                     Custom Software Development
                 </h2>
-                <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">
+                <p class="mb-6 font-light text-gray-500 text-2xl dark:text-gray-400">
                     We build robust, scalable, and secure custom software solutions to address your specific business
                     challenges, helping you streamline operations, improve efficiency, and achieve your goals.
                 </p>
@@ -95,10 +99,11 @@
                 alt="dashboard image">
 
             <div class="mt-4 md:mt-0">
-                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+                <h2
+                    class="mb-4 text-4xl tracking-tight font-extrabold  bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#cf2345] text-transparent bg-clip-text dark:text-white">
                     Cloud Hosting
                 </h2>
-                <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">
+                <p class="mb-6 font-light text-gray-500 text-2xl dark:text-gray-400">
                     Our reliable cloud hosting services provide secure, scalable, and cost-effective solutions for your data
                     and applications, ensuring optimal performance and accessibility for your business.
                 </p>

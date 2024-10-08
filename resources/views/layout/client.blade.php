@@ -317,9 +317,9 @@
         <div class="container max-w-screen-xl mx-auto justify-between flex flex-col  md:flex-row gap-8 px-4">
             <!-- Information Section -->
             <div>
-                <h2 class="text-white font-bold mb-4">Information</h2>
+                <h2 class="text-white  font-bold text-xl mb-4">Information</h2>
                 <ul class="space-y-2">
-                    <li class="flex items-center gap-5">
+                    <li class="flex items-center text-[18px] gap-5">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none"
                             stroke="#9ca3af" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path
@@ -328,7 +328,7 @@
                         </svg>
                         Phnom Penh, Cambodia
                     </li>
-                    <li class="flex items-center  gap-5 mb-2">
+                    <li class="flex items-center text-[18px] gap-5 mb-2">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             fill="none" stroke="#9ca3af" stroke-width="2" stroke-linecap="round"
                             stroke-linejoin="round" class="lucide lucide-phone-call">
@@ -339,7 +339,7 @@
                         </svg>
                         010775589
                     </li>
-                    <li class="flex items-center  gap-5 mb-2">
+                    <li class="flex items-center text-[18px] gap-5 mb-2">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             fill="none" stroke="#9ca3af" stroke-width="2" stroke-linecap="round"
                             stroke-linejoin="round" class="lucide lucide-clock-3">
@@ -365,7 +365,7 @@
             </div> --}}
             {{-- Social Media --}}
             <div>
-                <h2 class="text-white font-bold mb-4">Social Media</h2>
+                <h2 class="text-white font-bold text-xl mb-4">Social Media</h2>
                 <div class="flex gap-4 mt-6 md:mt-0">
                     <!-- Facebook icons -->
                     <a href="#" class="bg-[#252443] p-2 rounded-md hover:bg-blue-600">
@@ -401,7 +401,7 @@
 
         <!-- Footer Bottom -->
         <div class="max-w-screen-xl mt-10 text-center mx-auto px-4">
-            <p class="text-xs ">&copy; Corasoft | All Rights Reserved</p>
+            <p class="text-[16px] ">&copy; Corasoft | All Rights Reserved</p>
         </div>
     </footer>
 

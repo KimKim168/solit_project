@@ -24,15 +24,17 @@
                 </p>
                 <div class="gap-6  grid grid-cols-1 sm:grid-cols-2 ">
                     <!-- Feature 1 -->
-                    <div class="flex items-center">
-                        <div class="bg-blue-100 p-4 rounded-full" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="flex items-center ">
+                        <div class="bg-blue-100 p-4 rounded-full " data-aos="fade-up" data-aos-duration="1000">
                             <img src="{{ asset('assets/images/app-design.png') }}" class="w-6 h-6 text-blue-600"
                                 fill="currentColor" viewBox="0 0 20 20"><!-- Icon SVG --></img>
                         </div>
                         <div class="ml-4" data-aos="fade-up" data-aos-duration="1000">
                             <a href="{{ url('development_and_design_detail') }}">
-                                <h3 class="text-sm
-                                font-semibold">Web Development and Design
+                                <h3
+                                    class="text-sm font-semibold bg-gradient-to-r from-cyan-800 to-blue-700 text-transparent bg-clip-text">
+                                    Web Development and
+                                    Design
                                 </h3>
                             </a>
                             {{-- <a href="{{ url('/product#product1') }} " class="text-gray-500 text-[12px]">Product</a> --}}
@@ -46,7 +48,9 @@
                         </div>
                         <div class="ml-4" data-aos="fade-up" data-aos-duration="1000">
                             <a href="{{ url('seo_and_digital_marketing') }}">
-                                <h3 class="text-sm font-semibold">SEO and Digital Marketing</h3>
+                                <h3
+                                    class="text-sm font-semibold bg-gradient-to-r from-cyan-800 to-blue-700 text-transparent bg-clip-text">
+                                    SEO and Digital Marketing</h3>
                             </a>
                             {{-- <a href="{{ url('/product#product2') }} " class="text-gray-500 text-[12px]">Product</a> --}}
                         </div>
@@ -59,7 +63,9 @@
                         </div>
                         <a href="{{ url('mobile_app_development') }}" class="ml-4" data-aos="fade-up"
                             data-aos-duration="1000">
-                            <h3 class="text-sm font-semibold">Mobile App Development</h3>
+                            <h3
+                                class="text-sm font-semibold bg-gradient-to-r from-cyan-800 to-blue-700 text-transparent bg-clip-text">
+                                Mobile App Development</h3>
                             {{-- <a href="{{ url('/product#product3') }} " class="text-gray-500  text-[12px]">Product</a> --}}
 
                         </a>
@@ -72,7 +78,9 @@
                         </div>
                         <div class="ml-4" data-aos="fade-up" data-aos-duration="1000">
                             <a href="{{ url('custom_software_development') }}">
-                                <h3 class="text-sm font-semibold">Custom Software Development</h3>
+                                <h3
+                                    class="text-sm font-semibold bg-gradient-to-r from-cyan-800 to-blue-700 text-transparent bg-clip-text">
+                                    Custom Software Development</h3>
                             </a>
                             {{-- <a href="{{ url('/product#product4') }} " class="text-gray-500 text-[12px]">Product</a> --}}
                         </div>
@@ -85,7 +93,9 @@
                         </div>
                         <div class="ml-4" data-aos="fade-up" data-aos-duration="1000">
                             <a href="{{ url('cloud_hosting') }}">
-                                <h3 class="text-sm  font-semibold">Cloud Hosting</h3>
+                                <h3
+                                    class="text-sm font-semibold bg-gradient-to-r from-cyan-800 to-blue-700 text-transparent bg-clip-text">
+                                    Cloud Hosting</h3>
                             </a>
                             {{-- <a href="{{ url('/product#product5') }} " class="text-gray-500  text-[12px]">Product</a> --}}
                         </div>
@@ -98,7 +108,9 @@
                         </div>
                         <a href="{{ url('it_consultancy_services') }}" class="ml-4" data-aos="fade-up"
                             data-aos-duration="1000">
-                            <h3 class="text-sm font-semibold">IT Consultancy</h3>
+                            <h3
+                                class="text-sm font-semibold bg-gradient-to-r from-cyan-800 to-blue-700 text-transparent bg-clip-text">
+                                IT Consultancy</h3>
                             {{-- <a href="{{ url('/product#product3') }} " class="text-gray-500  text-[12px]">Product</a> --}}
 
                         </a>

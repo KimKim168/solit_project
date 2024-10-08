@@ -18,7 +18,7 @@
                         <div
                             class="absolute top-1/2 left-3 md:left-5 lg:left-20 transform -translate-y-1/2 z-10 w-full max-w-md lg:max-w-[560px] text-left text-white px-4 lg:px-0">
                             <h1
-                                class="text-[12px] sm:text-xl md:text-xl lg:text-5xl font-costum1 text-blue-900 max-w-[9rem] sm:max-w-[11rem] md:max-w-full">
+                                class=" text-[12px] sm:text-xl md:text-xl lg:text-5xl font-costum1 bg-gradient-to-r from-white to-white bg-clip-text text-transparent max-w-[9rem] sm:max-w-[11rem] md:max-w-full">
                                 Innovative Mobile App Solutions
                             </h1>
                             <p
@@ -29,7 +29,7 @@
                             </p>
                             <div class="mt-1 md:mt-4">
                                 <a href="{{ url('/mobile_app_development') }}"
-                                    class="text-[8px] sm:text-sm md:text-lg border border-white rounded-md p-1 px-3 md:px-5 md:py-3 md:border-2 text-white transition duration-300">
+                                    class="text-[8px] sm:text-sm md:text-lg border border-white  rounded-md p-1 px-3 md:px-5 md:py-3 md:border-2 text-white transition duration-300">
                                     Learn More
                                 </a>
                             </div>
@@ -143,7 +143,7 @@
                     solutions. We specialize in delivering a wide range of services tailored to meet the unique needs of our
                     clients.
                 </p>
-                <ul class="grid grid-cols-1 md:grid-cols-2 text-[16px] gap-6 mb-6 bg-gradient-to-r from-cyan-500 to-blue-500 text-transparent bg-clip-text "
+                <ul class="grid grid-cols-1 md:grid-cols-2 text-[16px] gap-6 mb-6 bg-gradient-to-r from-cyan-800 to-blue-700 text-transparent bg-clip-text "
                     data-aos="fade-up" data-aos-duration="1000">
                     <li class="flex items-center space-x-2">
                         <span class="text-blue-500">&#10003;</span>
@@ -182,7 +182,8 @@
 
         <div class=" p-4 mx-auto max-w-screen-xl lg:px-6">
             <div class="mx-auto text-center max-w-full space-y-2">
-                <button class="py-2 px-6 bg-primary1 text-white rounded-full text-3xl font-costum4 tracking-normal ">
+                <button
+                    class="py-2 px-6 bg-primary1 text-white rounded-full text-xl md:text-3xl font-costum4 tracking-normal ">
                     What We Do For You
                 </button>
                 <h1
@@ -361,7 +362,7 @@
                 {{-- item 1 --}}
                 <a href="{{ url('/completed_project') }}">
                     <div
-                        class="md:max-w-sm max-w-full border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
+                        class=" border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
                         <img src="{{ asset('assets/images/repeatgym.png') }}"
                             class="w-full aspect-[3/4] object-cover rounded-t-md rounded-br-[200px]">
 
@@ -377,7 +378,7 @@
                 {{-- item 2 --}}
                 <a href="{{ url('/completed_project') }}">
                     <div
-                        class="md:max-w-sm max-w-full border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
+                        class=" border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
                         <img src="{{ asset('assets/images/repeat1.png') }}"
                             class="w-full aspect-[3/4] object-cover rounded-t-md rounded-br-[200px]">
                         <div class="p-8">
@@ -392,7 +393,7 @@
                 {{-- item 3 --}}
                 <a href="{{ url('/completed_project') }}">
                     <div
-                        class="md:max-w-sm max-w-full border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
+                        class=" border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
                         <img src="{{ asset('assets/images/repeatgym.png') }}"
                             class="w-full aspect-[3/4] object-cover rounded-t-md rounded-br-[200px]">
                         <div class="p-8">
@@ -407,7 +408,7 @@
                 {{-- item 4 --}}
                 <a href="{{ url('/completed_project') }}">
                     <div
-                        class="md:max-w-sm max-w-full border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
+                        class=" border border-slate-300 rounded-md hover:shadow-zinc-400 hover:shadow-2xl duration-500 hover:cursor-pointer">
                         <img src="{{ asset('assets/images/repeatgym.png') }}"
                             class="w-full aspect-[3/4] object-cover rounded-t-md rounded-br-[200px]">
                         <div class="p-8">

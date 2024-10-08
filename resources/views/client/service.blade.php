@@ -5,10 +5,12 @@
 
         <div class=" p-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
             <div class="mx-auto text-center max-w-full space-y-2">
-                <button class="py-2 px-6 bg-primary1 text-white rounded-full sm:text-xl font-costum4 tracking-normal">
+                <button
+                    class="py-2 px-6 bg-primary1 text-white rounded-full text-xl md:text-3xl font-costum4 tracking-normal">
                     What We Do For You
                 </button>
-                <h1 class="font-costum4 text-white sm:text-xl mx-auto text-center max-w-[600px] leading-normal line-clamp-3">
+                <h1
+                    class="font-costum4 text-white sm:text-xl mx-auto text-center max-w-[600px] leading-normal line-clamp-3 ">
                     With extensive industry experience, our company is a leading provider of cutting-edge technology
                     solutions. We specialize in delivering a wide range of services tailored to meet the unique needs of our
                     clients.
@@ -27,7 +29,7 @@
                     </a>
                     <div class="p-5">
                         <a href="#">
-                            <h5 class="mb-2 text-xl md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                            <h5 class="mb-2 text-xl md:text-2xl font-bold tracking-tight text-gray-900  dark:text-white">
                                 Web Development and Design
                             </h5>
                         </a>
@@ -51,7 +53,7 @@
                     </a>
                     <div class="p-5">
                         <a href="#">
-                            <h5 class="mb-2 text-xl md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                            <h5 class="mb-2 text-xl md:text-2xl font-bold tracking-tight text-gray-900  dark:text-white">
                                 SEO and Digital Marketing
                             </h5>
                         </a>
@@ -75,7 +77,7 @@
                     </a>
                     <div class="p-5">
                         <a href="#">
-                            <h5 class="mb-2 text-xl md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                            <h5 class="mb-2 text-xl md:text-2xl font-bold tracking-tight text-gray-900  dark:text-white">
                                 Mobile App Development
                             </h5>
                         </a>
@@ -98,7 +100,7 @@
                     </a>
                     <div class="p-5">
                         <a href="#">
-                            <h5 class="mb-2 text-xl md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                            <h5 class="mb-2 text-xl md:text-2xl font-bold tracking-tight text-gray-900  dark:text-white">
                                 Custom Software Development
                             </h5>
                         </a>
@@ -121,7 +123,7 @@
                     </a>
                     <div class="p-5">
                         <a href="#">
-                            <h5 class="mb-2 text-xl md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                            <h5 class="mb-2 text-xl md:text-2xl font-bold tracking-tight text-gray-900  dark:text-white">
                                 Cloud Hosting
                             </h5>
                         </a>
@@ -143,7 +145,7 @@
                     </a>
                     <div class="p-5">
                         <a href="#">
-                            <h5 class="mb-2 text-xl md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                            <h5 class="mb-2 text-xl md:text-2xl font-bold tracking-tight text-gray-900  dark:text-white">
                                 IT Consultancy
                             </h5>
                         </a>

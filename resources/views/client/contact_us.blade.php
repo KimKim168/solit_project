@@ -4,8 +4,10 @@
         <div class="max-w-screen-xl mx-auto px-4 py-12">
             <!-- Contact Header -->
             <div class="mb-8">
-                <h2 class="text-2xl font-bold text-primary1 mb-2">Contact Us For Any Questions</h2>
-                <p class="text-gray-600 font-costum8">
+                <h2
+                    class="text-3xl tracking-tight font-extrabold  bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#cf2345] text-transparent bg-clip-text mb-2">
+                    Contact Us For Any Questions</h2>
+                <p class="text-gray-600 font-costum8 text-xl">
                     Let’s collaborate and take your business to the next level. Contact us today to discuss how we can help
                     you achieve your digital transformation goals.
                 </p>
@@ -14,7 +16,9 @@
             <div class="grid md:grid-cols-2 gap-8 overflow-hidden ">
                 <!-- Contact Info -->
                 <div>
-                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Contact Info :</h3>
+                    <h3
+                        class="text-2xl font-semibold  bg-gradient-to-r from-[#de21f3] via-[#1900ff] to-[#cf2345] text-transparent bg-clip-text mb-4">
+                        Contact Info :</h3>
                     <ul class="space-y-4">
                         <li class="flex items-center">
                             <span class=" mr-3 ">
