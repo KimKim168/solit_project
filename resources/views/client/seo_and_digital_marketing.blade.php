@@ -8,7 +8,7 @@
                     <header class="mb-4 lg:mb-6 not-format">
 
                         <h1
-                            class="mb-4 text-3xl font-extrabold leading-tight bg-gradient-to-r font-bold from-[#1900ff] to-[#ff0ac2] text-transparent bg-clip-text lg:mb-6 lg:text-4xl dark:text-white">
+                            class="mb-4 text-3xl  leading-tight bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text lg:mb-6 lg:text-4xl dark:text-white">
                             SEO and Digital Marketing Services
                         </h1>
                     </header>
@@ -29,7 +29,9 @@
                         <ol class="list-decimal text-xl p-4 space-y-4">
                             {{-- container Item 1  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">Search Engine Optimization (SEO)</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Search
+                                    Engine Optimization (SEO)</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p> SEO is the backbone of any digital marketing strategy. Our SEO experts will ensure
                                         your
@@ -40,21 +42,29 @@
                                     </p>
                                     {{-- Item1 --}}
                                     <ul class="list-disc p-4">
-                                        <li><strong class="text-blue-600 text-lg ">On-page SEO:</strong>
+                                        <li><strong
+                                                class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text text-lg ">On-page
+                                                SEO:</strong>
                                             Optimizing page titles, meta descriptions, headers, and content for keywords,
                                             improving website speed, mobile-friendliness, and overall user experience.
                                         </li>
-                                        <li><strong class="text-blue-600 text-lg ">Off-page SEO:</strong>
+                                        <li><strong
+                                                class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text text-lg ">Off-page
+                                                SEO:</strong>
                                             Building high-quality backlinks, improving domain authority, and leveraging
                                             social
                                             signals to enhance your online reputation.
                                         </li>
-                                        <li><strong class="text-blue-600 text-lg ">Technical SEO:</strong>
+                                        <li><strong
+                                                class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text text-lg ">Technical
+                                                SEO:</strong>
                                             Ensuring your website is easy for search engines to crawl and index, improving
                                             site
                                             structure, fixing broken links, optimizing images, and enhancing site security.
                                         </li>
-                                        <li><strong class="text-blue-600 text-lg ">Local SEO:</strong>
+                                        <li><strong
+                                                class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text text-lg ">Local
+                                                SEO:</strong>
                                             Optimizing your business listings, Google My Business profile, and ensuring your
                                             company shows up in local search results for geo-targeted keywords.
                                         </li>
@@ -63,7 +73,9 @@
                             </li>
                             {{-- container Item 2  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">Pay-Per-Click (PPC) Advertising</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Pay-Per-Click
+                                    (PPC) Advertising</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p> We manage highly targeted and cost-effective PPC campaigns that drive immediate
                                         traffic
@@ -84,7 +96,9 @@
                             </li>
                             {{-- container Item 3  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">Content Marketing</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Content
+                                    Marketing</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p>Content is king, and we focus on creating high-quality, engaging, and SEO-optimized
                                         content that speaks directly to your audience. We help you build authority in your
@@ -109,7 +123,9 @@
                             </li>
                             {{-- container Item 4  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">Social Media Marketing</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Social
+                                    Media Marketing</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p>Social media is a powerful platform for building relationships with your audience and
                                         enhancing brand visibility. Our social media marketing services include:
@@ -134,7 +150,9 @@
                             </li>
                             {{-- container Item 5  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">Email Marketing</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Email
+                                    Marketing</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p>Email marketing remains one of the most effective ways to engage your audience and
                                         drive
@@ -159,7 +177,9 @@
                             </li>
                             {{-- container Item 6  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">Conversion Rate Optimization (CRO)</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Conversion
+                                    Rate Optimization (CRO)</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p>Driving traffic is important, but turning that traffic into leads and sales is the
                                         ultimate goal. Our CRO services focus on optimizing your website for better user
@@ -183,7 +203,9 @@
                             </li>
                             {{-- container Item 7  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">Analytics and Reporting</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Analytics
+                                    and Reporting</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p>Data is at the core of every successful digital marketing campaign. We track,
                                         measure,
@@ -210,7 +232,9 @@
                             </li>
                             {{-- container Item 8  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">Online Reputation Management (ORM)</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Online
+                                    Reputation Management (ORM)</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p>Your online reputation can make or break your business. We help you maintain a
                                         positive
@@ -221,7 +245,9 @@
                             </li>
                             {{-- container Item 9  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">Influencer Marketing</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Influencer
+                                    Marketing</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p>We connect your brand with influencers who can amplify your message and engage with
                                         your
@@ -250,7 +276,9 @@
                         <ol class="list-decimal text-xl p-4 space-y-4">
                             {{-- item 1 --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">Initial Consultation & Strategy
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Initial
+                                    Consultation & Strategy
                                     Development:</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p> We begin with a detailed analysis of your business, website, and competitors. Based
@@ -262,7 +290,8 @@
                             </li>
                             {{-- item 2 --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">Implementation:</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Implementation:</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p>Once the strategy is finalized, we begin implementing it across all relevant
                                         channels,
@@ -272,7 +301,9 @@
                             </li>
                             {{-- item 3 --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">Monitoring & Optimization:</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Monitoring
+                                    & Optimization:</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p>We continuously monitor the performance of your campaigns, making adjustments where
                                         necessary to maximize results. This includes testing different approaches and
@@ -283,7 +314,9 @@
                             </li>
                             {{-- item 4 --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">Reporting & Analytics:</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Reporting
+                                    & Analytics:</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p>We provide you with regular reports that detail the progress of your campaigns, key
                                         metrics, and actionable insights for further improvement. We work closely with you

@@ -8,7 +8,7 @@
                     data-aos="fade-up" data-aos-duration="1000">Get to
                     Know
                     Us</button>
-                <h2 class="text-5xl md:text-6xl font-costum4 leading-normal font-bold bg-gradient-to-r font-bold from-[#1900ff] to-[#ff0ac2] text-transparent bg-clip-text mb-4"
+                <h2 class="text-5xl md:text-6xl font-costum4 leading-normal font-bold bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text mb-4"
                     data-aos="fade-up" data-aos-duration="1000">
                     Cora Soft
                 </h2>
@@ -139,7 +139,7 @@
         <div class="max-w-screen-xl mx-auto ">
             <div class="">
                 <h1
-                    class="font-costum5 text-5xl md:text-5xl leading-normal  bg-gradient-to-r font-bold from-[#1900ff] to-[#ff0ac2] text-transparent bg-clip-text">
+                    class="font-costum5 text-5xl md:text-5xl leading-normal  bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text">
 
                     Our Mission
                 </h1>
@@ -160,7 +160,7 @@
                 <span
                     class="inline-block text-sm text-blue-500 font-semibold mb-2 bg-blue-100 px-3 py-1 rounded-full">Benefits</span>
                 <h2
-                    class="text-4xl  leading-normal font-costum5 bg-gradient-to-r font-bold from-[#1900ff] to-[#ff0ac2] text-transparent bg-clip-text mb-4">
+                    class="text-4xl  leading-normal font-costum5 bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text mb-4">
                     Why Choose Us?</h2>
                 {{-- <p class="text-gray-600 text-base md:text-lg">Lorem ipsum dolor sit amet elit adipisicing consectetur</p> --}}
             </div>

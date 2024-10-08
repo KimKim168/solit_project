@@ -7,7 +7,7 @@
                 <header class="mb-4 lg:mb-6 not-format">
 
                     <h1
-                        class="mb-4 text-3xl font-extrabold leading-tight bg-gradient-to-r font-bold from-[#1900ff] to-[#ff0ac2] text-transparent bg-clip-text lg:mb-6 lg:text-4xl dark:text-white">
+                        class="mb-4 text-3xl leading-tight bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text lg:mb-6 lg:text-4xl dark:text-white">
                         Custom Software Development Services
                     </h1>
                 </header>
@@ -29,7 +29,9 @@
                     <ol class="list-decimal text-xl p-4 space-y-4">
                         {{-- container Item 1  --}}
                         <li class="space-y-2">
-                            <strong class="text-blue-600 md:text-xl ">Custom Software Solutions</strong>
+                            <strong
+                                class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Custom
+                                Software Solutions</strong>
                             <div class="text-sm md:text-[16px]">
                                 <p> We develop bespoke software tailored to your specific business needs, ensuring that your
                                     processes are streamlined and your goals are met. Whether you need a customer
@@ -52,7 +54,9 @@
                         </li>
                         {{-- container Item 2  --}}
                         <li class="space-y-2">
-                            <strong class="text-blue-600 md:text-xl ">Enterprise Software Development</strong>
+                            <strong
+                                class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Enterprise
+                                Software Development</strong>
                             <div class="text-sm md:text-[16px]">
                                 <p> Our enterprise software development services are designed to improve operational
                                     efficiency and productivity within your organization. We develop powerful, secure, and
@@ -74,7 +78,9 @@
                         </li>
                         {{-- container Item 3  --}}
                         <li class="space-y-2">
-                            <strong class="text-blue-600 md:text-xl ">SaaS (Software as a Service) Development</strong>
+                            <strong
+                                class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">SaaS
+                                (Software as a Service) Development</strong>
                             <div class="text-sm md:text-[16px]">
                                 <p>We develop SaaS applications that are hosted in the cloud, offering flexible and scalable
                                     solutions for businesses of all sizes. Our SaaS development services allow you to offer
@@ -96,7 +102,9 @@
                         </li>
                         {{-- container Item 4  --}}
                         <li class="space-y-2">
-                            <strong class="text-blue-600 md:text-xl ">Cloud-Based Solutions</strong>
+                            <strong
+                                class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Cloud-Based
+                                Solutions</strong>
                             <div class="text-sm md:text-[16px]">
                                 <p>We design and develop cloud-based applications that allow your business to operate
                                     seamlessly across different locations and devices. Our cloud software solutions are
@@ -118,7 +126,9 @@
                         </li>
                         {{-- container Item 5  --}}
                         <li class="space-y-2">
-                            <strong class="text-blue-600 md:text-xl ">Mobile and Web-Based Applications</strong>
+                            <strong
+                                class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Mobile
+                                and Web-Based Applications</strong>
                             <div class="text-sm md:text-[16px]">
                                 <p>
                                     We develop custom mobile and web-based applications that allow your team and customers
@@ -143,7 +153,9 @@
                         </li>
                         {{-- container Item 6  --}}
                         <li class="space-y-2">
-                            <strong class="text-blue-600 md:text-xl ">API Development and Integration</strong>
+                            <strong
+                                class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">API
+                                Development and Integration</strong>
                             <div class="text-sm md:text-[16px]">
                                 <p>
                                     We specialize in creating and integrating Application Programming Interfaces (APIs) that
@@ -167,7 +179,9 @@
                         </li>
                         {{-- container Item 7  --}}
                         <li class="space-y-2">
-                            <strong class="text-blue-600 md:text-xl ">Legacy Software Modernization</strong>
+                            <strong
+                                class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Legacy
+                                Software Modernization</strong>
                             <div class="text-sm md:text-[16px]">
                                 <p>
                                     If you have outdated systems that are slowing down your business processes, we can help
@@ -193,7 +207,9 @@
                         </li>
                         {{-- container Item 8  --}}
                         <li class="space-y-2">
-                            <strong class="text-blue-600 md:text-xl ">Software Maintenance and Support</strong>
+                            <strong
+                                class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Software
+                                Maintenance and Support</strong>
                             <div class="text-sm md:text-[16px]">
                                 <p>
                                     After your software is deployed, we provide ongoing maintenance and support to ensure
@@ -215,7 +231,9 @@
                         </li>
                         {{-- container Item 9  --}}
                         <li class="space-y-2">
-                            <strong class="text-blue-600 md:text-xl ">Database Development and Management</strong>
+                            <strong
+                                class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Database
+                                Development and Management</strong>
                             <div class="text-sm md:text-[16px]">
                                 <p>We develop and manage custom databases to store, manage, and analyze your business data.
                                     Our database solutions are optimized for performance and scalability, ensuring that your
@@ -238,7 +256,9 @@
                         </li>
                         {{-- container Item 10  --}}
                         <li class="space-y-2">
-                            <strong class="text-blue-600 md:text-xl ">Automation Solutions</strong>
+                            <strong
+                                class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Automation
+                                Solutions</strong>
                             <div class="text-sm md:text-[16px]">
                                 <p>
                                     To help businesses improve efficiency and reduce manual work, we create automation
@@ -270,7 +290,9 @@
                     <ol class="list-decimal text-xl p-4 space-y-4">
                         {{-- item 1 --}}
                         <li class="space-y-2">
-                            <strong class="text-blue-600 md:text-xl ">Consultation & Requirement Gathering:</strong>
+                            <strong
+                                class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Consultation
+                                & Requirement Gathering:</strong>
                             <div class="text-sm md:text-[16px]">
                                 <p>We start by understanding your business needs and processes. Our team conducts thorough
                                     research and works with you to define the scope, functionality, and goals of your custom
@@ -280,7 +302,9 @@
                         </li>
                         {{-- item 2 --}}
                         <li class="space-y-2">
-                            <strong class="text-blue-600 md:text-xl ">Planning & Design:</strong>
+                            <strong
+                                class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Planning
+                                & Design:</strong>
                             <div class="text-sm md:text-[16px]">
                                 <p>
                                     Once we understand your requirements, we create a detailed project plan and design the
@@ -291,7 +315,8 @@
                         </li>
                         {{-- item 3 --}}
                         <li class="space-y-2">
-                            <strong class="text-blue-600 md:text-xl ">Development:</strong>
+                            <strong
+                                class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Development:</strong>
                             <div class="text-sm md:text-[16px]">
                                 <p>
                                     Our experienced developers build your software using the latest technologies, ensuring
@@ -302,7 +327,9 @@
                         </li>
                         {{-- item 4 --}}
                         <li class="space-y-2">
-                            <strong class="text-blue-600 md:text-xl ">Testing & Quality Assurance:</strong>
+                            <strong
+                                class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Testing
+                                & Quality Assurance:</strong>
                             <div class="text-sm md:text-[16px]">
                                 <p>
                                     Before deployment, we rigorously test the software to ensure it is free of bugs and
@@ -313,7 +340,9 @@
                         </li>
                         {{-- item 5 --}}
                         <li class="space-y-2">
-                            <strong class="text-blue-600 md:text-xl ">Deployment & Integration:</strong>
+                            <strong
+                                class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Deployment
+                                & Integration:</strong>
                             <div class="text-sm md:text-[16px]">
                                 <p>
                                     Once testing is complete, we deploy your software in your chosen environment, whether
@@ -324,7 +353,9 @@
                         </li>
                         {{-- item 6 --}}
                         <li class="space-y-2">
-                            <strong class="text-blue-600 md:text-xl ">Ongoing Support & Maintenance:</strong>
+                            <strong
+                                class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Ongoing
+                                Support & Maintenance:</strong>
                             <div class="text-sm md:text-[16px]">
                                 <p>
                                     After deployment, we continue to provide maintenance and support, ensuring your software

@@ -9,7 +9,7 @@
 
             <div class="mt-4 md:mt-0">
                 <h2
-                    class="mb-4 text-4xl tracking-tight   bg-gradient-to-r font-bold from-[#1900ff] to-[#ff0ac2] text-transparent bg-clip-text">
+                    class="mb-4 text-4xl tracking-tight   bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text">
                     Web Development and Design Service
                 </h2>
                 <p class="mb-6 font-mono text-gray-500 text-2xl dark:text-gray-400">
@@ -30,7 +30,7 @@
             class="border-t-2 border-primary1 border-dotted gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
             <div class="mt-4 md:mt-0">
                 <h2
-                    class="mb-4 text-4xl tracking-tight  bg-gradient-to-r font-bold from-[#1900ff] to-[#ff0ac2] text-transparent bg-clip-text">
+                    class="mb-4 text-4xl tracking-tight  bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text">
                     SEO and Digital Marketing
                 </h2>
                 <p class="mb-6 font-mono text-gray-500 text-2xl dark:text-gray-400">
@@ -55,7 +55,7 @@
 
             <div class="mt-4 md:mt-0">
                 <h2
-                    class="mb-4 text-4xl tracking-tight  bg-gradient-to-r font-bold from-[#1900ff] to-[#ff0ac2] text-transparent bg-clip-text">
+                    class="mb-4 text-4xl tracking-tight  bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text">
                     Mobile App Development
                 </h2>
                 <p class="mb-6 font-mono text-gray-500 text-2xl dark:text-gray-400">
@@ -74,7 +74,7 @@
             class="border-t-2 border-primary1 border-dotted gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
             <div class="mt-4 md:mt-0">
                 <h2
-                    class="mb-4 text-4xl tracking-tight  bg-gradient-to-r font-bold from-[#1900ff] to-[#ff0ac2] text-transparent bg-clip-text">
+                    class="mb-4 text-4xl tracking-tight  bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text">
                     Custom Software Development
                 </h2>
                 <p class="mb-6 font-mono text-gray-500 text-2xl dark:text-gray-400">
@@ -100,7 +100,7 @@
 
             <div class="mt-4 md:mt-0">
                 <h2
-                    class="mb-4 text-4xl tracking-tight  bg-gradient-to-r font-bold from-[#1900ff] to-[#ff0ac2] text-transparent bg-clip-text">
+                    class="mb-4 text-4xl tracking-tight  bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text">
                     Cloud Hosting
                 </h2>
                 <p class="mb-6 font-mono text-gray-500 text-2xl dark:text-gray-400">

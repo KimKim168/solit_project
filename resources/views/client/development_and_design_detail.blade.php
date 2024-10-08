@@ -7,7 +7,7 @@
                     class="mx-auto w-full max-w-7xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
                     <header class="mb-4 lg:mb-6 not-format">
                         <h1
-                            class="mb-4 text-3xl font-extrabold leading-tight bg-gradient-to-r font-bold from-[#1900ff] to-[#ff0ac2] text-transparent bg-clip-text lg:mb-6 lg:text-4xl dark:text-white">
+                            class="mb-4 text-3xl leading-tight bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text lg:mb-6 lg:text-4xl dark:text-white">
                             Web Development and Design Service
                         </h1>
                     </header>
@@ -27,7 +27,9 @@
                             Our Key Offerings:</h2>
                         <ol class="list-decimal text-xl p-4 space-y-4">
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">Custom Web Design</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Custom
+                                    Web Design</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p> We specialize in creating unique, tailor-made websites that reflect your brand's
                                         identity.
@@ -50,7 +52,9 @@
                                 </div>
                             </li>
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">Responsive Web Development</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Responsive
+                                    Web Development</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p> We ensure that your website is accessible and user-friendly on all devices—desktops,
                                         tablets, and smartphones. Our responsive design approach guarantees that your
@@ -62,7 +66,9 @@
 
                             </li>
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">E-Commerce Development</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">E-Commerce
+                                    Development</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p> We help you build powerful, secure, and scalable eCommerce websites that drive
                                         online
@@ -77,7 +83,9 @@
                                 </div>
                             </li>
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">Content Management Systems (CMS)</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Content
+                                    Management Systems (CMS)</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p> Our CMS solutions empower you to manage your website content easily without needing
                                         any
@@ -88,7 +96,9 @@
                                 </div>
                             </li>
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">Search Engine Optimization (SEO)
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Search
+                                    Engine Optimization (SEO)
                                     Integration</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p> Every website we build is SEO-ready. We implement the best practices in on-page
@@ -99,7 +109,9 @@
                                 </div>
                             </li>
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">Custom Web Applications</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Custom
+                                    Web Applications</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p>Our team is proficient in developing custom web applications that are scalable,
                                         secure,
@@ -110,7 +122,9 @@
                                 </div>
                             </li>
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">Website Maintenance and Support</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Website
+                                    Maintenance and Support</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p>After launching your website, we provide ongoing maintenance and support to ensure
                                         its
@@ -121,7 +135,9 @@
                                 </div>
                             </li>
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">UX/UI Design and Prototyping</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">UX/UI
+                                    Design and Prototyping</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p>We focus on creating intuitive user experiences with attention to detail in user
                                         interface design. Our team utilizes the latest design trends and technologies to
@@ -132,7 +148,9 @@
                                 </div>
                             </li>
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">Third-Party API Integration</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Third-Party
+                                    API Integration</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p>We seamlessly integrate third-party tools and APIs into your website to enhance
                                         functionality. Whether it's integrating payment gateways, social media, or marketing
@@ -141,7 +159,9 @@
                                 </div>
                             </li>
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">Cloud Hosting Solutions</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Cloud
+                                    Hosting Solutions</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p>We offer reliable and scalable cloud hosting solutions to ensure your website is
                                         always
@@ -157,7 +177,9 @@
                             Our Process:</h2>
                         <ol class="list-decimal text-xl p-4 space-y-4">
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">Discovery & Planning:</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-400 text-transparent bg-clip-text md:text-xl ">Discovery
+                                    & Planning:</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p> We begin by understanding your business, audience, and goals. We then create a
                                         detailed
@@ -167,7 +189,9 @@
                                 </div>
                             </li>
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">Design & Development:</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Design
+                                    & Development:</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p> Once the plan is finalized, we move into the design and development phase, where our
                                         designers create visually stunning interfaces, and our developers bring those
@@ -177,7 +201,9 @@
                                 </div>
                             </li>
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">Testing & Quality Assurance:</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Testing
+                                    & Quality Assurance:</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p> We rigorously test every aspect of your website to ensure it is free of bugs and
                                         performs well across all devices and browsers.
@@ -185,7 +211,9 @@
                                 </div>
                             </li>
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">Launch & Post-Launch Support:</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Launch
+                                    & Post-Launch Support:</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p>After the website is tested and approved, we launch it and provide ongoing support to
                                         ensure everything continues to run smoothly.

@@ -8,7 +8,7 @@
                     <header class="mb-4 lg:mb-6 not-format">
 
                         <h1
-                            class="mb-4 text-3xl  leading-tight bg-gradient-to-r font-bold from-[#1900ff] to-[#ff0ac2] text-transparent bg-clip-text lg:mb-6 lg:text-4xl dark:text-white">
+                            class="mb-4 text-3xl  leading-tight bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text lg:mb-6 lg:text-4xl dark:text-white">
                             Mobile App Development Services
                         </h1>
                     </header>
@@ -30,7 +30,9 @@
                         <ol class="list-decimal text-xl  p-4 space-y-4">
                             {{-- container Item 1  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">Custom Mobile App Development</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Custom
+                                    Mobile App Development</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p> We specialize in building bespoke mobile applications tailored to your specific
                                         business
@@ -56,7 +58,9 @@
                             </li>
                             {{-- container Item 2  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">iOS App Development</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">iOS
+                                    App Development</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p> Our team of expert iOS developers is proficient in building high-performance,
                                         scalable,
@@ -82,7 +86,9 @@
                             </li>
                             {{-- container Item 3  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">Android App Development</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Android
+                                    App Development</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p>Our Android app development team creates apps that are fully compatible with the
                                         Android
@@ -108,7 +114,9 @@
                             </li>
                             {{-- container Item 4  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">Cross-Platform App Development</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Cross-Platform
+                                    App Development</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p>To help you reach the widest possible audience, we offer cross-platform app
                                         development
@@ -132,7 +140,9 @@
                             </li>
                             {{-- container Item 5  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">UI/UX Design</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">UI/UX
+                                    Design</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p>A great mobile app isn’t just about functionality; it’s also about delivering an
                                         exceptional user experience. Our UI/UX design team focuses on creating visually
@@ -158,7 +168,9 @@
                             </li>
                             {{-- container Item 6  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">Mobile App Maintenance and Support</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Mobile
+                                    App Maintenance and Support</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p>Our services don’t stop after launch. We offer ongoing maintenance and support to
                                         ensure
@@ -183,7 +195,9 @@
                             </li>
                             {{-- container Item 7  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">Enterprise Mobile Solutions</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Enterprise
+                                    Mobile Solutions</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p>We build enterprise-level mobile applications that streamline operations, improve
                                         workflow, and boost productivity within your organization. Our enterprise solutions
@@ -209,7 +223,9 @@
                             </li>
                             {{-- container Item 8  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">API and Third-Party Integrations</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">API
+                                    and Third-Party Integrations</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p>
                                         We integrate third-party services and APIs into your app to extend functionality and
@@ -221,7 +237,9 @@
                             </li>
                             {{-- container Item 9  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">E-Commerce and mCommerce App Development</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">E-Commerce
+                                    and mCommerce App Development</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p>For businesses looking to sell products or services online, we offer eCommerce and
                                         mobile
@@ -247,7 +265,9 @@
                             </li>
                             {{-- container Item 10  --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">App Testing and Quality Assurance</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">App
+                                    Testing and Quality Assurance</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p>Our mobile app testing services ensure that your app is free of bugs and performs
                                         well
@@ -281,7 +301,9 @@
                         <ol class="list-decimal text-xl p-4 space-y-4">
                             {{-- item 1 --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">Discovery & Requirement Gathering:</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Discovery
+                                    & Requirement Gathering:</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p>We begin by understanding your business goals and mobile app requirements. This phase
                                         includes market research, competitor analysis, and identifying the key features and
@@ -291,7 +313,9 @@
                             </li>
                             {{-- item 2 --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">Design & Prototyping:</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Design
+                                    & Prototyping:</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p>Our design team creates wireframes and interactive prototypes to give you a clear
                                         vision
@@ -303,7 +327,9 @@
                             </li>
                             {{-- item 3 --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">Development & Testing:</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Development
+                                    & Testing:</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p>Once the design is approved, our developers begin coding your app. We follow Agile
                                         development methodologies to ensure timely delivery and flexibility for updates.
@@ -314,7 +340,9 @@
                             </li>
                             {{-- item 4 --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">Launch & Deployment:</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Launch
+                                    & Deployment:</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p>After thorough testing, we prepare your app for launch. We handle the submission
                                         process
@@ -326,7 +354,9 @@
                             </li>
                             {{-- item 5 --}}
                             <li class="space-y-2">
-                                <strong class="text-blue-600 md:text-xl ">Ongoing Support & Maintenance:</strong>
+                                <strong
+                                    class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text md:text-xl ">Ongoing
+                                    Support & Maintenance:</strong>
                                 <div class="text-sm md:text-[16px]">
                                     <p>Post-launch, we continue to monitor the app’s performance, making improvements based
                                         on

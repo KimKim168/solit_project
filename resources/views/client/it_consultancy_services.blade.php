@@ -8,7 +8,7 @@
                     <header class="mb-4 lg:mb-6 not-format">
 
                         <h1
-                            class="mb-4 text-3xl font-extrabold leading-tight bg-gradient-to-r font-bold from-[#1900ff] to-[#ff0ac2] text-transparent bg-clip-text lg:mb-6 lg:text-4xl dark:text-white">
+                            class="mb-4 text-3xl leading-tight bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text lg:mb-6 lg:text-4xl dark:text-white">
                             IT Consultancy Services
                         </h1>
                     </header>
@@ -30,26 +30,42 @@
                             <li class="space-y-2">
                                 <div class="text-sm md:text-[16px]">
                                     {{-- Item1 --}}
-                                    <ul class="list-disc px-4">
-                                        <li><strong class="text-blue-600  ">Digital Transformation:</strong>
+                                    <ul class="list-disc px-4 space-y-3">
+                                        <li><strong
+                                                class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text text-sm md:text-[16px]   ">Digital
+                                                Transformation:</strong>
                                             Helping you modernize operations with cloud computing, automation, and AI-driven
                                             solutions.
                                         </li>
-                                        <li><strong class="text-blue-600  ">Network & Infrastructure Design:</strong>
+                                        <li><strong
+                                                class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text text-sm md:text-[16px]   ">Network
+                                                &
+                                                Infrastructure
+                                                Design:</strong>
                                             Ensuring robust, secure, and scalable IT infrastructure tailored to your needs.
                                         </li>
-                                        <li><strong class="text-blue-600  ">Cybersecurity:</strong>
+                                        <li><strong
+                                                class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text text-sm md:text-[16px]   ">Cybersecurity:</strong>
                                             Protecting your business from potential threats with advanced
                                             security protocols and risk management strategies.
                                         </li>
-                                        <li><strong class="text-blue-600  ">Software & Application
+                                        <li><strong
+                                                class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text text-sm md:text-[16px]   ">Software
+                                                &
+                                                Application
                                                 Development:</strong>
                                             Custom solutions that streamline operations and enhance productivity.
                                         </li>
-                                        <li><strong class="text-blue-600  ">Data Management & Analytics:</strong>
+                                        <li><strong
+                                                class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text text-sm md:text-[16px]   ">Data
+                                                Management &
+                                                Analytics:</strong>
                                             Leveraging data to drive decision-making and business intelligence.
                                         </li>
-                                        <li><strong class="text-blue-600  ">IT Support & Maintenance:</strong>
+                                        <li><strong
+                                                class="bg-gradient-to-r font-bold from-[#2d37a4] to-teal-500 text-transparent bg-clip-text text-sm md:text-[16px]   ">IT
+                                                Support &
+                                                Maintenance:</strong>
                                             Offering ongoing technical support to keep your systems running smoothly.
                                         </li>
                                     </ul>
